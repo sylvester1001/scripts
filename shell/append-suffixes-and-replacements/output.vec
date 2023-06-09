@@ -1,0 +1,661 @@
+; input file    : tb_basic.vcd
+
+; vector pattern definitions
+radix
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
++ 	 1
+
+vname
++ 	 CKE
++ 	 net33
++ 	 net021
++ 	 VSTUP_ext
++ 	 vti
++ 	 net016_dy
++ 	 net017_dy
++ 	 CLKin
++ 	 BOP_DQSWAP
++ 	 RESET_N
++ 	 net35
++ 	 net37
++ 	 vsi
++ 	 net34
++ 	 BOP_CASWAP
++ 	 BOP_X8
++ 	 net36
++ 	 VSTUP_ORG
++ 	 CsFin
++ 	 CLKFin
++ 	 CAin<5>
++ 	 CAin<4>
++ 	 CAin<3>
++ 	 CAin<2>
++ 	 CAin<1>
++ 	 CAin<0>
++ 	 DM_DB<1>
++ 	 DM_DB<0>
++ 	 DQSC_DB<1>
++ 	 DQSC_DB<0>
++ 	 DQS_DB<1>
++ 	 DQS_DB<0>
++ 	 DQ_DB<15>
++ 	 DQ_DB<14>
++ 	 DQ_DB<13>
++ 	 DQ_DB<12>
++ 	 DQ_DB<11>
++ 	 DQ_DB<10>
++ 	 DQ_DB<9>
++ 	 DQ_DB<8>
++ 	 DQ_DB<7>
++ 	 DQ_DB<6>
++ 	 DQ_DB<5>
++ 	 DQ_DB<4>
++ 	 DQ_DB<3>
++ 	 DQ_DB<2>
++ 	 DQ_DB<1>
++ 	 DQ_DB<0>
+
+io
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
++ 	 b
+
+; waveform parameter setting
+tunit 1ps
+        rise        375
+        fall        375
+         vol        0.4
+         voh        0.7
+         vil        0.4
+         vih        0.7
+
+; tabular data
+        0.000000e+00 0 x x 1 1 x x 0 x x x x 0 x x x x 1 x 1 x x x x x x x x x x x x x x x x x x x x x x x x x x x x 
+       26.000000e+00 0 x x 1 1 x x 0 x 1 x x 0 x x x x 1 x 1 x x x x x x x x x x x x x x x x x x x x x x x x x x x x 
+       28.000000e+00 0 x x 1 1 x x 0 1 1 x x 0 x 1 1 x 1 x 1 x x x x x x x x x x x x x x x x x x x x x x x x x x x x 
+       40.000000e+00 0 x x 1 1 x x 0 1 1 x x 0 x 1 1 x 1 x 1 x x x x x x x x x x x x x x x x x x x x x x x x x x x x 
+       45.000000e+00 0 x x 1 1 x x 0 1 1 x x 0 x 1 1 x 1 0 1 x x x x x x x x x x x x x x x x x x x x x x x x x x x x 
+      495.000000e+00 0 x x 1 1 x x 0 1 1 x x 0 z 1 1 x 1 0 1 x x x x x x x x x x x x x x x x x x x x x x x x x x x x 
+      541.000000e+00 0 x x 1 1 x x 0 1 1 x x 0 z 1 1 x 1 0 1 x x x x x x x x x x x x x x x x x x x x x x x x x x x x 
+      570.000000e+00 0 z x 1 1 x x 0 1 1 x x 0 z 1 1 x 1 0 1 x x x x x x x x x x x x x x x x x x x x x x x x x x x x 
+      595.000000e+00 0 z x 1 1 x x 0 1 1 x x 0 z 1 1 x 1 0 1 x x x x x x x x x x x x x x x x x x x x x x x x x x x x 
+      645.000000e+00 0 z x 1 1 x x 0 1 1 x x 0 z 1 1 x 1 0 1 x x x x x x x x x x x x x x x x x x x x x x x x x x x x 
+      689.000000e+00 0 z x 1 1 x x 0 1 1 x x 0 z 1 1 x 1 0 1 x x x x x x z x z x z x z z z z z z z z x x x x x x x x 
+      725.000000e+00 0 z x 1 1 x x 0 1 1 x x 0 z 1 1 x 1 0 1 x x x x x x z x z x z x z z z z z z z z x x x x x x x x 
+      735.000000e+00 0 z x 1 1 x x 0 1 1 x x 0 z 1 1 x 1 0 1 x x x x x x z x z x z x z z z z z z z z x x x x x x x x 
+      744.000000e+00 0 z x 1 1 x x 0 1 1 x x 0 z 1 1 x 1 0 1 x x x x x x z x z x z x z z z z z z z z x x x x x x x x 
+      781.000000e+00 0 z x 1 1 x x 0 1 1 x x 0 z 1 1 x 1 0 1 x x x x x x z x z z z z z z z z z z z z x x x x x x x x 
+      815.000000e+00 0 z x 1 1 x x 0 1 1 z x 0 z 1 1 x 1 0 1 x x x x x x z x z z z z z z z z z z z z x x x x x x x x 
+      835.000000e+00 0 z x 1 1 x x 0 1 1 z x 0 z 1 1 x 1 0 1 x x x x x x z z z z z z z z z z z z z z x x z z z z z z 
+      885.000000e+00 0 z x 1 1 x x 0 1 1 z z 0 z 1 1 x 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+        1.055000e+03 0 z z 1 1 x x 0 1 1 z z 0 z 1 1 x 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+        1.295000e+03 0 z z 1 1 x x 0 1 1 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+        1.875000e+03 0 z z 1 1 x x 1 1 1 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+        3.750000e+03 0 z z 1 1 x x 0 1 1 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+        5.625000e+03 0 z z 1 1 x x 1 1 1 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+        7.500000e+03 0 z z 1 1 x x 0 1 1 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+        9.375000e+03 0 z z 1 1 x x 1 1 1 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       11.250000e+03 0 z z 1 1 x x 0 1 1 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       13.125000e+03 0 z z 1 1 x x 1 1 1 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       15.000000e+03 0 z z 1 1 x x 0 1 1 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       15.938000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       16.875000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       18.750000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       20.625000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       22.500000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       24.375000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       26.250000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       28.125000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       30.000000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       31.875000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       33.750000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       35.625000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       37.500000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       39.375000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       41.250000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       43.125000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       45.000000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       46.875000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       48.750000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       50.625000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       52.500000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       54.375000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       56.250000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       58.125000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       60.000000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       61.875000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       63.750000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       65.625000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       67.500000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       69.375000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       71.250000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       73.125000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       75.000000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       76.875000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       78.750000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       80.625000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       82.500000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       84.375000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       86.250000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       88.125000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       90.000000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       91.875000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       93.750000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       95.625000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       97.500000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+       99.375000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      101.250000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      103.125000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      105.000000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      106.875000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      108.750000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      110.625000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      112.500000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      114.375000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      116.250000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      118.125000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      120.000000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      121.875000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      123.750000e+03 0 z z 1 1 x x 0 1 0 z z 0 z 1 1 z 1 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      125.625000e+03 0 z z 1 1 x x 1 1 0 z z 0 z 1 1 z 1 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      127.500000e+03 0 z z 0 1 x x 0 1 0 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      128.438000e+03 0 z z 0 1 x x 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      128.808000e+03 0 z z 0 1 x 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      128.864000e+03 0 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      129.375000e+03 0 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      131.250000e+03 0 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      133.125000e+03 0 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      135.000000e+03 0 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      136.875000e+03 0 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      138.750000e+03 0 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      140.625000e+03 0 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      142.500000e+03 0 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      144.375000e+03 0 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      146.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      148.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      150.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      151.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      153.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      155.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      157.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      159.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      161.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      163.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      165.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      166.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      168.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      170.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      172.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      174.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      176.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      178.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      180.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      181.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      183.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      185.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      187.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      189.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      191.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 1 1 0 0 0 1 1 0 z z z z z z z z z z z z z z z z z z z z z z 
+      193.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 1 0 0 0 0 1 1 0 z z z z z z z z z z z z z z z z z z z z z z 
+      195.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 0 0 0 0 0 1 z z z z z z z z z z z z z z z z z z z z z z 
+      196.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 0 0 0 0 0 1 z z z z z z z z z z z z z z z z z z z z z z 
+      198.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 1 1 0 1 0 1 1 0 z z z z z z z z z z z z z z z z z z z z z z 
+      200.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 1 0 0 1 0 1 1 0 z z z z z z z z z z z z z z z z z z z z z z 
+      202.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 0 0 0 1 0 0 z z z z z z z z z z z z z z z z z z z z z z 
+      204.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 0 0 0 1 0 0 z z z z z z z z z z z z z z z z z z z z z z 
+      206.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      208.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      210.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      211.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      213.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      215.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      217.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      219.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      221.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      223.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      225.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      226.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      228.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 1 1 0 0 0 1 1 0 z z z z z z z z z z z z z z z z z z z z z z 
+      230.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 1 0 0 0 0 1 1 0 z z z z z z z z z z z z z z z z z z z z z z 
+      232.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 0 0 0 0 1 0 z z z z z z z z z z z z z z z z z z z z z z 
+      234.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 0 0 0 0 1 0 z z z z z z z z z z z z z z z z z z z z z z 
+      236.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 1 1 0 1 0 1 1 0 z z z z z z z z z z z z z z z z z z z z z z 
+      238.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 1 0 0 1 0 1 1 0 z z z z z z z z z z z z z z z z z z z z z z 
+      240.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 0 0 0 0 0 0 z z z z z z z z z z z z z z z z z z z z z z 
+      241.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 0 0 0 0 0 0 z z z z z z z z z z z z z z z z z z z z z z 
+      243.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      245.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      247.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      249.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      251.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      253.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      255.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      256.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      258.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      260.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      262.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      264.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      266.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 1 1 0 0 0 1 1 0 z z z z z z z z z z z z z z z z z z z z z z 
+      268.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 1 0 0 0 0 1 1 0 z z z z z z z z z z z z z z z z z z z z z z 
+      270.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 0 0 0 0 1 1 z z z z z z z z z z z z z z z z z z z z z z 
+      271.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 0 0 0 0 1 1 z z z z z z z z z z z z z z z z z z z z z z 
+      273.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 1 1 0 1 0 1 1 0 z z z z z z z z z z z z z z z z z z z z z z 
+      275.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 1 0 0 1 0 1 1 0 z z z z z z z z z z z z z z z z z z z z z z 
+      277.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 1 1 0 0 0 1 z z z z z z z z z z z z z z z z z z z z z z 
+      279.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 1 1 0 0 0 1 z z z z z z z z z z z z z z z z z z z z z z 
+      281.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      283.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      285.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      286.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      288.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      290.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      292.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      294.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      296.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      298.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      300.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      301.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      303.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      305.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      307.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      309.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      311.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      313.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      315.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      316.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      318.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      320.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      322.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      324.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      326.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      328.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      330.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      331.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      333.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      335.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      337.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      339.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      341.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 1 1 0 0 0 0 0 1 z z z z z z z z z z z z z z z z z z z z z z 
+      343.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 1 0 0 0 0 0 0 1 z z z z z z z z z z z z z z z z z z z z z z 
+      345.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 0 0 0 0 0 0 z z z z z z z z z z z z z z z z z z z z z z 
+      346.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 0 0 0 0 0 0 z z z z z z z z z z z z z z z z z z z z z z 
+      348.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 1 1 0 0 0 0 1 1 z z z z z z z z z z z z z z z z z z z z z z 
+      350.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 1 0 0 0 0 0 1 1 z z z z z z z z z z z z z z z z z z z z z z 
+      352.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 0 0 0 0 0 0 z z z z z z z z z z z z z z z z z z z z z z 
+      354.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 0 0 0 0 0 0 z z z z z z z z z z z z z z z z z z z z z z 
+      356.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      358.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      360.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      361.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      363.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      365.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      367.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      369.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      371.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      373.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      375.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      376.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      378.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      380.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      382.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      384.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      386.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      388.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      390.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      391.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      393.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      395.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      397.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      399.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      401.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      403.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      405.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      406.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      408.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      410.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      412.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      414.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      416.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      418.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      420.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      421.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      423.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      425.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      427.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      429.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      431.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      433.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      435.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      436.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      438.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      440.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      442.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      444.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      446.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      448.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      450.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      451.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      453.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      455.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      457.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      459.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      461.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 1 1 0 0 0 1 0 0 z z z z z z z z z z z z z z z z z z z z z z 
+      463.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 1 0 0 0 0 1 0 0 z z z z z z z z z z z z z z z z z z z z z z 
+      465.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 0 0 0 0 0 0 z z z z z z z z z z z z z z z z z z z z z z 
+      466.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 0 0 0 0 0 0 z z z z z z z z z z z z z z z z z z z z z z 
+      468.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 1 1 0 1 0 0 1 0 z z z z z z z z z z z z z z z z z z z z z z 
+      470.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 1 0 0 1 0 0 1 0 z z z z z z z z z z z z z z z z z z z z z z 
+      472.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 0 0 0 0 0 0 z z z z z z z z z z z z z z z z z z z z z z 
+      474.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 0 0 0 0 0 0 z z z z z z z z z z z z z z z z z z z z z z 
+      476.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      478.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      480.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      481.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      483.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      485.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z 0 0 1 1 z z z z z z z z z z z z z z z z 
+      487.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z 1 1 0 0 z z z z z z z z z z z z z z z z 
+      489.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z 0 0 1 1 z z z z z z z z z z z z z z z z 
+      491.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z 1 1 0 0 z z z z z z z z z z z z z z z z 
+      493.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z 0 0 1 1 z z z z z z z z z z z z z z z z 
+      493.555000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+      495.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+      495.430000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+      496.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+      497.305000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+      498.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+      499.180000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+      500.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+      501.055000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+      502.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+      502.930000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+      504.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+      504.805000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 
+      506.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 
+      506.680000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+      508.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+      508.555000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+      510.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+      510.430000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+      511.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+      512.305000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 
+      513.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 
+      514.180000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 
+      515.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 
+      516.055000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 
+      517.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 
+      517.930000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 
+      519.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 
+      519.805000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 
+      521.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 
+      521.680000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+      523.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+      523.555000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z 0 0 1 1 z z z z z z z z z z z z z z z z 
+      525.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      526.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      528.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      530.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      532.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      534.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      536.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      538.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      540.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      541.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      543.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      545.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      547.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      549.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      551.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      553.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      555.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      556.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      558.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      560.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      562.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      564.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      566.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      568.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      570.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      571.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      573.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      575.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      577.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      579.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      581.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 1 1 0 0 0 0 1 0 z z z z z z z z z z z z z z z z z z z z z z 
+      583.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 1 0 0 0 0 0 1 0 z z z z z z z z z z z z z z z z z z z z z z 
+      585.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 0 0 0 0 0 0 z z z z z z z z z z z z z z z z z z z z z z 
+      586.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 0 0 0 0 0 0 z z z z z z z z z z z z z z z z z z z z z z 
+      588.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 1 1 0 1 0 0 1 0 z z z z z z z z z z z z z z z z z z z z z z 
+      590.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 1 0 0 1 0 0 1 0 z z z z z z z z z z z z z z z z z z z z z z 
+      592.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 0 0 0 0 0 0 z z z z z z z z z z z z z z z z z z z z z z 
+      594.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 0 0 0 0 0 0 z z z z z z z z z z z z z z z z z z z z z z 
+      596.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      598.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      600.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      601.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      603.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      605.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      607.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      609.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      611.062000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z 1 1 0 0 z z z z z z z z z z z z z z z z 
+      611.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z 1 1 0 0 z z z z z z z z z z z z z z z z 
+      613.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z 1 1 0 0 z z z z z z z z z z z z z z z z 
+      615.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z 1 1 0 0 z z z z z z z z z z z z z z z z 
+      616.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z 1 1 0 0 z z z z z z z z z z z z z z z z 
+      618.691000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+      618.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+      620.566000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+      620.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+      622.441000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+      622.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+      624.316000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+      624.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+      626.191000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+      626.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+      628.066000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+      628.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+      629.941000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 
+      630.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 
+      631.816000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+      631.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+      633.691000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+      633.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+      635.566000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+      635.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+      637.441000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 
+      637.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 
+      639.316000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 
+      639.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 
+      641.191000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 
+      641.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 
+      643.066000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 
+      643.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 
+      644.941000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 
+      645.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 
+      646.816000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+      646.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+      648.649000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 
+      648.685000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      648.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      650.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      652.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      654.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      656.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      658.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      660.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      661.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      663.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      665.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      667.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      669.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      671.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      673.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      675.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      676.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      678.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      680.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      682.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      684.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      686.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      688.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      690.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      691.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      693.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      695.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      697.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      699.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      701.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 1 1 0 1 0 0 0 0 z z z z z z z z z z z z z z z z z z z z z z 
+      703.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 1 0 0 1 0 0 0 0 z z z z z z z z z z z z z z z z z z z z z z 
+      705.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 0 0 0 0 0 0 z z z z z z z z z z z z z z z z z z z z z z 
+      706.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 0 0 0 0 0 0 z z z z z z z z z z z z z z z z z z z z z z 
+      708.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      710.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      712.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      714.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      716.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      718.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      720.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      721.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      723.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      725.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      727.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      729.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      731.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      733.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      735.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      736.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      738.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      740.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      742.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      744.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      746.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      748.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      750.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      751.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      753.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      755.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      757.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      759.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      761.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      763.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      765.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      766.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      768.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      770.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      772.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      774.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      776.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      778.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      780.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      781.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      783.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      785.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      787.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      789.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      791.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      793.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      795.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      796.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      798.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      800.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      802.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      804.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      806.250000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      808.125000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      810.000000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      811.875000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      813.750000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      815.625000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      817.500000e+03 1 z z 0 1 1 1 0 1 1 z z 0 z 1 1 z 0 0 1 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      819.375000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 
+      821.000000e+03 1 z z 0 1 1 1 1 1 1 z z 0 z 1 1 z 0 0 0 x x x x x x z z z z z z z z z z z z z z z z z z z z z z 

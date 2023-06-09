@@ -1,0 +1,212 @@
+.lib TT
+.param
++dtoxe = 0                           dtoxp = 0                        dxl = 0                             
++dxw = 0                             dlvth0 = 0                        dlu0 = 0                            
++dvsat = 0                           djtsswgd = 0                    dcf = 0                             
++dnfactor = 0                      dags = 0                          dvth0 = 0                           
++du0 = 0                             dcjs = 0                            dcjd = 0                            
++dcjsws = 0                         dcjswd = 0                       dcjswgs = 0                         
++dcjswgd = 0                      dcgsl = 0                          dcgdl = 0                           
++dcgso = 0                         dcgdo = 0                           
+.lib 'CSL_final.lib' core
+.endl TT
+
+.lib FF
+.param
++dtoxe = -1E-10                   dtoxp = -1E-10                  dxl = -1E-9                             
++dxw = 2E-9                        dlvth0 = -1.66E-3                          dlu0 = 8.63E-4                          
++dvsat = 5.53202E3               djtsswgd = 0                        dcf = 0                             
++dnfactor = 0.01                       dags = 4.67132E-1            dvth0 = 1.55999E-2
++du0 = 0                             dcjs = 0.95
++dcjd = 0.95               dcjsws = 0.95          dcjswd = 0.95           
++dcjswgs = 0.95         dcjswgd = 0.95         dcgsl = 1.05
++dcgdl = 1.05            dcgso = 1.05           dcgdo = 1.05                          
+.lib 'CSL_final.lib' core
+.endl FF
+
+.lib SS
+.param
++dtoxe = 1E-10                   dtoxp = 1E-10                  dxl = 1E-9                             		
++dxw = -2E-9                                dlvth0 = -9E-5                       dlu0 = -8.8E-4         
++dvsat = -1.71348E4                     djtsswgd = 0                        dcf = 0                             
++dnfactor = 0                        dags = -3.45849E-1                      dvth0 = 2.59998E-2                      
++du0 = -1.95888E-3                  dcjs = 1.05		
++dcjd = 1.05           dcjsws = 1.05          dcjswd = 1.05           		
++dcjswgs = 1.05        dcjswgd = 1.05         dcgsl = 0.95		
++dcgdl = 0.95          dcgso = 0.95           dcgdo = 0.95	                 
+.lib 'CSL_final.lib' core
+.endl SS
+
+.lib FS
+.param
++dtoxe = -0.67E-10       dtoxp = -0.67E-10                  dxl = -0.67E-9                             		
++dxw = 1.34E-9             dlvth0 = 0                          dlu0 = 0                            		
++dvsat = 0                     djtsswgd = 0                        dcf = 0                             		
++dnfactor = 0                dags = 0                            dvth0 = 0                           		
++du0 = 0                dcjs = 0.9665		
++dcjd = 0.9665              dcjsws = 0.9665          dcjswd = 0.9665           		
++dcjswgs = 0.9665         dcjswgd = 0.9665         dcgsl = 1.0335		
++dcgdl = 1.0335            dcgso = 1.0335           dcgdo = 1.0335                               
+.lib 'CSL_final.lib' core
+.endl FS
+
+.lib SF
+.param
++dtoxe = 0                           dtoxp = 0                           dxl = 0                             
++dxw = 0                             dlvth0 = 0                          dlu0 = 0                            
++dvsat = 0                           djtsswgd = 0                        dcf = 0                             
++dnfactor = 0                        dags = 0                            dvth0 = 0                           
++du0 = 0                             dcjs = 0                            dcjd = 0                            
++dcjsws = 0                          dcjswd = 0                          dcjswgs = 0                         
++dcjswgd = 0                         dcgsl = 0                           dcgdl = 0                           
++dcgso = 0                           dcgdo = 0                           
+.lib 'CSL_final.lib' core
+.endl SF
+
+.lib core
+.subckt nmos d g s b
+.param
++w = 1E-6                            l = 5E-8                            nf = 1                              
++m = 1                               sl = 1.1E-7                         dl = 1.1E-7                         
++pcl = 3.6E-8                        pcpg = 5.5E-8                  ad1 = 'dl*w'                        
++as1 = 'sl*w'                        pd1 = 'dl*2+w'                  ps1 = 'sl*2+w'                      
++nrd1 = '(pcpg+pcl/2)/w'             nrs1 = '(pcpg+pcl/2)/w'             
+m1 d g s b nmos_main w=w l=l nf=nf ad=ad1 as=as1 pd=pd1 ps=ps1 nrd=nrd1 nrs=nrs1
+
+.model nmos_main nmos
++level = 54                         	version = 4.7                      	binunit = 1                        	
++paramchk = 1                       	mobmod = 0                         	mtrlmod = 0                        	
++capmod = 2                         	cvchargemod = 0                    	rdsmod = 0                         	
++igcmod = 0                         	igbmod = 0                         	rbodymod = 1                       	
++trnqsmod = 0                       	acnqsmod = 0                       	fnoimod = 1                        	
++tnoimod = 0                        	diomod = 2                         	tempmod = 1                        	
++permod = 1                         	geomod = 0                         	rgeomod = 1                        	
++rgatemod = 0                       	mtrlcompatmod = 0                 gidlmod = 0            
+***** Geometry Range Parameter ***              	
++lmin = 0                           	lmax = 1                           	wmin = 0                           	
++wmax = 1                           	
+***** Process Parameter ***
++epsrox = 3.9                       	toxe = '2.58E-9 + dtoxe'           	
++eot = 1.5E-9                       	toxp = '2.3E-9 + dtoxp'            	xj = 5.5E-9                        	
++gamma1 = 0                         	gamma2 = 0                         	ndep = 8.141E18                    	
++ngate = 0                          	nsd = 1E20                         	vbx = 0                            	
++rsh = 190                          	rshg = 0.4                         	vddeot = 1.5                       	
++leffeot = 1                        	weffeot = 10                       	tempeot = 300.15                   	
++phin = 0.052                       	easub = 4.05                       	epsrsub = 11.7                     	
++epsrgate = 11.7                    	ni0sub = 1.45E10                   	bg0sub = 1.16                      	
++tbgasub = 7.02E-4                  tbgbsub = 1.108E3                  	ados = 1                           	
++bdos = 1
+***** dW and dL Parameter ***
++wint = 0                           	wl = 1.4985E-15                    	
++wln = 1                            	ww = 0                             	wwn = 1                            	
++wwl = 4.6E-23                      	lint = 8.5E-9                      	ll = -4.55E-16                     	
++lln = 1                            	lw = 5.6E-17                       	lwn = 1                            	
++lwl = 8E-23                        	dwg = 0                            	dwb = 0                            	
++xl = '-1E-9 + dxl'                 	xw = '0 + dxw'                     	
+*****Layout-Dependent Parasitics Model Parameter ***
++dmcg = 0                           	
++dmci = 0                           	dmdg = 0                           	dmcgt = 0                          	
++dwj = 0                            	xgw = 0                            	xgl = 0                            	
++ngcon = 1   
+***** Vth Related  Parameter ***
++vth0 = '2.07998E-1 + dvth0'       lvth0 = '-1.092E-2 + dlvth0'           	
++pvth0 = -7.757685E-4             vfb = -1                           	k1 = 0.402181                      	
++k2 = -0.044                        	k3 = 1.125                         	wk3 = 2.21572                      	
++k3b = 0.87                         	wk3b = 0                           	pk3b = -0.026174                   	
++w0 = 0                             	lpe0 = 1.247436E-7                 	llpe0 = 3.4E-9                     	
++lpeb = 2.10223E-8                  dvt0 = 6.436677                    	dvt1 = 0.463339                    	
++dvt2 = -2.31798E-4                 dvt0w = 1                          	dvt1w = 1.855E6                    	
++dvt2w = 0                          	vfbsdoff = 0                       	phig = 4.05
+***** Mobility Related Parameter ***           	
++u0 = '2.47845E-3 + du0'        lu0 = '5.86776E-4 + dlu0'       wu0 = 0.019701                     	
++pu0 = 3.093599E-4                  ua = 5.33137E-10                   	lua = 2.114584E-12                 	
++wua = 1.410349E-10                pua = 2.699714E-10                ub = 5.303306E-18                  	
++lub = 4.168227E-19                 wub = -1.540478E-18              pub = -1.663962E-19                	
++uc = 2.181556E-9                   	 luc = 0                            	wuc = -9.685937E-10                	
++puc = 2.867547E-11                vsat = '1.982E4 + dvsat'           	pvsat = 1.01405E3                  	
++a0 = 1.908125                      	 la0 = -1.75737E-2                  	pa0 = -1.26528E-2                  	
++ags = '1.15283 + dags'            lags = 4.37547E-2                  	pags = -0.01                       	
++b0 = 2.726587E-7                    b1 = 0                             	keta = 0.02875                     	
++pketa = 3E-4                       	 a1 = 0                             	a2 = 1                             	
++rdsw = 100                         	 rdswmin = 50                       	prwb = 0                           	
++prwg = 0                           	 wr = 1                             	
+***** Subthreshold Related Parameter ***
++voff = -0.08                       	
++pvoff = -5E-4                      	voffl = 0                          	minv = 0                           	
++nfactor = '1 + dnfactor'         lnfactor = 0                       	wnfactor = -0.3626                 	
++pnfactor = 7.936875E-3         eta0 = 1.23036                     	peta0 = -6.078037E-3               	
++etab = -0.372058                   	petab = 1.239E-3                   	dsub = 0.56                        	
++cit = 0                            	cdsc = 0                           	cdscb = 1.2E-3                     	
++cdscd = 4E-4                       	pcdscd = 0                         	
+***** Output Resistance Related Parameter ***
++pclm = 4E-3                        	
++ppclm = 4E-3                       	pdiblc1 = 1.456E-3                 	pdiblc2 = 8.8E-3                   	
++pdiblcb = -5E-3                    	drout = 0.56                       	pscbe1 = 4.24E8                    	
++pscbe2 = 2.5E-8                    	pvag = 0                           	delta = 5E-3                       	
++fprout = 0.1                       	pdits = 5E-3                       	pditsl = 3.45E8                    	
++pditsd = 5.2                       	lambda = 0                         	vtl = 3E5                          	
++lc = 0                             	xn = 6                             	
+***** Capacitance Parameter ***
++xpart = 0                          	
++cgso = '0 + dcgso'                 	cgdo = '0 + dcgdo'                 	cgbo = 0                           	
++ckappas = 0.6                      	ckappad = 0.6                      	cf = '1E-15 + dcf'                 	
++noff = 1.6375                      	voffcv = -0.035                    	voffcvl = 0                        	
++minvcv = 0                         	acde = 1                           	moin = 15                          	
++cgsl = '0 + dcgsl'                 	cgdl = '0 + dcgdl'                 	
+***** Souce/Drain Junction Diode Model Parameter ***
++ijthsrev = 0.1                ijthdrev = 0.1                ijthsfwd = 0.1                		
++ijthdfwd = 0.1                xjbvs = 1                     xjbvd = 1                     		
++bvs = 10                      bvd = 10                      jss = 1E-4                    		
++jsd = 1E-4                    jsws = 0                      jswd = 0                      		
++jswgs = 0                     jswgd = 0                     jtss = 0                      		
++jtsd = 0                      jtssws = 0                    jtsswd = 0                    		
++jtsswgs = 0                   jtsswgd = '0+djtsswgd'  jtweff = 0                    		
++njts = 20                     njtssw = 20                   njtsswg = 20                  		
++xtss = 0.02                   xtsd = 0.02                   xtssws = 0.02                 		
++xtsswd = 0.02                 xtsswgs = 0.02                xtsswgd = 0.02                		
++vtss = 10                     vtsd = 10                     vtssws = 10                   		
++vtsswd = 10                   vtsswgs = 10                  vtsswgd = 10                  		
++tnjts = 0                     tnjtssw = 0                   tnjtsswg = 0                  		
++cjs = '2.17E-3*dcjs'       cjd = '2.17E-3*dcjd'       mjs = 0.23                   		
++mjd = 0.23                    mjsws = 0.12                  mjswd = 0.12                  		
++cjsws = '1.9E-10*dcjsws'  cjswd = '1.9E-10*dcjswd'  cjswgs = '1.9E-10*dcjswgs'                		
++cjswgd = '1.9E-10*dcjswgd'   mjswgs = 0.12                 mjswgd = 0.12                 		
++pbs = 0.45                    pbd = 0.45                    pbsws = 0.38             		
++pbswd = 0.38                  pbswgs = 0.38                 pbswgd = 0.38  
+**** RF Model Related Parameter ***		
++xrcrg1 = 12                   xrcrg2 = 1                    rbpb = 50                     		
++rbpd = 50                     rbps = 50                     rbdb = 50                     		
++rbsb = 50                     rbps0 = 50                    rbpsl = 0                     		
++rbpsw = 0                     rbpsnf = 0                    rbpd0 = 50                    		
++rbpdl = 0                     rbpdw = 0                     rbpdnf = 0                    		
++rbpbx0 = 100                  rbpbxl = 0                    rbpbxw = 0                    		
++rbpbxnf = 0                   rbpby0 = 100                  rbpbyl = 0                    		
++rbpbyw = 0                    rbpbynf = 0                   rbsbx0 = 100                  		
++rbsby0 = 100                  rbdbx0 = 100                  rbdby0 = 100                  		
++rbsdbxl = 0                   rbsdbxw = 0                   rbsdbxnf = 0                  		
++rbsdbyl = 0                   rbsdbyw = 0                   rbsdbynf = 0                  		
++gbmin = 1E-12	
+***** Temperature coefficient ***
++tnom = 85                          	ute = 1.653126                     	
++lute = -0.162375                   	wute = -1.623752                   	pute = 7.39351E-2                  	
++kt1 = -0.195                       	pkt1 = 5.775E-4                    	kt1l = 0                           	
++kt2 = -0.019                       	ua1 = -6.399473E-3                 	pua1 = 3.546383E-5                 	
++ub1 = -1.497646E-3               pub1 = -1.620071E-5                	uc1 = -5.8E-11                     	
++ud1 = 0                            	at = 5E-4                          	pat = 2.6E-6                       	
++prt = 0                            	njs = 1                            	xtis = 3                           	
++tpb = 0                            	tpbsw = 0                          	tpbswg = 0                         	
++tcj = 0                            	tcjsw = 0                          	tcjswg = 0    
+***** Stress Effect Related Parameter ***
++saref = 5E-6                  sbref = 5E-6                  wlod = 0                      
++ku0 = 0                       kvsat = 0                     kvth0 = 0                     
++tku0 = 0                      llodku0 = 0                   wlodku0 = 0                   
++llodvth = 0                   wlodvth = 0                   lku0 = 0                      
++wku0 = 0                      pku0 = 0                      lkvth0 = 0                    
++wkvth0 = 0                    pkvth0 = 0                    stk2 = 0                      
++lodk2 = 1                     steta0 = 0                    lodeta0 = 1                   
+***** Well Proximity Effect Model Parameters ***
++web = 0                       wec = 0                       kvth0we = 0                   
++k2we = 0                      ku0we = 0                     scref = 1E-6                      	
+.ends
+.endl core
+

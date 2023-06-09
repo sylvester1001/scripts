@@ -1,0 +1,9 @@
+
+.lib TT
+.param
+dcjs = 0
++dcjd = 0           dcjsws = 0          dcjswd = 0
++dcjswgs = 0        dcjswgd = 0         dcgsl = 0
++dcgdl = 0          dcgso = 0           dcgdo = 0
+.lib 'NWEIB_start.lib' core
+.endl TT

@@ -1,0 +1,229 @@
+.lib TT
+.param
++dtoxe_pft_heip2 = 0                           dtoxp_pft_heip2 = 0                           dxl_pft_heip2 = 0                             
++dxw_pft_heip2 = 0                             dlvth0_pft_heip2 = 0                          dlu0_pft_heip2 = 0                        
++dvsat_pft_heip2 = 0                           djtsswgd = 0                        dcf_pft_heip2 = 0                             
++dnfactor_pft_heip2 = 0                        dags_pft_heip2 = 0                            dvth0_pft_heip2 = 0                           
++du0_pft_heip2 = 0                             dcjs_pft_heip2 = 0                            dcjd_pft_heip2 = 0                            
++dcjsws_pft_heip2 = 0                          dcjswd_pft_heip2 = 0                          dcjswgs_pft_heip2 = 0                         
++dcjswgd_pft_heip2 = 0                         dcgsl_pft_heip2 = 0                           dcgdl_pft_heip2 = 0                           
++dcgso_pft_heip2 = 0                           dcgdo_pft_heip2 = 0                           
+.lib 'PXID_start.lib' core
+.endl TT
+
+.lib FF
+.param
++dtoxe_pft_heip2 = -1E-10                   dtoxp_pft_heip2 = -1E-10                  dxl_pft_heip2 = -1E-9     
++dxw_pft_heip2 = -2E-9                      dlvth0_pft_heip2 = 0                          dlu0_pft_heip2 = 1.4E-5                            
++dvsat_pft_heip2 = 0                           djtsswgd = 0                        dcf_pft_heip2 = 0                             
++dnfactor_pft_heip2 = 0                        dags_pft_heip2 = 0.192                            dvth0_pft_heip2 = 0.1065                           
++du0_pft_heip2 = 2.3E-4                        dcjs_pft_heip2 = 0.95
++dcjd_pft_heip2 = 0.95               dcjsws_pft_heip2 = 0.95          dcjswd_pft_heip2 = 0.95           
++dcjswgs_pft_heip2 = 0.95         dcjswgd_pft_heip2 = 0.95         dcgsl_pft_heip2 = 1.05
++dcgdl_pft_heip2 = 1.05            dcgso_pft_heip2 = 1.05           dcgdo_pft_heip2 = 1.05 
+.lib 'PXID_start.lib' core
+.endl FF
+
+.lib SS
+.param
++dtoxe_pft_heip2 = 1E-10                   dtoxp_pft_heip2 = 1E-10                  dxl_pft_heip2 = 1E-9  
++dxw_pft_heip2 = 0                            dlvth0_pft_heip2 = 0                          dlu0_pft_heip2 = -5.5E-5       
++dvsat_pft_heip2 = 0                          djtsswgd = 0                        dcf_pft_heip2 = 0       
++dnfactor_pft_heip2 = 0                     dags_pft_heip2 = -2E-3                            dvth0_pft_heip2 = -0.105     
++du0_pft_heip2 = -3E-4                            dcjs_pft_heip2 = 1.05
++dcjd_pft_heip2 = 1.05           dcjsws_pft_heip2 = 1.05          dcjswd_pft_heip2 = 1.05           
++dcjswgs_pft_heip2 = 1.05        dcjswgd_pft_heip2 = 1.05         dcgsl_pft_heip2 = 0.95
++dcgdl_pft_heip2 = 0.95          dcgso_pft_heip2 = 0.95           dcgdo_pft_heip2 = 0.95
+.lib 'PXID_start.lib' core
+.endl SS
+
+.lib FS
+.param
++dtoxe_pft_heip2 = -0.67E-10                   dtoxp_pft_heip2 = -0.67E-10                  dxl_pft_heip2 = -0.67E-9                             
++dxw_pft_heip2 = 0                   dlvth0_pft_heip2 = 0                          dlu0_pft_heip2 = 0                          
++dvsat_pft_heip2 = 0                     djtsswgd = 0                        dcf_pft_heip2 = 0                             
++dnfactor_pft_heip2 = 0                        dags_pft_heip2 = 0                            dvth0_pft_heip2 = 0                           
++du0_pft_heip2 = 0               dcjs_pft_heip2 = 0.9665
++dcjd_pft_heip2 = 0.9665               dcjsws_pft_heip2 = 0.9665          dcjswd_pft_heip2 = 0.9665           
++dcjswgs_pft_heip2 = 0.9665         dcjswgd_pft_heip2 = 0.9665         dcgsl_pft_heip2 = 1.0335
++dcgdl_pft_heip2 = 1.0335            dcgso_pft_heip2 = 1.0335           dcgdo_pft_heip2 = 1.0335                           
+.lib 'PXID_start.lib' core
+.endl FS
+
+.lib SF
+.param
++dtoxe_pft_heip2 = 0.67E-10                   dtoxp_pft_heip2 = 0.67E-10                  dxl_pft_heip2 = 0.67E-9 
++dxw_pft_heip2 = -1.34E-9                     dlvth0_pft_heip2 = 0                          dlu0_pft_heip2 = 0                          
++dvsat_pft_heip2 = 0                     djtsswgd = 0                        dcf_pft_heip2 = 0                             
++dnfactor_pft_heip2 = 0                        dags_pft_heip2 = 0                            dvth0_pft_heip2 = 0                           
++du0_pft_heip2 = 0                             dcjs_pft_heip2 = 1.0335
++dcjd_pft_heip2 = 1.0335           dcjsws_pft_heip2 = 1.0335          dcjswd_pft_heip2 = 1.0335 
++dcjswgs_pft_heip2 = 1.0335        dcjswgd_pft_heip2 = 1.0335         dcgsl_pft_heip2 = 0.9665 
++dcgdl_pft_heip2 = 0.9665          dcgso_pft_heip2 = 0.9665           dcgdo_pft_heip2 = 0.9665  
+.lib 'PSA_start.lib' core
+.endl SF
+
+.lib core
+.subckt pmos d g s b 
+.param
++w = 1E-6                      l = 5E-8                      nf = 1                        
++m = 1                         sl = 1.1E-7                   dl = 1.1E-7                   
++pcl = 3.6E-8                  pcpg = 5.5E-8                 
+.param
++ad1 = 'dl*w'                  as1 = 'sl*w'                  pd1 = 'dl*2+w'                
++ps1 = 'sl*2+w'                nrd1 = '(pcpg+pcl/2)/w'       nrs1 = '(pcpg+pcl/2)/w'       
+m1 d g s b pmos_main w=w l=l nf=nf ad=ad1 as=as1 pd=pd1 ps=ps1 nrd=nrd1 nrs=nrs1
+
+.model pmos_main pmos
+***** Flag Parameter ***
++level = 54                    version = 4.7                 binunit = 1 
++paramchk = 1                  mobmod = 0                    mtrlmod = 0 
++capmod = 2                    cvchargemod = 0               rdsmod = 0                    
++igcmod = 0                    igbmod = 0                    rbodymod = 1                  
++trnqsmod = 0                  acnqsmod = 0                  fnoimod = 1                   
++tnoimod = 0                   diomod = 2                    tempmod = 1                   
++permod = 1                    geomod = 0                    rgeomod = 1                   
++rgatemod = 0                  mtrlcompatmod = 0             gidlmod = 0                   
+***** Geometry Range Parameter ***
++lmin = 0                      lmax = 1                      wmin = 0                      
++wmax = 1                      
+***** Process Parameter ***
++epsrox = 3.9                  toxe = '6E-9+dtoxe'       eot = 1.5E-9                  
++toxp = '5.5E-9+dtoxp'    xj = 4.5E-8                   gamma1 = 0                    
++gamma2 = 0                    ndep = 3.5E18                 ngate = 0                     
++nsd = 1E20                    vbx = 0                       rsh = 450                     
++rshg = 0.4                    vddeot = 1.5                  leffeot = 1                   
++weffeot = 10                  tempeot = 300.15              phin = 0.0859                 
++easub = 4.05                  epsrsub = 11.7                epsrgate = 11.7               
++ni0sub = 1.45E10              bg0sub = 1.16                 tbgasub = 7.02E-4             
++tbgbsub = 1.108E3             ados = 1                      bdos = 1 
+***** dW and dL Parameter ***
++wint = 2.017396E-12           wl = 0                        wln = 1                       
++ww = 0                        wwn = 1                       wwl = 0                       
++lint = 0                      ll = -4E-16                   lln = 1                       
++lw = 0                        lwn = 1                       lwl = 0                       
++dwg = 0                       dwb = 1.1E-8                  xl = '-3E-9+dxl'                    
++xw = '0+dxw'  
+*****Layout-Dependent Parasitics Model Parameter ***
++dmcg = 0                      dmci = 0                      dmdg = 0                      
++dmcgt = 0                     dwj = 0                       xgw = 0                       
++xgl = 0                       ngcon = 1                     
+***** Vth Related  Parameter ***
++vth0 = '-9.44893E-2+dvth0'      vfb = -1            k1 = 0.236845                 
++k2 = -2.59288E-2         lk2 = 2.79E-4                 pk2 = -5.58E-4                
++k3 = 79.2                     wk3 = 18.122289           k3b = -5.522497               
++w0 = 1.300493E-6        lpe0 = -6.491403E-8      llpe0 = 1.11E-9               
++plpe0 = -1.57E-9          lpeb = 2.445463E-7       dvtp0 = 0                     
++dvtp1 = 0                    dvtp2 = 0                      dvtp3 = 0                     
++dvtp4 = 0                    dvtp5 = 0                      dvt0 = 0.3                    
++dvt1 = 0.296114          dvt2 = -4.46777E-2        dvt0w = 10                    
++dvt1w = 2.65E6           dvt2w = -0.048              vfbsdoff = 0                  
++phig = 4.05                 lvt0 = '0+dlvth0' 
+***** Mobility Related Parameter ***
++u0 = '8.988E-3+du0'     lu0 = '-4.3E-4+dlu0'       wu0 = 2.027809E-4             
++pu0 = 1.3E-5                ua = 2.1E-9                    lua = -1.3E-10                
++ub = 1.689599E-18       lub = 3.12E-19               uc = -3.0125E-11              
++ud = 0                         ucs = 1.67                      up = 0                        
++lp = 1E-8                     vsat = '2.545E5+dvsat'    a0 = 0.42                     
++la0 = 0.05                    pa0 = 0                          ags = '-0.8625+dags '                 
++lags = 0.8                    wags = 1.95                    pags = -0.2                   
++b0 = 1.098944E-6        b1 = 8.913487E-8            keta = 7.5E-3                 
++lketa = -0.03948          a1 = 0                             a2 = 1.099972                 
++rdsw = 15                    rdswmin = 150                rdw = 100                     
++rdwmin = 0                 rsw = 100                        rswmin = 0                    
++prwb = -6E-4              prwg = -6E-4                   wr = 0.5
+***** Subthreshold Related Parameter ***
++voff = -0.014                 voffl = 0                     minv = 0                      
++nfactor = 0.262222            eta0 = 0.055                  etab = -0.032                 
++dsub = 0.78                   cit = 0                       cdsc = 3.6E-4                 
++cdscb = -1E-4                 cdscd = 5E-3                
+***** Output Resistance Related Parameter ***
++pclm = 0.05704                pdiblc1 = 0.028               pdiblc2 = 0.047047            
++lpdiblc2 = 3.3E-4             ppdiblc2 = 1.32E-3            pdiblcb = -3.4E-3             
++drout = 0.45                  pscbe1 = 7.326E8              pscbe2 = 5.3E-8               
++pvag = -4.9                   delta = 0.01                  fprout = 0.2                  
++pdits = 0.2                   pditsl = 2.3E6                pditsd = 0.23                 
++lambda = -2.963102E-7         vtl = 1.989171E5              lc = 4.522269E-9              
++xn = 6.524223                 alpha0 = 0.076                alpha1 = -0.095               
++beta0 = 0                     
+***** Gate Dielectric Tunneling Current ***
++aigbacc = 0.012               bigbacc = 2.8E-3              cigbacc = 2E-3                
++nigbacc = 1                   aigbinv = 0.014               bigbinv = 4E-3                
++cigbinv = 4E-3                eigbinv = 1.1                 nigbinv = 3                   
++aigc = 0.012                  bigc = 2.8E-3                 cigc = 2E-3                   
++aigsd = 0.012                 bigsd = 2.8E-3                cigsd = 2E-3                  
++dlcig = 0                     nigc = 1                      poxedge = 1                   
++pigcd = 1                     ntox = 1                      toxref = 3E-9                 
+***** GIDL Effect Parameters ***
++agidl = 0                     bgidl = 2.3E9                 cgidl = 0.5                   
++egidl = 0.8                   rgidl = 1                     kgidl = 0                     
++fgidl = 0                     rgisl = 1                     kgisl = 0                     
++fgisl = 0                     
+***** Flicker Noise Model Parameter ***
++lintnoi = 0                   tnoic = 0                     rnoia = 0.577                 
++rnoib = 0.5164                rnoic = 0.395                 
+***** Capacitance Parameter ***
++xpart = 0                     cgso = '5E-11*dcgso'        cgdo = '5E-11*dcgdo'     
++cgbo = 0                      ckappas = 0.6                 ckappad = 0.6                 
++cf = '1E-15*dcf'        noff = 1                   voffcv = -0.04575                
++voffcvl = 0                   minvcv = 0                    acde = 1                   
++moin = 15                   cgsl = '5E-11*dcgsl'        cgdl = '5E-11*dcgdl'                   
+***** Souce/Drain Junction Diode Model Parameter ***
++ijthsrev = 0.1                ijthdrev = 0.1                ijthsfwd = 0.1                
++ijthdfwd = 0.1                xjbvs = 1                     xjbvd = 1                     
++bvs = 10                      bvd = 10                      jss = 1E-4                    
++jsd = 1E-4                    jsws = 0                      jswd = 0                      
++jswgs = 0                     jswgd = 0                     jtss = 0                      
++jtsd = 0                      jtssws = 0                    jtsswd = 0                    
++jtsswgs = 0                   jtsswgd = '0+djtsswgd'  jtweff = 0                    
++njts = 20                     njtssw = 20                   njtsswg = 20                  
++xtss = 0.02                   xtsd = 0.02                   xtssws = 0.02                 
++xtsswd = 0.02                 xtsswgs = 0.02                xtsswgd = 0.02                
++vtss = 10                     vtsd = 10                     vtssws = 10                   
++vtsswd = 10                   vtsswgs = 10                  vtsswgd = 10                  
++tnjts = 0                     tnjtssw = 0                   tnjtsswg = 0                  
++cjs = '5E-4*dcjs'       cjd = '5E-4*dcjd'       mjs = 0.5                     
++mjd = 0.5                     mjsws = 0.33                  mjswd = 0.33                  
++cjsws = '5E-10*dcjsws'  cjswd = '5E-10*dcjswd'  cjswgs = '5E-10*dcjswgs'                
++cjswgd = '5E-10*dcjswgd'      mjswgs = 0.33                 mjswgd = 0.33                 
++pbs = 1                       pbd = 1                       pbsws = 1                     
++pbswd = 1                     pbswgs = 1                    pbswgd = 1     
+     
+**** RF Model Related Parameter ***
++xrcrg1 = 12                   xrcrg2 = 1                    rbpb = 50                     
++rbpd = 50                     rbps = 50                     rbdb = 50                     
++rbsb = 50                     rbps0 = 50                    rbpsl = 0                     
++rbpsw = 0                     rbpsnf = 0                    rbpd0 = 50                    
++rbpdl = 0                     rbpdw = 0                     rbpdnf = 0                    
++rbpbx0 = 100                  rbpbxl = 0                    rbpbxw = 0                    
++rbpbxnf = 0                   rbpby0 = 100                  rbpbyl = 0                    
++rbpbyw = 0                    rbpbynf = 0                   rbsbx0 = 100                  
++rbsby0 = 100                  rbdbx0 = 100                  rbdby0 = 100                  
++rbsdbxl = 0                   rbsdbxw = 0                   rbsdbxnf = 0                  
++rbsdbyl = 0                   rbsdbyw = 0                   rbsdbynf = 0                  
++gbmin = 1E-12                 
+***** Temperature coefficient ***
++tnom = 85                     ute = -1.5                    ucste = -4.775E-3             
++kt1 = -0.133907               pkt1 = 1.16E-3                kt1l = -3.85E-9               
++kt2 = 9.9E-4                  lkt2 = -9.9E-3                pkt2 = 5.94E-3                
++ua1 = 1.992991E-9             ub1 = -1.38897E-2             lub1 = 5.427611E-4            
++uc1 = -7.004162E-11           ud1 = 0                       at = 2.237616E4               
++prt = 383.430226              njs = 1                       njd = 1                       
++xtis = 3                      xtid = 3                      tpb = 0                       
++tpbsw = 0                     tpbswg = 0                    tcj = 0                       
++tcjsw = 0                     tcjswg = 0                    tvoff = 0                     
++tnfactor = 0                  teta0 = 0                     tvoffcv = 0                   
++tvfbsdoff = 0                 
+***** Stress Effect Related Parameter ***
++saref = 5E-6                  sbref = 5E-6                  wlod = 0                      
++ku0 = 0                       kvsat = 0                     kvth0 = 0                     
++tku0 = 0                      llodku0 = 0                   wlodku0 = 0                   
++llodvth = 0                   wlodvth = 0                   lku0 = 0                      
++wku0 = 0                      pku0 = 0                      lkvth0 = 0                    
++wkvth0 = 0                    pkvth0 = 0                    stk2 = 0                      
++lodk2 = 1                     steta0 = 0                    lodeta0 = 1                   
+***** Well Proximity Effect Model Parameters ***
++web = 0                       wec = 0                       kvth0we = 0                   
++k2we = 0                      ku0we = 0                     scref = 1E-6                  
+.ends pmos
+.endl core

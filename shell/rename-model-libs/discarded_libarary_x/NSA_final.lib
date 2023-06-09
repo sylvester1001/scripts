@@ -1,0 +1,214 @@
+.lib TT		
+.param		
++dtoxe_nflsa = 0                           dtoxp_nflsa = 0                         dxl_nflsa = 0                             		
++dxw_nflsa = 0                             dlvth0_nflsa = 0                         dlu0_nflsa = 0                            		
++dvsat_nflsa = 0                           djtsswgd = 0                     dcf_nflsa = 0                             		
++dnfactor_nflsa = 0                      dags_nflsa = 0                           dvth0_nflsa = 0                           		
++du0_nflsa = 0                             dcjs_nflsa = 0		
++dcjd_nflsa = 0                            dcjsws_nflsa = 0                         dcjswd_nflsa = 0		
++dcjswgs_nflsa = 0                       dcjswgd_nflsa = 0                      dcgsl_nflsa = 0		
++dcgdl_nflsa = 0                          dcgso_nflsa = 0                          dcgdo_nflsa = 0		
+.lib 'NSA_final.lib' core		
+.endl TT		
+		
+.lib FF		
+.param		
++dtoxe_nflsa = -1E-10                   dtoxp_nflsa = -1E-10                 dxl_nflsa = -1E-9                             		
++dxw_nflsa = 2E-9                        dlvth0_nflsa = -3.6E-4                dlu0_nflsa = 5.34E-4 		
++dvsat_nflsa = 1.5704E4               djtsswgd = 0                     dcf_nflsa = 0                             		
++dnfactor_nflsa = 2.6E-2              dags_nflsa = 1.50316E-1             dvth0_nflsa = -1.24954E-2                          		
++du0_nflsa = 7.0744E-3                dcjs_nflsa = 0.95		
++dcjd_nflsa = 0.95                        dcjsws_nflsa = 0.95                     dcjswd_nflsa = 0.95           		
++dcjswgs_nflsa = 0.95                   dcjswgd_nflsa = 0.95                  dcgsl_nflsa = 1.05		
++dcgdl_nflsa = 1.05                      dcgso_nflsa = 1.05                      dcgdo_nflsa = 1.05		
+.lib 'NSA_final.lib' core		
+.endl FF		
+		
+.lib SS		
+.param		
++dtoxe_nflsa = 1E-10              dtoxp_nflsa = 1E-10                  dxl_nflsa = 1E-9                             		
++dxw_nflsa = -2E-9                 dlvth0_nflsa = 1.35E-5               dlu0_nflsa = -9.32E-4		
++dvsat_nflsa = -7.1087E2          djtsswgd = 0                     dcf_nflsa = 0                             		
++dnfactor_nflsa = 0                dags_nflsa = 0                           dvth0_nflsa = 1.28059E-2 		
++du0_nflsa = -1.20827E-2       dcjs_nflsa = 1.05		
++dcjd_nflsa = 1.05                  dcjsws_nflsa = 1.05                     dcjswd_nflsa = 1.05           		
++dcjswgs_nflsa = 1.05             dcjswgd_nflsa = 1.05                  dcgsl_nflsa = 0.95		
++dcgdl_nflsa = 0.95                dcgso_nflsa = 0.95                      dcgdo_nflsa = 0.95		
+.lib 'NSA_final.lib' core		
+.endl SS		
+	
+.lib FS		
+.param		
++dtoxe_nflsa = -0.67E-10       dtoxp_nflsa = -0.67E-10        dxl_nflsa = -0.67E-9                             		
++dxw_nflsa = 1.34E-9             dlvth0_nflsa = 3.9E-4            dlu0_nflsa = 2E-3            		
++dvsat_nflsa = 1.8E-1             djtsswgd = 0                dcf_nflsa = 0                             		
++dnfactor_nflsa = 0                dags_nflsa = -3.36E-1           dvth0_nflsa = -1.4E-2        		
++du0_nflsa = 1.5E-2                dcjs_nflsa = 0.9665		
++dcjd_nflsa = 0.9665               dcjsws_nflsa = 0.9665           dcjswd_nflsa = 0.9665           		
++dcjswgs_nflsa = 0.9665          dcjswgd_nflsa = 0.9665        dcgsl_nflsa = 1.0335		
++dcgdl_nflsa = 1.0335             dcgso_nflsa = 1.0335            dcgdo_nflsa = 1.0335                           		
+.lib 'NSA_final.lib' core		
+.endl FS		
+
+.lib SF
+.param		
++dtoxe_nflsa = 0.67E-10           dtoxp_nflsa = 0.67E-10     dxl_nflsa = 0.67E-9                             
++dxw_nflsa = -1.34E-9              dlvth0_nflsa = -1E-3         dlu0_nflsa = 2E-3               
++dvsat_nflsa = 2E-1                  djtsswgd = 0            dcf_nflsa = 0                             
++dnfactor_nflsa = 0                  dags_nflsa = -4.4E-1         dvth0_nflsa = 5E-3          
++du0_nflsa = 3.4E-2                  dcjs_nflsa = 1.0335
++dcjd_nflsa = 1.0335                 dcjsws_nflsa = 1.0335       dcjswd_nflsa = 1.0335           
++dcjswgs_nflsa = 1.0335            dcjswgd_nflsa = 1.0335    dcgsl_nflsa = 0.9665
++dcgdl_nflsa = 0.9665               dcgso_nflsa = 0.9665        dcgdo_nflsa = 0.9665  	
+.lib 'NSA_final.lib' core		
+.endl SF		
+		
+.lib core		
+.subckt nmos d g s b		
+.param		
++w = 1E-6                            l = 5E-8                            nf = 1                              		
++m = 1                               sl = 1.1E-7                         dl = 1.1E-7                         		
++pcl = 3.6E-8                        pcpg = 5.5E-8                       ad1 = 'dl*w'                        		
++as1 = 'sl*w'                        pd1 = 'dl*2+w'                      ps1 = 'sl*2+w'                      		
++nrd1 = '(pcpg+pcl/2)/w'             nrs1 = '(pcpg+pcl/2)/w'             		
+m1 d g s b nmos_main w=w l=l nf=nf ad=ad1 as=as1 pd=pd1 ps=ps1 nrd=nrd1 nrs=nrs1		
+.model nmos_main nmos		
+***** Flag Parameter ***		
++level = 54	version = 4.7                      	binunit = 1                        
++paramchk = 1	mobmod = 0                         	mtrlmod = 0                        
++capmod = 2	cvchargemod = 0                    	rdsmod = 0                         
++igcmod = 0	igbmod = 0                         	rbodymod = 1                       
++trnqsmod = 0	acnqsmod = 0                       	fnoimod = 1                        
++tnoimod = 0	diomod = 2                         	tempmod = 1                        
++permod = 1	geomod = 0                         	rgeomod = 1                        
++rgatemod = 0	mtrlcompatmod = 0                  gidlmod = 0  	
+***** Geometry Range Parameter ***           		
++lmin = 0	lmax = 1                           	wmin = 0                           
++wmax = 1	
+***** Process Parameter ***
++epsrox = 3.9                       	toxe = '2.58E-9 + dtoxe_nflsa'           
++eot = 0.0000000015	toxp = '2.3E-9 + dtoxp_nflsa'            	xj = 5.5E-8                        
++gamma1 = 0	gamma2 = 0                         	ndep = 8.141E18                    
++ngate = 0	nsd = 1E20                         	vbx = 0                            
++rsh = 190	rshg = 0.4                         	vddeot = 1.5                       
++leffeot = 1	weffeot = 10                       	tempeot = 300.15                   
++phin = 0.052	easub = 4.05                       	epsrsub = 11.7                     
++epsrgate = 11.7	ni0sub = 1.45E10                   	bg0sub = 1.16                      
++tbgasub = 0.000702	tbgbsub = 1.108E3                  	ados = 1                           
++bdos = 1		
+***** dW and dL Parameter ***		
++wint = 0	wl = 1.4985E-15                    	
++wln = 1	ww = 0                             	wwn = 1                            
++wwl = 4.6E-23	lint = 8.5E-9                      	ll = -4.55E-16                     
++lln = 1	lw = 5.6E-17                       	lwn = 1                            
++lwl = 8E-23	dwg = 0                            	dwb = 0                            
++xl = '-1E-9 + dxl_nflsa'                 	xw = '0 + dxw_nflsa'        	
+*****Layout-Dependent Parasitics Model Parameter ***		
++dmcg = 0		
++dmci = 0	dmdg = 0                           	dmcgt = 0                          
++dwj = 0	xgw = 0                            	xgl = 0                            
++ngcon = 1		
+***** Vth Related  Parameter ***		
++vth0 = '6.9477E-2+dvth0_nflsa'          	lvth0 = '-7.63E-3+dlvth0_nflsa'        	
++pvth0 = -4.230379E-4             vfb = -1                           	k1 = 0.295471                      	
++K2 = -0.027869	k3 = 1.758237                      	wk3 = 2.21572                      
++k3b = 0.1	wk3b = 0                           	pk3b = -0.026174                   
++w0 = 0	lpe0 = 9.818567E-8                 	llpe0 = 3.4E-9                     
++lpeb = 0.0000000003007635	dvt0 = 0.508556                    	dvt1 = 0.799163                    
++dvt2 = 0	dvt0w = 900.05                     	dvt1w = 2.335418E6                 
++dvt2w = 0.161607                   vfbsdoff = 0                       	phig = 4.05                        	
+***** Mobility Related Parameter ***		
++u0 = '2.4522E-2+du0_nflsa'              	lu0 = '7.68902E-4+dlu0_nflsa'         	wu0 = 7.218234E-3                  
++pu0 = 0.001617	ua = 8.702121E-9                   	lua = 2.114584E-12                 
++wua = 1.410349E-10               pua = 2.699714E-10                 	ub = 9.191337E-18                  	
++lub = 0	wub = -5.545721E-18                	pub = 0                            
++uc = 0.00000000245425	luc = 0                            	wuc = -9.685937E-10                
++puc = 0	vsat = '8.502E4+dvsat_nflsa'          	pvsat = 861.9425                   
++a0 = 0.354759	la0 = 1.951564E-18                 	pa0 = 8.673617E-19                 
++ags = '13.931611+dags_nflsa'          lags = 3.469447E-18                	pags = 0                           	
++b0 = 0	b1 = 0                             	keta = -0.11971                    
++pketa = -3.562474E-3             a1 = 0                             	a2 = 0.57                          	
++rdsw = 634.617459                 rdswmin = 50                       	prwb = 0                           	
++prwg = 0	wr = 0                             	
+***** Subthreshold Related Parameter ***		
++voff = -0.0602		
++pvoff = -0.00049	voffl = 0                          	minv = 0                           
++nfactor = '1+dnfactor_nflsa'           	lnfactor = 0                       	wnfactor = -0.3626                 
++pnfactor = 7.936875E-3          eta0 = 1.5875                      	peta0 = -6.078037E-3               	
++etab = -0.413	petab = 1.239E-3                   	dsub = 0.56                        
++cit = 0	cdsc = 0.168131                    	cdscb = -1.06064E-3                
++cdscd = -0.111659                 pcdscd = 0                   		
+***** Output Resistance Related Parameter ***		
++pclm = 0.002		
++ppclm = 0.004	pdiblc1 = 0                        	pdiblc2 = 3.52E-3                  
++pdiblcb = -0.007	drout = 0.84                       	pscbe1 = 0                         
++pscbe2 = 0.000000001	pvag = 10                          	delta = 0.01                       
++fprout = 0	pdits = 0                          	pditsl = 3.45E8                    
++pditsd = 5.2	lambda = -5E-7                     	vtl = 3E5                          
++lc = 0	xn = 6     	
+***** Flicker Noise Model Parameter ***		
++lintnoi = 0                   tnoic = 0                     rnoia = 0.577                 		
++rnoib = 0.5164                rnoic = 0.395                         		
+***** Capacitance Parameter ***		
++xpart = 0                     cgso = '5E-11*dcgso_nflsa'        cgdo = '5E-11*dcgdo_nflsa'                      		
++cgbo = 0                      ckappas = 0.6                 ckappad = 0.6                 		
++cf = '1E-15*dcf_nflsa'        noff = 1.25                   voffcv = 0.047                		
++voffcvl = 0                   minvcv = 0                    acde = 0.55                   		
++moin = 31.5                   cgsl = '5E-11*dcgsl_nflsa'        cgdl = '5E-11*dcgdl_nflsa'                      		
+***** Souce/Drain Junction Diode Model Parameter ***		
++ijthsrev = 0.1                ijthdrev = 0.1                ijthsfwd = 0.1                		
++ijthdfwd = 0.1                xjbvs = 1                     xjbvd = 1                     		
++bvs = 10                      bvd = 10                      jss = 1E-4                    		
++jsd = 1E-4                    jsws = 0                      jswd = 0                      		
++jswgs = 0                     jswgd = 0                     jtss = 0                      		
++jtsd = 0                      jtssws = 0                    jtsswd = 0                    		
++jtsswgs = 0                   jtsswgd = '0+djtsswgd'  jtweff = 0                    		
++njts = 20                     njtssw = 20                   njtsswg = 20                  		
++xtss = 0.02                   xtsd = 0.02                   xtssws = 0.02                 		
++xtsswd = 0.02                 xtsswgs = 0.02                xtsswgd = 0.02                		
++vtss = 10                     vtsd = 10                     vtssws = 10                   		
++vtsswd = 10                   vtsswgs = 10                  vtsswgd = 10                  		
++tnjts = 0                     tnjtssw = 0                   tnjtsswg = 0                  		
++cjs = '2.17E-3*dcjs_nflsa'       cjd = '2.17E-3*dcjd_nflsa'       mjs = 0.23                   		
++mjd = 0.23                    mjsws = 0.12                  mjswd = 0.12                  		
++cjsws = '1.9E-10*dcjsws_nflsa'  cjswd = '1.9E-10*dcjswd_nflsa'  cjswgs = '1.9E-10*dcjswgs_nflsa'                		
++cjswgd = '1.9E-10*dcjswgd_nflsa'   mjswgs = 0.12                 mjswgd = 0.12                 		
++pbs = 0.45                    pbd = 0.45                    pbsws = 0.38             		
++pbswd = 0.38                  pbswgs = 0.38                 pbswgd = 0.38      		
+**** RF Model Related Parameter ***		
++xrcrg1 = 12                   xrcrg2 = 1                    rbpb = 50                     		
++rbpd = 50                     rbps = 50                     rbdb = 50                     		
++rbsb = 50                     rbps0 = 50                    rbpsl = 0                     		
++rbpsw = 0                     rbpsnf = 0                    rbpd0 = 50                    		
++rbpdl = 0                     rbpdw = 0                     rbpdnf = 0                    		
++rbpbx0 = 100                  rbpbxl = 0                    rbpbxw = 0                    		
++rbpbxnf = 0                   rbpby0 = 100                  rbpbyl = 0                    		
++rbpbyw = 0                    rbpbynf = 0                   rbsbx0 = 100                  		
++rbsby0 = 100                  rbdbx0 = 100                  rbdby0 = 100                  		
++rbsdbxl = 0                   rbsdbxw = 0                   rbsdbxnf = 0                  		
++rbsdbyl = 0                   rbsdbyw = 0                   rbsdbynf = 0                  		
++gbmin = 0.000000000001	
+***** Temperature coefficient ***   		
++tnom = 85	ute = 1.948395                     	
++lute = -0.162375	wute = -1.623752                   	pute = 8.50254E-2                  
++KT1 = -0.18824	pkt1 = 6.187452E-4                 	kt1l = 0                           
++KT2 = -0.019	ua1 = -3.129852E-4                 	pua1 = 3.546383E-5                 
++UB1 = -0.186211	pub1 = 6.89541E-3                  	uc1 = -5.6E-11                     
++UD1 = 0	at = 6.885E-3                      	pat = -1.4E-4                      
++prt = 0	njs = 1                            	xtis = 3                           
++tpb = 0	tpbsw = 0                          	tpbswg = 0                         
++tcj = 0	tcjsw = 0                          	tcjswg = 0  
+***** Stress Effect Related Parameter ***		
++saref = 5E-6                  sbref = 5E-6                  wlod = 0                      		
++ku0 = 0                       kvsat = 0                     kvth0 = 0                     		
++tku0 = 0                      llodku0 = 0                   wlodku0 = 0                   		
++llodvth = 0                   wlodvth = 0                   lku0 = 0                      		
++wku0 = 0                      pku0 = 0                      lkvth0 = 0                    		
++wkvth0 = 0                    pkvth0 = 0                    stk2 = 0                      		
++lodk2 = 1                     steta0 = 0                    lodeta0 = 1                   		
+***** Well Proximity Effect Model Parameters ***		
++web = 0                       wec = 0                       kvth0we = 0                   		
++k2we = 0                      ku0we = 0                     scref = 1E-6                       		
+.ends		
+.endl core		
+
