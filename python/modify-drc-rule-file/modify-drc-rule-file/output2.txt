@@ -1,0 +1,92 @@
+// -----M1 start_cell_000----
+M1_width_1 = M1 with width == 0.001
+M1_width_1{flatten M1_width_1}
+M1_width1_space_1 = External M1_width_1 M1 == 0.001 region
+M1_w1s1 = M1_width1_space_1 outside M1
+M1_w1s1{flatten M1_w1s1}
+M1_width1_space_2 = External M1_width_1 M1 == 0.002 region
+M1_w1s2 = M1_width1_space_2 outside M1
+M1_w1s2{flatten M1_w1s2}
+
+M1_width_2 = M1 with width == 0.002
+M1_width_2{flatten M1_width_2}
+M1_width2_space_1 = External M1_width_2 M1 == 0.001 region
+M1_w2s1 = M1_width2_space_1 outside M1
+M1_w2s1{flatten M1_w2s1}
+M1_width2_space_2 = External M1_width_2 M1 == 0.002 region
+M1_w2s2 = M1_width2_space_2 outside M1
+M1_w2s2{flatten M1_w2s2}
+
+M1_width_3 = M1 with width == 0.003
+M1_width_3{flatten M1_width_3}
+M1_width3_space_1 = External M1_width_3 M1 == 0.001 region
+M1_w3s1 = M1_width3_space_1 outside M1
+M1_w3s1{flatten M1_w3s1}
+M1_width3_space_2 = External M1_width_3 M1 == 0.002 region
+M1_w3s2 = M1_width3_space_2 outside M1
+M1_w3s2{flatten M1_w3s2}
+
+M1_width_4 = M1 with width == 0.004
+M1_width_4{flatten M1_width_4}
+M1_width4_space_1 = External M1_width_4 M1 == 0.001 region
+M1_w4s1 = M1_width4_space_1 outside M1
+M1_w4s1{flatten M1_w4s1}
+M1_width4_space_2 = External M1_width_4 M1 == 0.002 region
+M1_w4s2 = M1_width4_space_2 outside M1
+M1_w4s2{flatten M1_w4s2}
+
+M1_width_5 = M1 with width == 0.005
+M1_width_5{flatten M1_width_5}
+M1_width5_space_1 = External M1_width_5 M1 == 0.001 region
+M1_w5s1 = M1_width5_space_1 outside M1
+M1_w5s1{flatten M1_w5s1}
+M1_width5_space_2 = External M1_width_5 M1 == 0.002 region
+M1_w5s2 = M1_width5_space_2 outside M1
+M1_w5s2{flatten M1_w5s2}
+
+M1_width_6 = M1 with width == 0.006
+M1_width_6{flatten M1_width_6}
+M1_width6_space_1 = External M1_width_6 M1 == 0.001 region
+M1_w6s1 = M1_width6_space_1 outside M1
+M1_w6s1{flatten M1_w6s1}
+M1_width6_space_2 = External M1_width_6 M1 == 0.002 region
+M1_w6s2 = M1_width6_space_2 outside M1
+M1_w6s2{flatten M1_w6s2}
+
+M1_width_7 = M1 with width == 0.007
+M1_width_7{flatten M1_width_7}
+M1_width7_space_1 = External M1_width_7 M1 == 0.001 region
+M1_w7s1 = M1_width7_space_1 outside M1
+M1_w7s1{flatten M1_w7s1}
+M1_width7_space_2 = External M1_width_7 M1 == 0.002 region
+M1_w7s2 = M1_width7_space_2 outside M1
+M1_w7s2{flatten M1_w7s2}
+
+M1_width_8 = M1 with width == 0.008
+M1_width_8{flatten M1_width_8}
+M1_width8_space_1 = External M1_width_8 M1 == 0.001 region
+M1_w8s1 = M1_width8_space_1 outside M1
+M1_w8s1{flatten M1_w8s1}
+M1_width8_space_2 = External M1_width_8 M1 == 0.002 region
+M1_w8s2 = M1_width8_space_2 outside M1
+M1_w8s2{flatten M1_w8s2}
+
+M1_width_9 = M1 with width == 0.009
+M1_width_9{flatten M1_width_9}
+M1_width9_space_1 = External M1_width_9 M1 == 0.001 region
+M1_w9s1 = M1_width9_space_1 outside M1
+M1_w9s1{flatten M1_w9s1}
+M1_width9_space_2 = External M1_width_9 M1 == 0.002 region
+M1_w9s2 = M1_width9_space_2 outside M1
+M1_w9s2{flatten M1_w9s2}
+
+M1_width_10 = M1 with width == 0.01
+M1_width_10{flatten M1_width_10}
+M1_width10_space_1 = External M1_width_10 M1 == 0.001 region
+M1_w10s1 = M1_width10_space_1 outside M1
+M1_w10s1{flatten M1_w10s1}
+M1_width10_space_2 = External M1_width_10 M1 == 0.002 region
+M1_w10s2 = M1_width10_space_2 outside M1
+M1_w10s2{flatten M1_w10s2}
+
+// -----M1 end_cell_000----

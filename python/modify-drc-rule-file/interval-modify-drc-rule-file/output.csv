@@ -1,0 +1,2006 @@
+// -----M2 start_cell_000----
+M2_width_1 = M2 with width >= 0.01 <= 0.23
+M2_w1s1_0 = External M2_width_1 M2 > 0.0 <= 0.01 opposite region
+M2_w1s1_1 = M2_w1s1_0 outside M2
+M2_w1s1_2 = not touch edge M2_w1s1_1 M2
+M2_w1s1_2{flatten M2_w1s1_2}
+
+M2_w1s2_0 = External M2_width_1 M2 > 0.01 <= 0.02 opposite region
+M2_w1s2_1 = M2_w1s2_0 outside M2
+M2_w1s2_2 = not touch edge M2_w1s2_1 M2
+M2_w1s2_2{flatten M2_w1s2_2}
+
+M2_w1s3_0 = External M2_width_1 M2 > 0.02 <= 0.03 opposite region
+M2_w1s3_1 = M2_w1s3_0 outside M2
+M2_w1s3_2 = not touch edge M2_w1s3_1 M2
+M2_w1s3_2{flatten M2_w1s3_2}
+
+M2_w1s4_0 = External M2_width_1 M2 > 0.03 <= 0.04 opposite region
+M2_w1s4_1 = M2_w1s4_0 outside M2
+M2_w1s4_2 = not touch edge M2_w1s4_1 M2
+M2_w1s4_2{flatten M2_w1s4_2}
+
+M2_w1s5_0 = External M2_width_1 M2 > 0.04 <= 0.05 opposite region
+M2_w1s5_1 = M2_w1s5_0 outside M2
+M2_w1s5_2 = not touch edge M2_w1s5_1 M2
+M2_w1s5_2{flatten M2_w1s5_2}
+
+M2_w1s6_0 = External M2_width_1 M2 > 0.05 <= 0.06 opposite region
+M2_w1s6_1 = M2_w1s6_0 outside M2
+M2_w1s6_2 = not touch edge M2_w1s6_1 M2
+M2_w1s6_2{flatten M2_w1s6_2}
+
+M2_w1s7_0 = External M2_width_1 M2 > 0.06 <= 0.07 opposite region
+M2_w1s7_1 = M2_w1s7_0 outside M2
+M2_w1s7_2 = not touch edge M2_w1s7_1 M2
+M2_w1s7_2{flatten M2_w1s7_2}
+
+M2_w1s8_0 = External M2_width_1 M2 > 0.07 <= 0.08 opposite region
+M2_w1s8_1 = M2_w1s8_0 outside M2
+M2_w1s8_2 = not touch edge M2_w1s8_1 M2
+M2_w1s8_2{flatten M2_w1s8_2}
+
+M2_w1s9_0 = External M2_width_1 M2 > 0.08 <= 0.09 opposite region
+M2_w1s9_1 = M2_w1s9_0 outside M2
+M2_w1s9_2 = not touch edge M2_w1s9_1 M2
+M2_w1s9_2{flatten M2_w1s9_2}
+
+M2_w1s10_0 = External M2_width_1 M2 > 0.09 <= 0.1 opposite region
+M2_w1s10_1 = M2_w1s10_0 outside M2
+M2_w1s10_2 = not touch edge M2_w1s10_1 M2
+M2_w1s10_2{flatten M2_w1s10_2}
+
+M2_w1s11_0 = External M2_width_1 M2 > 0.1 <= 0.11 opposite region
+M2_w1s11_1 = M2_w1s11_0 outside M2
+M2_w1s11_2 = not touch edge M2_w1s11_1 M2
+M2_w1s11_2{flatten M2_w1s11_2}
+
+M2_w1s12_0 = External M2_width_1 M2 > 0.11 <= 0.12 opposite region
+M2_w1s12_1 = M2_w1s12_0 outside M2
+M2_w1s12_2 = not touch edge M2_w1s12_1 M2
+M2_w1s12_2{flatten M2_w1s12_2}
+
+M2_w1s13_0 = External M2_width_1 M2 > 0.12 <= 0.13 opposite region
+M2_w1s13_1 = M2_w1s13_0 outside M2
+M2_w1s13_2 = not touch edge M2_w1s13_1 M2
+M2_w1s13_2{flatten M2_w1s13_2}
+
+M2_w1s14_0 = External M2_width_1 M2 > 0.13 <= 0.14 opposite region
+M2_w1s14_1 = M2_w1s14_0 outside M2
+M2_w1s14_2 = not touch edge M2_w1s14_1 M2
+M2_w1s14_2{flatten M2_w1s14_2}
+
+M2_w1s15_0 = External M2_width_1 M2 > 0.14 <= 0.15 opposite region
+M2_w1s15_1 = M2_w1s15_0 outside M2
+M2_w1s15_2 = not touch edge M2_w1s15_1 M2
+M2_w1s15_2{flatten M2_w1s15_2}
+
+M2_w1s16_0 = External M2_width_1 M2 > 0.15 <= 0.16 opposite region
+M2_w1s16_1 = M2_w1s16_0 outside M2
+M2_w1s16_2 = not touch edge M2_w1s16_1 M2
+M2_w1s16_2{flatten M2_w1s16_2}
+
+M2_w1s17_0 = External M2_width_1 M2 > 0.16 <= 0.17 opposite region
+M2_w1s17_1 = M2_w1s17_0 outside M2
+M2_w1s17_2 = not touch edge M2_w1s17_1 M2
+M2_w1s17_2{flatten M2_w1s17_2}
+
+M2_w1s18_0 = External M2_width_1 M2 > 0.17 <= 0.18 opposite region
+M2_w1s18_1 = M2_w1s18_0 outside M2
+M2_w1s18_2 = not touch edge M2_w1s18_1 M2
+M2_w1s18_2{flatten M2_w1s18_2}
+
+M2_w1s19_0 = External M2_width_1 M2 > 0.18 <= 0.19 opposite region
+M2_w1s19_1 = M2_w1s19_0 outside M2
+M2_w1s19_2 = not touch edge M2_w1s19_1 M2
+M2_w1s19_2{flatten M2_w1s19_2}
+
+M2_w1s20_0 = External M2_width_1 M2 > 0.19 <= 0.2 opposite region
+M2_w1s20_1 = M2_w1s20_0 outside M2
+M2_w1s20_2 = not touch edge M2_w1s20_1 M2
+M2_w1s20_2{flatten M2_w1s20_2}
+
+M2_w1s21_0 = External M2_width_1 M2 > 0.2 <= 0.21 opposite region
+M2_w1s21_1 = M2_w1s21_0 outside M2
+M2_w1s21_2 = not touch edge M2_w1s21_1 M2
+M2_w1s21_2{flatten M2_w1s21_2}
+
+M2_w1s22_0 = External M2_width_1 M2 > 0.21 <= 0.22 opposite region
+M2_w1s22_1 = M2_w1s22_0 outside M2
+M2_w1s22_2 = not touch edge M2_w1s22_1 M2
+M2_w1s22_2{flatten M2_w1s22_2}
+
+M2_w1s23_0 = External M2_width_1 M2 > 0.22 <= 0.23 opposite region
+M2_w1s23_1 = M2_w1s23_0 outside M2
+M2_w1s23_2 = not touch edge M2_w1s23_1 M2
+M2_w1s23_2{flatten M2_w1s23_2}
+
+M2_w1s24_0 = External M2_width_1 M2 > 0.23 <= 0.24 opposite region
+M2_w1s24_1 = M2_w1s24_0 outside M2
+M2_w1s24_2 = not touch edge M2_w1s24_1 M2
+M2_w1s24_2{flatten M2_w1s24_2}
+
+M2_w1s25_0 = External M2_width_1 M2 > 0.24 <= 0.25 opposite region
+M2_w1s25_1 = M2_w1s25_0 outside M2
+M2_w1s25_2 = not touch edge M2_w1s25_1 M2
+M2_w1s25_2{flatten M2_w1s25_2}
+
+M2_w1s26_0 = External M2_width_1 M2 > 0.25 <= 0.26 opposite region
+M2_w1s26_1 = M2_w1s26_0 outside M2
+M2_w1s26_2 = not touch edge M2_w1s26_1 M2
+M2_w1s26_2{flatten M2_w1s26_2}
+
+M2_w1s27_0 = External M2_width_1 M2 > 0.26 <= 0.27 opposite region
+M2_w1s27_1 = M2_w1s27_0 outside M2
+M2_w1s27_2 = not touch edge M2_w1s27_1 M2
+M2_w1s27_2{flatten M2_w1s27_2}
+
+M2_w1s28_0 = External M2_width_1 M2 > 0.27 <= 0.28 opposite region
+M2_w1s28_1 = M2_w1s28_0 outside M2
+M2_w1s28_2 = not touch edge M2_w1s28_1 M2
+M2_w1s28_2{flatten M2_w1s28_2}
+
+M2_w1s29_0 = External M2_width_1 M2 > 0.28 <= 0.29 opposite region
+M2_w1s29_1 = M2_w1s29_0 outside M2
+M2_w1s29_2 = not touch edge M2_w1s29_1 M2
+M2_w1s29_2{flatten M2_w1s29_2}
+
+M2_w1s30_0 = External M2_width_1 M2 > 0.29 <= 0.3 opposite region
+M2_w1s30_1 = M2_w1s30_0 outside M2
+M2_w1s30_2 = not touch edge M2_w1s30_1 M2
+M2_w1s30_2{flatten M2_w1s30_2}
+
+M2_w1s31_0 = External M2_width_1 M2 > 0.3 <= 0.31 opposite region
+M2_w1s31_1 = M2_w1s31_0 outside M2
+M2_w1s31_2 = not touch edge M2_w1s31_1 M2
+M2_w1s31_2{flatten M2_w1s31_2}
+
+M2_w1s32_0 = External M2_width_1 M2 > 0.31 <= 0.32 opposite region
+M2_w1s32_1 = M2_w1s32_0 outside M2
+M2_w1s32_2 = not touch edge M2_w1s32_1 M2
+M2_w1s32_2{flatten M2_w1s32_2}
+
+M2_w1s33_0 = External M2_width_1 M2 > 0.32 <= 0.33 opposite region
+M2_w1s33_1 = M2_w1s33_0 outside M2
+M2_w1s33_2 = not touch edge M2_w1s33_1 M2
+M2_w1s33_2{flatten M2_w1s33_2}
+
+M2_w1s34_0 = External M2_width_1 M2 > 0.33 <= 0.34 opposite region
+M2_w1s34_1 = M2_w1s34_0 outside M2
+M2_w1s34_2 = not touch edge M2_w1s34_1 M2
+M2_w1s34_2{flatten M2_w1s34_2}
+
+M2_w1s35_0 = External M2_width_1 M2 > 0.34 <= 0.35 opposite region
+M2_w1s35_1 = M2_w1s35_0 outside M2
+M2_w1s35_2 = not touch edge M2_w1s35_1 M2
+M2_w1s35_2{flatten M2_w1s35_2}
+
+M2_w1s36_0 = External M2_width_1 M2 > 0.35 <= 0.36 opposite region
+M2_w1s36_1 = M2_w1s36_0 outside M2
+M2_w1s36_2 = not touch edge M2_w1s36_1 M2
+M2_w1s36_2{flatten M2_w1s36_2}
+
+M2_w1s37_0 = External M2_width_1 M2 > 0.36 <= 0.37 opposite region
+M2_w1s37_1 = M2_w1s37_0 outside M2
+M2_w1s37_2 = not touch edge M2_w1s37_1 M2
+M2_w1s37_2{flatten M2_w1s37_2}
+
+M2_w1s38_0 = External M2_width_1 M2 > 0.37 <= 0.38 opposite region
+M2_w1s38_1 = M2_w1s38_0 outside M2
+M2_w1s38_2 = not touch edge M2_w1s38_1 M2
+M2_w1s38_2{flatten M2_w1s38_2}
+
+M2_w1s39_0 = External M2_width_1 M2 > 0.38 <= 0.39 opposite region
+M2_w1s39_1 = M2_w1s39_0 outside M2
+M2_w1s39_2 = not touch edge M2_w1s39_1 M2
+M2_w1s39_2{flatten M2_w1s39_2}
+
+M2_w1s40_0 = External M2_width_1 M2 > 0.39 <= 0.4 opposite region
+M2_w1s40_1 = M2_w1s40_0 outside M2
+M2_w1s40_2 = not touch edge M2_w1s40_1 M2
+M2_w1s40_2{flatten M2_w1s40_2}
+
+M2_w1s41_0 = External M2_width_1 M2 > 0.4 <= 0.41 opposite region
+M2_w1s41_1 = M2_w1s41_0 outside M2
+M2_w1s41_2 = not touch edge M2_w1s41_1 M2
+M2_w1s41_2{flatten M2_w1s41_2}
+
+M2_w1s42_0 = External M2_width_1 M2 > 0.41 <= 0.42 opposite region
+M2_w1s42_1 = M2_w1s42_0 outside M2
+M2_w1s42_2 = not touch edge M2_w1s42_1 M2
+M2_w1s42_2{flatten M2_w1s42_2}
+
+M2_w1s43_0 = External M2_width_1 M2 > 0.42 <= 0.43 opposite region
+M2_w1s43_1 = M2_w1s43_0 outside M2
+M2_w1s43_2 = not touch edge M2_w1s43_1 M2
+M2_w1s43_2{flatten M2_w1s43_2}
+
+M2_w1s44_0 = External M2_width_1 M2 > 0.43 <= 0.44 opposite region
+M2_w1s44_1 = M2_w1s44_0 outside M2
+M2_w1s44_2 = not touch edge M2_w1s44_1 M2
+M2_w1s44_2{flatten M2_w1s44_2}
+
+M2_w1s45_0 = External M2_width_1 M2 > 0.44 <= 0.45 opposite region
+M2_w1s45_1 = M2_w1s45_0 outside M2
+M2_w1s45_2 = not touch edge M2_w1s45_1 M2
+M2_w1s45_2{flatten M2_w1s45_2}
+
+M2_w1s46_0 = External M2_width_1 M2 > 0.45 <= 0.46 opposite region
+M2_w1s46_1 = M2_w1s46_0 outside M2
+M2_w1s46_2 = not touch edge M2_w1s46_1 M2
+M2_w1s46_2{flatten M2_w1s46_2}
+
+M2_w1s47_0 = External M2_width_1 M2 > 0.46 <= 0.47 opposite region
+M2_w1s47_1 = M2_w1s47_0 outside M2
+M2_w1s47_2 = not touch edge M2_w1s47_1 M2
+M2_w1s47_2{flatten M2_w1s47_2}
+
+M2_w1s48_0 = External M2_width_1 M2 > 0.47 <= 0.48 opposite region
+M2_w1s48_1 = M2_w1s48_0 outside M2
+M2_w1s48_2 = not touch edge M2_w1s48_1 M2
+M2_w1s48_2{flatten M2_w1s48_2}
+
+M2_w1s49_0 = External M2_width_1 M2 > 0.48 <= 0.49 opposite region
+M2_w1s49_1 = M2_w1s49_0 outside M2
+M2_w1s49_2 = not touch edge M2_w1s49_1 M2
+M2_w1s49_2{flatten M2_w1s49_2}
+
+M2_w1s50_0 = External M2_width_1 M2 > 0.49 <= 0.5 opposite region
+M2_w1s50_1 = M2_w1s50_0 outside M2
+M2_w1s50_2 = not touch edge M2_w1s50_1 M2
+M2_w1s50_2{flatten M2_w1s50_2}
+
+M2_w1s51_0 = External M2_width_1 M2 > 0.5 <= 0.51 opposite region
+M2_w1s51_1 = M2_w1s51_0 outside M2
+M2_w1s51_2 = not touch edge M2_w1s51_1 M2
+M2_w1s51_2{flatten M2_w1s51_2}
+
+M2_w1s52_0 = External M2_width_1 M2 > 0.51 <= 0.52 opposite region
+M2_w1s52_1 = M2_w1s52_0 outside M2
+M2_w1s52_2 = not touch edge M2_w1s52_1 M2
+M2_w1s52_2{flatten M2_w1s52_2}
+
+M2_w1s53_0 = External M2_width_1 M2 > 0.52 <= 0.53 opposite region
+M2_w1s53_1 = M2_w1s53_0 outside M2
+M2_w1s53_2 = not touch edge M2_w1s53_1 M2
+M2_w1s53_2{flatten M2_w1s53_2}
+
+M2_w1s54_0 = External M2_width_1 M2 > 0.53 <= 0.54 opposite region
+M2_w1s54_1 = M2_w1s54_0 outside M2
+M2_w1s54_2 = not touch edge M2_w1s54_1 M2
+M2_w1s54_2{flatten M2_w1s54_2}
+
+M2_w1s55_0 = External M2_width_1 M2 > 0.54 <= 0.55 opposite region
+M2_w1s55_1 = M2_w1s55_0 outside M2
+M2_w1s55_2 = not touch edge M2_w1s55_1 M2
+M2_w1s55_2{flatten M2_w1s55_2}
+
+M2_w1s56_0 = External M2_width_1 M2 > 0.55 <= 0.56 opposite region
+M2_w1s56_1 = M2_w1s56_0 outside M2
+M2_w1s56_2 = not touch edge M2_w1s56_1 M2
+M2_w1s56_2{flatten M2_w1s56_2}
+
+M2_w1s57_0 = External M2_width_1 M2 > 0.56 <= 0.57 opposite region
+M2_w1s57_1 = M2_w1s57_0 outside M2
+M2_w1s57_2 = not touch edge M2_w1s57_1 M2
+M2_w1s57_2{flatten M2_w1s57_2}
+
+M2_w1s58_0 = External M2_width_1 M2 > 0.57 <= 0.58 opposite region
+M2_w1s58_1 = M2_w1s58_0 outside M2
+M2_w1s58_2 = not touch edge M2_w1s58_1 M2
+M2_w1s58_2{flatten M2_w1s58_2}
+
+M2_w1s59_0 = External M2_width_1 M2 > 0.58 <= 0.59 opposite region
+M2_w1s59_1 = M2_w1s59_0 outside M2
+M2_w1s59_2 = not touch edge M2_w1s59_1 M2
+M2_w1s59_2{flatten M2_w1s59_2}
+
+M2_w1s60_0 = External M2_width_1 M2 > 0.59 <= 0.6 opposite region
+M2_w1s60_1 = M2_w1s60_0 outside M2
+M2_w1s60_2 = not touch edge M2_w1s60_1 M2
+M2_w1s60_2{flatten M2_w1s60_2}
+
+M2_w1s61_0 = External M2_width_1 M2 > 0.6 <= 0.61 opposite region
+M2_w1s61_1 = M2_w1s61_0 outside M2
+M2_w1s61_2 = not touch edge M2_w1s61_1 M2
+M2_w1s61_2{flatten M2_w1s61_2}
+
+M2_w1s62_0 = External M2_width_1 M2 > 0.61 <= 0.62 opposite region
+M2_w1s62_1 = M2_w1s62_0 outside M2
+M2_w1s62_2 = not touch edge M2_w1s62_1 M2
+M2_w1s62_2{flatten M2_w1s62_2}
+
+M2_w1s63_0 = External M2_width_1 M2 > 0.62 <= 0.63 opposite region
+M2_w1s63_1 = M2_w1s63_0 outside M2
+M2_w1s63_2 = not touch edge M2_w1s63_1 M2
+M2_w1s63_2{flatten M2_w1s63_2}
+
+M2_w1s64_0 = External M2_width_1 M2 > 0.63 <= 0.64 opposite region
+M2_w1s64_1 = M2_w1s64_0 outside M2
+M2_w1s64_2 = not touch edge M2_w1s64_1 M2
+M2_w1s64_2{flatten M2_w1s64_2}
+
+M2_w1s65_0 = External M2_width_1 M2 > 0.64 <= 0.65 opposite region
+M2_w1s65_1 = M2_w1s65_0 outside M2
+M2_w1s65_2 = not touch edge M2_w1s65_1 M2
+M2_w1s65_2{flatten M2_w1s65_2}
+
+M2_w1s66_0 = External M2_width_1 M2 > 0.65 <= 0.66 opposite region
+M2_w1s66_1 = M2_w1s66_0 outside M2
+M2_w1s66_2 = not touch edge M2_w1s66_1 M2
+M2_w1s66_2{flatten M2_w1s66_2}
+
+M2_w1s67_0 = External M2_width_1 M2 > 0.66 <= 0.67 opposite region
+M2_w1s67_1 = M2_w1s67_0 outside M2
+M2_w1s67_2 = not touch edge M2_w1s67_1 M2
+M2_w1s67_2{flatten M2_w1s67_2}
+
+M2_w1s68_0 = External M2_width_1 M2 > 0.67 <= 0.68 opposite region
+M2_w1s68_1 = M2_w1s68_0 outside M2
+M2_w1s68_2 = not touch edge M2_w1s68_1 M2
+M2_w1s68_2{flatten M2_w1s68_2}
+
+M2_w1s69_0 = External M2_width_1 M2 > 0.68 <= 0.69 opposite region
+M2_w1s69_1 = M2_w1s69_0 outside M2
+M2_w1s69_2 = not touch edge M2_w1s69_1 M2
+M2_w1s69_2{flatten M2_w1s69_2}
+
+M2_w1s70_0 = External M2_width_1 M2 > 0.69 <= 0.7 opposite region
+M2_w1s70_1 = M2_w1s70_0 outside M2
+M2_w1s70_2 = not touch edge M2_w1s70_1 M2
+M2_w1s70_2{flatten M2_w1s70_2}
+
+M2_w1s71_0 = External M2_width_1 M2 > 0.7 <= 0.71 opposite region
+M2_w1s71_1 = M2_w1s71_0 outside M2
+M2_w1s71_2 = not touch edge M2_w1s71_1 M2
+M2_w1s71_2{flatten M2_w1s71_2}
+
+M2_w1s72_0 = External M2_width_1 M2 > 0.71 <= 0.72 opposite region
+M2_w1s72_1 = M2_w1s72_0 outside M2
+M2_w1s72_2 = not touch edge M2_w1s72_1 M2
+M2_w1s72_2{flatten M2_w1s72_2}
+
+M2_w1s73_0 = External M2_width_1 M2 > 0.72 <= 0.73 opposite region
+M2_w1s73_1 = M2_w1s73_0 outside M2
+M2_w1s73_2 = not touch edge M2_w1s73_1 M2
+M2_w1s73_2{flatten M2_w1s73_2}
+
+M2_w1s74_0 = External M2_width_1 M2 > 0.73 <= 0.74 opposite region
+M2_w1s74_1 = M2_w1s74_0 outside M2
+M2_w1s74_2 = not touch edge M2_w1s74_1 M2
+M2_w1s74_2{flatten M2_w1s74_2}
+
+M2_w1s75_0 = External M2_width_1 M2 > 0.74 <= 0.75 opposite region
+M2_w1s75_1 = M2_w1s75_0 outside M2
+M2_w1s75_2 = not touch edge M2_w1s75_1 M2
+M2_w1s75_2{flatten M2_w1s75_2}
+
+M2_w1s76_0 = External M2_width_1 M2 > 0.75 <= 0.76 opposite region
+M2_w1s76_1 = M2_w1s76_0 outside M2
+M2_w1s76_2 = not touch edge M2_w1s76_1 M2
+M2_w1s76_2{flatten M2_w1s76_2}
+
+M2_w1s77_0 = External M2_width_1 M2 > 0.76 <= 0.77 opposite region
+M2_w1s77_1 = M2_w1s77_0 outside M2
+M2_w1s77_2 = not touch edge M2_w1s77_1 M2
+M2_w1s77_2{flatten M2_w1s77_2}
+
+M2_w1s78_0 = External M2_width_1 M2 > 0.77 <= 0.78 opposite region
+M2_w1s78_1 = M2_w1s78_0 outside M2
+M2_w1s78_2 = not touch edge M2_w1s78_1 M2
+M2_w1s78_2{flatten M2_w1s78_2}
+
+M2_w1s79_0 = External M2_width_1 M2 > 0.78 <= 0.79 opposite region
+M2_w1s79_1 = M2_w1s79_0 outside M2
+M2_w1s79_2 = not touch edge M2_w1s79_1 M2
+M2_w1s79_2{flatten M2_w1s79_2}
+
+M2_w1s80_0 = External M2_width_1 M2 > 0.79 <= 0.8 opposite region
+M2_w1s80_1 = M2_w1s80_0 outside M2
+M2_w1s80_2 = not touch edge M2_w1s80_1 M2
+M2_w1s80_2{flatten M2_w1s80_2}
+
+M2_w1s81_0 = External M2_width_1 M2 > 0.8 <= 0.81 opposite region
+M2_w1s81_1 = M2_w1s81_0 outside M2
+M2_w1s81_2 = not touch edge M2_w1s81_1 M2
+M2_w1s81_2{flatten M2_w1s81_2}
+
+M2_w1s82_0 = External M2_width_1 M2 > 0.81 <= 0.82 opposite region
+M2_w1s82_1 = M2_w1s82_0 outside M2
+M2_w1s82_2 = not touch edge M2_w1s82_1 M2
+M2_w1s82_2{flatten M2_w1s82_2}
+
+M2_w1s83_0 = External M2_width_1 M2 > 0.82 <= 0.83 opposite region
+M2_w1s83_1 = M2_w1s83_0 outside M2
+M2_w1s83_2 = not touch edge M2_w1s83_1 M2
+M2_w1s83_2{flatten M2_w1s83_2}
+
+M2_w1s84_0 = External M2_width_1 M2 > 0.83 <= 0.84 opposite region
+M2_w1s84_1 = M2_w1s84_0 outside M2
+M2_w1s84_2 = not touch edge M2_w1s84_1 M2
+M2_w1s84_2{flatten M2_w1s84_2}
+
+M2_w1s85_0 = External M2_width_1 M2 > 0.84 <= 0.85 opposite region
+M2_w1s85_1 = M2_w1s85_0 outside M2
+M2_w1s85_2 = not touch edge M2_w1s85_1 M2
+M2_w1s85_2{flatten M2_w1s85_2}
+
+M2_w1s86_0 = External M2_width_1 M2 > 0.85 <= 0.86 opposite region
+M2_w1s86_1 = M2_w1s86_0 outside M2
+M2_w1s86_2 = not touch edge M2_w1s86_1 M2
+M2_w1s86_2{flatten M2_w1s86_2}
+
+M2_w1s87_0 = External M2_width_1 M2 > 0.86 <= 0.87 opposite region
+M2_w1s87_1 = M2_w1s87_0 outside M2
+M2_w1s87_2 = not touch edge M2_w1s87_1 M2
+M2_w1s87_2{flatten M2_w1s87_2}
+
+M2_w1s88_0 = External M2_width_1 M2 > 0.87 <= 0.88 opposite region
+M2_w1s88_1 = M2_w1s88_0 outside M2
+M2_w1s88_2 = not touch edge M2_w1s88_1 M2
+M2_w1s88_2{flatten M2_w1s88_2}
+
+M2_w1s89_0 = External M2_width_1 M2 > 0.88 <= 0.89 opposite region
+M2_w1s89_1 = M2_w1s89_0 outside M2
+M2_w1s89_2 = not touch edge M2_w1s89_1 M2
+M2_w1s89_2{flatten M2_w1s89_2}
+
+M2_w1s90_0 = External M2_width_1 M2 > 0.89 <= 0.9 opposite region
+M2_w1s90_1 = M2_w1s90_0 outside M2
+M2_w1s90_2 = not touch edge M2_w1s90_1 M2
+M2_w1s90_2{flatten M2_w1s90_2}
+
+M2_w1s91_0 = External M2_width_1 M2 > 0.9 <= 0.91 opposite region
+M2_w1s91_1 = M2_w1s91_0 outside M2
+M2_w1s91_2 = not touch edge M2_w1s91_1 M2
+M2_w1s91_2{flatten M2_w1s91_2}
+
+M2_w1s92_0 = External M2_width_1 M2 > 0.91 <= 0.92 opposite region
+M2_w1s92_1 = M2_w1s92_0 outside M2
+M2_w1s92_2 = not touch edge M2_w1s92_1 M2
+M2_w1s92_2{flatten M2_w1s92_2}
+
+M2_w1s93_0 = External M2_width_1 M2 > 0.92 <= 0.93 opposite region
+M2_w1s93_1 = M2_w1s93_0 outside M2
+M2_w1s93_2 = not touch edge M2_w1s93_1 M2
+M2_w1s93_2{flatten M2_w1s93_2}
+
+M2_w1s94_0 = External M2_width_1 M2 > 0.93 <= 0.94 opposite region
+M2_w1s94_1 = M2_w1s94_0 outside M2
+M2_w1s94_2 = not touch edge M2_w1s94_1 M2
+M2_w1s94_2{flatten M2_w1s94_2}
+
+M2_w1s95_0 = External M2_width_1 M2 > 0.94 <= 0.95 opposite region
+M2_w1s95_1 = M2_w1s95_0 outside M2
+M2_w1s95_2 = not touch edge M2_w1s95_1 M2
+M2_w1s95_2{flatten M2_w1s95_2}
+
+M2_w1s96_0 = External M2_width_1 M2 > 0.95 <= 0.96 opposite region
+M2_w1s96_1 = M2_w1s96_0 outside M2
+M2_w1s96_2 = not touch edge M2_w1s96_1 M2
+M2_w1s96_2{flatten M2_w1s96_2}
+
+M2_w1s97_0 = External M2_width_1 M2 > 0.96 <= 0.97 opposite region
+M2_w1s97_1 = M2_w1s97_0 outside M2
+M2_w1s97_2 = not touch edge M2_w1s97_1 M2
+M2_w1s97_2{flatten M2_w1s97_2}
+
+M2_w1s98_0 = External M2_width_1 M2 > 0.97 <= 0.98 opposite region
+M2_w1s98_1 = M2_w1s98_0 outside M2
+M2_w1s98_2 = not touch edge M2_w1s98_1 M2
+M2_w1s98_2{flatten M2_w1s98_2}
+
+M2_w1s99_0 = External M2_width_1 M2 > 0.98 <= 0.99 opposite region
+M2_w1s99_1 = M2_w1s99_0 outside M2
+M2_w1s99_2 = not touch edge M2_w1s99_1 M2
+M2_w1s99_2{flatten M2_w1s99_2}
+
+M2_w1s100_0 = External M2_width_1 M2 > 0.99 <= 1.0 opposite region
+M2_w1s100_1 = M2_w1s100_0 outside M2
+M2_w1s100_2 = not touch edge M2_w1s100_1 M2
+M2_w1s100_2{flatten M2_w1s100_2}
+
+M2_width_2 = M2 with width >= 0.25 <= 0.29
+M2_w2s1_0 = External M2_width_2 M2 > 0.0 <= 0.01 opposite region
+M2_w2s1_1 = M2_w2s1_0 outside M2
+M2_w2s1_2 = not touch edge M2_w2s1_2 M2
+M2_w2s1_2{flatten M2_w2s1_2}
+
+M2_w2s2_0 = External M2_width_2 M2 > 0.01 <= 0.02 opposite region
+M2_w2s2_1 = M2_w2s2_0 outside M2
+M2_w2s2_2 = not touch edge M2_w2s2_2 M2
+M2_w2s2_2{flatten M2_w2s2_2}
+
+M2_w2s3_0 = External M2_width_2 M2 > 0.02 <= 0.03 opposite region
+M2_w2s3_1 = M2_w2s3_0 outside M2
+M2_w2s3_2 = not touch edge M2_w2s3_2 M2
+M2_w2s3_2{flatten M2_w2s3_2}
+
+M2_w2s4_0 = External M2_width_2 M2 > 0.03 <= 0.04 opposite region
+M2_w2s4_1 = M2_w2s4_0 outside M2
+M2_w2s4_2 = not touch edge M2_w2s4_2 M2
+M2_w2s4_2{flatten M2_w2s4_2}
+
+M2_w2s5_0 = External M2_width_2 M2 > 0.04 <= 0.05 opposite region
+M2_w2s5_1 = M2_w2s5_0 outside M2
+M2_w2s5_2 = not touch edge M2_w2s5_2 M2
+M2_w2s5_2{flatten M2_w2s5_2}
+
+M2_w2s6_0 = External M2_width_2 M2 > 0.05 <= 0.06 opposite region
+M2_w2s6_1 = M2_w2s6_0 outside M2
+M2_w2s6_2 = not touch edge M2_w2s6_2 M2
+M2_w2s6_2{flatten M2_w2s6_2}
+
+M2_w2s7_0 = External M2_width_2 M2 > 0.06 <= 0.07 opposite region
+M2_w2s7_1 = M2_w2s7_0 outside M2
+M2_w2s7_2 = not touch edge M2_w2s7_2 M2
+M2_w2s7_2{flatten M2_w2s7_2}
+
+M2_w2s8_0 = External M2_width_2 M2 > 0.07 <= 0.08 opposite region
+M2_w2s8_1 = M2_w2s8_0 outside M2
+M2_w2s8_2 = not touch edge M2_w2s8_2 M2
+M2_w2s8_2{flatten M2_w2s8_2}
+
+M2_w2s9_0 = External M2_width_2 M2 > 0.08 <= 0.09 opposite region
+M2_w2s9_1 = M2_w2s9_0 outside M2
+M2_w2s9_2 = not touch edge M2_w2s9_2 M2
+M2_w2s9_2{flatten M2_w2s9_2}
+
+M2_w2s10_0 = External M2_width_2 M2 > 0.09 <= 0.1 opposite region
+M2_w2s10_1 = M2_w2s10_0 outside M2
+M2_w2s10_2 = not touch edge M2_w2s10_2 M2
+M2_w2s10_2{flatten M2_w2s10_2}
+
+M2_w2s11_0 = External M2_width_2 M2 > 0.1 <= 0.11 opposite region
+M2_w2s11_1 = M2_w2s11_0 outside M2
+M2_w2s11_2 = not touch edge M2_w2s11_2 M2
+M2_w2s11_2{flatten M2_w2s11_2}
+
+M2_w2s12_0 = External M2_width_2 M2 > 0.11 <= 0.12 opposite region
+M2_w2s12_1 = M2_w2s12_0 outside M2
+M2_w2s12_2 = not touch edge M2_w2s12_2 M2
+M2_w2s12_2{flatten M2_w2s12_2}
+
+M2_w2s13_0 = External M2_width_2 M2 > 0.12 <= 0.13 opposite region
+M2_w2s13_1 = M2_w2s13_0 outside M2
+M2_w2s13_2 = not touch edge M2_w2s13_2 M2
+M2_w2s13_2{flatten M2_w2s13_2}
+
+M2_w2s14_0 = External M2_width_2 M2 > 0.13 <= 0.14 opposite region
+M2_w2s14_1 = M2_w2s14_0 outside M2
+M2_w2s14_2 = not touch edge M2_w2s14_2 M2
+M2_w2s14_2{flatten M2_w2s14_2}
+
+M2_w2s15_0 = External M2_width_2 M2 > 0.14 <= 0.15 opposite region
+M2_w2s15_1 = M2_w2s15_0 outside M2
+M2_w2s15_2 = not touch edge M2_w2s15_2 M2
+M2_w2s15_2{flatten M2_w2s15_2}
+
+M2_w2s16_0 = External M2_width_2 M2 > 0.15 <= 0.16 opposite region
+M2_w2s16_1 = M2_w2s16_0 outside M2
+M2_w2s16_2 = not touch edge M2_w2s16_2 M2
+M2_w2s16_2{flatten M2_w2s16_2}
+
+M2_w2s17_0 = External M2_width_2 M2 > 0.16 <= 0.17 opposite region
+M2_w2s17_1 = M2_w2s17_0 outside M2
+M2_w2s17_2 = not touch edge M2_w2s17_2 M2
+M2_w2s17_2{flatten M2_w2s17_2}
+
+M2_w2s18_0 = External M2_width_2 M2 > 0.17 <= 0.18 opposite region
+M2_w2s18_1 = M2_w2s18_0 outside M2
+M2_w2s18_2 = not touch edge M2_w2s18_2 M2
+M2_w2s18_2{flatten M2_w2s18_2}
+
+M2_w2s19_0 = External M2_width_2 M2 > 0.18 <= 0.19 opposite region
+M2_w2s19_1 = M2_w2s19_0 outside M2
+M2_w2s19_2 = not touch edge M2_w2s19_2 M2
+M2_w2s19_2{flatten M2_w2s19_2}
+
+M2_w2s20_0 = External M2_width_2 M2 > 0.19 <= 0.2 opposite region
+M2_w2s20_1 = M2_w2s20_0 outside M2
+M2_w2s20_2 = not touch edge M2_w2s20_2 M2
+M2_w2s20_2{flatten M2_w2s20_2}
+
+M2_w2s21_0 = External M2_width_2 M2 > 0.2 <= 0.21 opposite region
+M2_w2s21_1 = M2_w2s21_0 outside M2
+M2_w2s21_2 = not touch edge M2_w2s21_2 M2
+M2_w2s21_2{flatten M2_w2s21_2}
+
+M2_w2s22_0 = External M2_width_2 M2 > 0.21 <= 0.22 opposite region
+M2_w2s22_1 = M2_w2s22_0 outside M2
+M2_w2s22_2 = not touch edge M2_w2s22_2 M2
+M2_w2s22_2{flatten M2_w2s22_2}
+
+M2_w2s23_0 = External M2_width_2 M2 > 0.22 <= 0.23 opposite region
+M2_w2s23_1 = M2_w2s23_0 outside M2
+M2_w2s23_2 = not touch edge M2_w2s23_2 M2
+M2_w2s23_2{flatten M2_w2s23_2}
+
+M2_w2s24_0 = External M2_width_2 M2 > 0.23 <= 0.24 opposite region
+M2_w2s24_1 = M2_w2s24_0 outside M2
+M2_w2s24_2 = not touch edge M2_w2s24_2 M2
+M2_w2s24_2{flatten M2_w2s24_2}
+
+M2_w2s25_0 = External M2_width_2 M2 > 0.24 <= 0.25 opposite region
+M2_w2s25_1 = M2_w2s25_0 outside M2
+M2_w2s25_2 = not touch edge M2_w2s25_2 M2
+M2_w2s25_2{flatten M2_w2s25_2}
+
+M2_w2s26_0 = External M2_width_2 M2 > 0.25 <= 0.26 opposite region
+M2_w2s26_1 = M2_w2s26_0 outside M2
+M2_w2s26_2 = not touch edge M2_w2s26_2 M2
+M2_w2s26_2{flatten M2_w2s26_2}
+
+M2_w2s27_0 = External M2_width_2 M2 > 0.26 <= 0.27 opposite region
+M2_w2s27_1 = M2_w2s27_0 outside M2
+M2_w2s27_2 = not touch edge M2_w2s27_2 M2
+M2_w2s27_2{flatten M2_w2s27_2}
+
+M2_w2s28_0 = External M2_width_2 M2 > 0.27 <= 0.28 opposite region
+M2_w2s28_1 = M2_w2s28_0 outside M2
+M2_w2s28_2 = not touch edge M2_w2s28_2 M2
+M2_w2s28_2{flatten M2_w2s28_2}
+
+M2_w2s29_0 = External M2_width_2 M2 > 0.28 <= 0.29 opposite region
+M2_w2s29_1 = M2_w2s29_0 outside M2
+M2_w2s29_2 = not touch edge M2_w2s29_2 M2
+M2_w2s29_2{flatten M2_w2s29_2}
+
+M2_w2s30_0 = External M2_width_2 M2 > 0.29 <= 0.3 opposite region
+M2_w2s30_1 = M2_w2s30_0 outside M2
+M2_w2s30_2 = not touch edge M2_w2s30_2 M2
+M2_w2s30_2{flatten M2_w2s30_2}
+
+M2_w2s31_0 = External M2_width_2 M2 > 0.3 <= 0.31 opposite region
+M2_w2s31_1 = M2_w2s31_0 outside M2
+M2_w2s31_2 = not touch edge M2_w2s31_2 M2
+M2_w2s31_2{flatten M2_w2s31_2}
+
+M2_w2s32_0 = External M2_width_2 M2 > 0.31 <= 0.32 opposite region
+M2_w2s32_1 = M2_w2s32_0 outside M2
+M2_w2s32_2 = not touch edge M2_w2s32_2 M2
+M2_w2s32_2{flatten M2_w2s32_2}
+
+M2_w2s33_0 = External M2_width_2 M2 > 0.32 <= 0.33 opposite region
+M2_w2s33_1 = M2_w2s33_0 outside M2
+M2_w2s33_2 = not touch edge M2_w2s33_2 M2
+M2_w2s33_2{flatten M2_w2s33_2}
+
+M2_w2s34_0 = External M2_width_2 M2 > 0.33 <= 0.34 opposite region
+M2_w2s34_1 = M2_w2s34_0 outside M2
+M2_w2s34_2 = not touch edge M2_w2s34_2 M2
+M2_w2s34_2{flatten M2_w2s34_2}
+
+M2_w2s35_0 = External M2_width_2 M2 > 0.34 <= 0.35 opposite region
+M2_w2s35_1 = M2_w2s35_0 outside M2
+M2_w2s35_2 = not touch edge M2_w2s35_2 M2
+M2_w2s35_2{flatten M2_w2s35_2}
+
+M2_w2s36_0 = External M2_width_2 M2 > 0.35 <= 0.36 opposite region
+M2_w2s36_1 = M2_w2s36_0 outside M2
+M2_w2s36_2 = not touch edge M2_w2s36_2 M2
+M2_w2s36_2{flatten M2_w2s36_2}
+
+M2_w2s37_0 = External M2_width_2 M2 > 0.36 <= 0.37 opposite region
+M2_w2s37_1 = M2_w2s37_0 outside M2
+M2_w2s37_2 = not touch edge M2_w2s37_2 M2
+M2_w2s37_2{flatten M2_w2s37_2}
+
+M2_w2s38_0 = External M2_width_2 M2 > 0.37 <= 0.38 opposite region
+M2_w2s38_1 = M2_w2s38_0 outside M2
+M2_w2s38_2 = not touch edge M2_w2s38_2 M2
+M2_w2s38_2{flatten M2_w2s38_2}
+
+M2_w2s39_0 = External M2_width_2 M2 > 0.38 <= 0.39 opposite region
+M2_w2s39_1 = M2_w2s39_0 outside M2
+M2_w2s39_2 = not touch edge M2_w2s39_2 M2
+M2_w2s39_2{flatten M2_w2s39_2}
+
+M2_w2s40_0 = External M2_width_2 M2 > 0.39 <= 0.4 opposite region
+M2_w2s40_1 = M2_w2s40_0 outside M2
+M2_w2s40_2 = not touch edge M2_w2s40_2 M2
+M2_w2s40_2{flatten M2_w2s40_2}
+
+M2_w2s41_0 = External M2_width_2 M2 > 0.4 <= 0.41 opposite region
+M2_w2s41_1 = M2_w2s41_0 outside M2
+M2_w2s41_2 = not touch edge M2_w2s41_2 M2
+M2_w2s41_2{flatten M2_w2s41_2}
+
+M2_w2s42_0 = External M2_width_2 M2 > 0.41 <= 0.42 opposite region
+M2_w2s42_1 = M2_w2s42_0 outside M2
+M2_w2s42_2 = not touch edge M2_w2s42_2 M2
+M2_w2s42_2{flatten M2_w2s42_2}
+
+M2_w2s43_0 = External M2_width_2 M2 > 0.42 <= 0.43 opposite region
+M2_w2s43_1 = M2_w2s43_0 outside M2
+M2_w2s43_2 = not touch edge M2_w2s43_2 M2
+M2_w2s43_2{flatten M2_w2s43_2}
+
+M2_w2s44_0 = External M2_width_2 M2 > 0.43 <= 0.44 opposite region
+M2_w2s44_1 = M2_w2s44_0 outside M2
+M2_w2s44_2 = not touch edge M2_w2s44_2 M2
+M2_w2s44_2{flatten M2_w2s44_2}
+
+M2_w2s45_0 = External M2_width_2 M2 > 0.44 <= 0.45 opposite region
+M2_w2s45_1 = M2_w2s45_0 outside M2
+M2_w2s45_2 = not touch edge M2_w2s45_2 M2
+M2_w2s45_2{flatten M2_w2s45_2}
+
+M2_w2s46_0 = External M2_width_2 M2 > 0.45 <= 0.46 opposite region
+M2_w2s46_1 = M2_w2s46_0 outside M2
+M2_w2s46_2 = not touch edge M2_w2s46_2 M2
+M2_w2s46_2{flatten M2_w2s46_2}
+
+M2_w2s47_0 = External M2_width_2 M2 > 0.46 <= 0.47 opposite region
+M2_w2s47_1 = M2_w2s47_0 outside M2
+M2_w2s47_2 = not touch edge M2_w2s47_2 M2
+M2_w2s47_2{flatten M2_w2s47_2}
+
+M2_w2s48_0 = External M2_width_2 M2 > 0.47 <= 0.48 opposite region
+M2_w2s48_1 = M2_w2s48_0 outside M2
+M2_w2s48_2 = not touch edge M2_w2s48_2 M2
+M2_w2s48_2{flatten M2_w2s48_2}
+
+M2_w2s49_0 = External M2_width_2 M2 > 0.48 <= 0.49 opposite region
+M2_w2s49_1 = M2_w2s49_0 outside M2
+M2_w2s49_2 = not touch edge M2_w2s49_2 M2
+M2_w2s49_2{flatten M2_w2s49_2}
+
+M2_w2s50_0 = External M2_width_2 M2 > 0.49 <= 0.5 opposite region
+M2_w2s50_1 = M2_w2s50_0 outside M2
+M2_w2s50_2 = not touch edge M2_w2s50_2 M2
+M2_w2s50_2{flatten M2_w2s50_2}
+
+M2_w2s51_0 = External M2_width_2 M2 > 0.5 <= 0.51 opposite region
+M2_w2s51_1 = M2_w2s51_0 outside M2
+M2_w2s51_2 = not touch edge M2_w2s51_2 M2
+M2_w2s51_2{flatten M2_w2s51_2}
+
+M2_w2s52_0 = External M2_width_2 M2 > 0.51 <= 0.52 opposite region
+M2_w2s52_1 = M2_w2s52_0 outside M2
+M2_w2s52_2 = not touch edge M2_w2s52_2 M2
+M2_w2s52_2{flatten M2_w2s52_2}
+
+M2_w2s53_0 = External M2_width_2 M2 > 0.52 <= 0.53 opposite region
+M2_w2s53_1 = M2_w2s53_0 outside M2
+M2_w2s53_2 = not touch edge M2_w2s53_2 M2
+M2_w2s53_2{flatten M2_w2s53_2}
+
+M2_w2s54_0 = External M2_width_2 M2 > 0.53 <= 0.54 opposite region
+M2_w2s54_1 = M2_w2s54_0 outside M2
+M2_w2s54_2 = not touch edge M2_w2s54_2 M2
+M2_w2s54_2{flatten M2_w2s54_2}
+
+M2_w2s55_0 = External M2_width_2 M2 > 0.54 <= 0.55 opposite region
+M2_w2s55_1 = M2_w2s55_0 outside M2
+M2_w2s55_2 = not touch edge M2_w2s55_2 M2
+M2_w2s55_2{flatten M2_w2s55_2}
+
+M2_w2s56_0 = External M2_width_2 M2 > 0.55 <= 0.56 opposite region
+M2_w2s56_1 = M2_w2s56_0 outside M2
+M2_w2s56_2 = not touch edge M2_w2s56_2 M2
+M2_w2s56_2{flatten M2_w2s56_2}
+
+M2_w2s57_0 = External M2_width_2 M2 > 0.56 <= 0.57 opposite region
+M2_w2s57_1 = M2_w2s57_0 outside M2
+M2_w2s57_2 = not touch edge M2_w2s57_2 M2
+M2_w2s57_2{flatten M2_w2s57_2}
+
+M2_w2s58_0 = External M2_width_2 M2 > 0.57 <= 0.58 opposite region
+M2_w2s58_1 = M2_w2s58_0 outside M2
+M2_w2s58_2 = not touch edge M2_w2s58_2 M2
+M2_w2s58_2{flatten M2_w2s58_2}
+
+M2_w2s59_0 = External M2_width_2 M2 > 0.58 <= 0.59 opposite region
+M2_w2s59_1 = M2_w2s59_0 outside M2
+M2_w2s59_2 = not touch edge M2_w2s59_2 M2
+M2_w2s59_2{flatten M2_w2s59_2}
+
+M2_w2s60_0 = External M2_width_2 M2 > 0.59 <= 0.6 opposite region
+M2_w2s60_1 = M2_w2s60_0 outside M2
+M2_w2s60_2 = not touch edge M2_w2s60_2 M2
+M2_w2s60_2{flatten M2_w2s60_2}
+
+M2_w2s61_0 = External M2_width_2 M2 > 0.6 <= 0.61 opposite region
+M2_w2s61_1 = M2_w2s61_0 outside M2
+M2_w2s61_2 = not touch edge M2_w2s61_2 M2
+M2_w2s61_2{flatten M2_w2s61_2}
+
+M2_w2s62_0 = External M2_width_2 M2 > 0.61 <= 0.62 opposite region
+M2_w2s62_1 = M2_w2s62_0 outside M2
+M2_w2s62_2 = not touch edge M2_w2s62_2 M2
+M2_w2s62_2{flatten M2_w2s62_2}
+
+M2_w2s63_0 = External M2_width_2 M2 > 0.62 <= 0.63 opposite region
+M2_w2s63_1 = M2_w2s63_0 outside M2
+M2_w2s63_2 = not touch edge M2_w2s63_2 M2
+M2_w2s63_2{flatten M2_w2s63_2}
+
+M2_w2s64_0 = External M2_width_2 M2 > 0.63 <= 0.64 opposite region
+M2_w2s64_1 = M2_w2s64_0 outside M2
+M2_w2s64_2 = not touch edge M2_w2s64_2 M2
+M2_w2s64_2{flatten M2_w2s64_2}
+
+M2_w2s65_0 = External M2_width_2 M2 > 0.64 <= 0.65 opposite region
+M2_w2s65_1 = M2_w2s65_0 outside M2
+M2_w2s65_2 = not touch edge M2_w2s65_2 M2
+M2_w2s65_2{flatten M2_w2s65_2}
+
+M2_w2s66_0 = External M2_width_2 M2 > 0.65 <= 0.66 opposite region
+M2_w2s66_1 = M2_w2s66_0 outside M2
+M2_w2s66_2 = not touch edge M2_w2s66_2 M2
+M2_w2s66_2{flatten M2_w2s66_2}
+
+M2_w2s67_0 = External M2_width_2 M2 > 0.66 <= 0.67 opposite region
+M2_w2s67_1 = M2_w2s67_0 outside M2
+M2_w2s67_2 = not touch edge M2_w2s67_2 M2
+M2_w2s67_2{flatten M2_w2s67_2}
+
+M2_w2s68_0 = External M2_width_2 M2 > 0.67 <= 0.68 opposite region
+M2_w2s68_1 = M2_w2s68_0 outside M2
+M2_w2s68_2 = not touch edge M2_w2s68_2 M2
+M2_w2s68_2{flatten M2_w2s68_2}
+
+M2_w2s69_0 = External M2_width_2 M2 > 0.68 <= 0.69 opposite region
+M2_w2s69_1 = M2_w2s69_0 outside M2
+M2_w2s69_2 = not touch edge M2_w2s69_2 M2
+M2_w2s69_2{flatten M2_w2s69_2}
+
+M2_w2s70_0 = External M2_width_2 M2 > 0.69 <= 0.7 opposite region
+M2_w2s70_1 = M2_w2s70_0 outside M2
+M2_w2s70_2 = not touch edge M2_w2s70_2 M2
+M2_w2s70_2{flatten M2_w2s70_2}
+
+M2_w2s71_0 = External M2_width_2 M2 > 0.7 <= 0.71 opposite region
+M2_w2s71_1 = M2_w2s71_0 outside M2
+M2_w2s71_2 = not touch edge M2_w2s71_2 M2
+M2_w2s71_2{flatten M2_w2s71_2}
+
+M2_w2s72_0 = External M2_width_2 M2 > 0.71 <= 0.72 opposite region
+M2_w2s72_1 = M2_w2s72_0 outside M2
+M2_w2s72_2 = not touch edge M2_w2s72_2 M2
+M2_w2s72_2{flatten M2_w2s72_2}
+
+M2_w2s73_0 = External M2_width_2 M2 > 0.72 <= 0.73 opposite region
+M2_w2s73_1 = M2_w2s73_0 outside M2
+M2_w2s73_2 = not touch edge M2_w2s73_2 M2
+M2_w2s73_2{flatten M2_w2s73_2}
+
+M2_w2s74_0 = External M2_width_2 M2 > 0.73 <= 0.74 opposite region
+M2_w2s74_1 = M2_w2s74_0 outside M2
+M2_w2s74_2 = not touch edge M2_w2s74_2 M2
+M2_w2s74_2{flatten M2_w2s74_2}
+
+M2_w2s75_0 = External M2_width_2 M2 > 0.74 <= 0.75 opposite region
+M2_w2s75_1 = M2_w2s75_0 outside M2
+M2_w2s75_2 = not touch edge M2_w2s75_2 M2
+M2_w2s75_2{flatten M2_w2s75_2}
+
+M2_w2s76_0 = External M2_width_2 M2 > 0.75 <= 0.76 opposite region
+M2_w2s76_1 = M2_w2s76_0 outside M2
+M2_w2s76_2 = not touch edge M2_w2s76_2 M2
+M2_w2s76_2{flatten M2_w2s76_2}
+
+M2_w2s77_0 = External M2_width_2 M2 > 0.76 <= 0.77 opposite region
+M2_w2s77_1 = M2_w2s77_0 outside M2
+M2_w2s77_2 = not touch edge M2_w2s77_2 M2
+M2_w2s77_2{flatten M2_w2s77_2}
+
+M2_w2s78_0 = External M2_width_2 M2 > 0.77 <= 0.78 opposite region
+M2_w2s78_1 = M2_w2s78_0 outside M2
+M2_w2s78_2 = not touch edge M2_w2s78_2 M2
+M2_w2s78_2{flatten M2_w2s78_2}
+
+M2_w2s79_0 = External M2_width_2 M2 > 0.78 <= 0.79 opposite region
+M2_w2s79_1 = M2_w2s79_0 outside M2
+M2_w2s79_2 = not touch edge M2_w2s79_2 M2
+M2_w2s79_2{flatten M2_w2s79_2}
+
+M2_w2s80_0 = External M2_width_2 M2 > 0.79 <= 0.8 opposite region
+M2_w2s80_1 = M2_w2s80_0 outside M2
+M2_w2s80_2 = not touch edge M2_w2s80_2 M2
+M2_w2s80_2{flatten M2_w2s80_2}
+
+M2_w2s81_0 = External M2_width_2 M2 > 0.8 <= 0.81 opposite region
+M2_w2s81_1 = M2_w2s81_0 outside M2
+M2_w2s81_2 = not touch edge M2_w2s81_2 M2
+M2_w2s81_2{flatten M2_w2s81_2}
+
+M2_w2s82_0 = External M2_width_2 M2 > 0.81 <= 0.82 opposite region
+M2_w2s82_1 = M2_w2s82_0 outside M2
+M2_w2s82_2 = not touch edge M2_w2s82_2 M2
+M2_w2s82_2{flatten M2_w2s82_2}
+
+M2_w2s83_0 = External M2_width_2 M2 > 0.82 <= 0.83 opposite region
+M2_w2s83_1 = M2_w2s83_0 outside M2
+M2_w2s83_2 = not touch edge M2_w2s83_2 M2
+M2_w2s83_2{flatten M2_w2s83_2}
+
+M2_w2s84_0 = External M2_width_2 M2 > 0.83 <= 0.84 opposite region
+M2_w2s84_1 = M2_w2s84_0 outside M2
+M2_w2s84_2 = not touch edge M2_w2s84_2 M2
+M2_w2s84_2{flatten M2_w2s84_2}
+
+M2_w2s85_0 = External M2_width_2 M2 > 0.84 <= 0.85 opposite region
+M2_w2s85_1 = M2_w2s85_0 outside M2
+M2_w2s85_2 = not touch edge M2_w2s85_2 M2
+M2_w2s85_2{flatten M2_w2s85_2}
+
+M2_w2s86_0 = External M2_width_2 M2 > 0.85 <= 0.86 opposite region
+M2_w2s86_1 = M2_w2s86_0 outside M2
+M2_w2s86_2 = not touch edge M2_w2s86_2 M2
+M2_w2s86_2{flatten M2_w2s86_2}
+
+M2_w2s87_0 = External M2_width_2 M2 > 0.86 <= 0.87 opposite region
+M2_w2s87_1 = M2_w2s87_0 outside M2
+M2_w2s87_2 = not touch edge M2_w2s87_2 M2
+M2_w2s87_2{flatten M2_w2s87_2}
+
+M2_w2s88_0 = External M2_width_2 M2 > 0.87 <= 0.88 opposite region
+M2_w2s88_1 = M2_w2s88_0 outside M2
+M2_w2s88_2 = not touch edge M2_w2s88_2 M2
+M2_w2s88_2{flatten M2_w2s88_2}
+
+M2_w2s89_0 = External M2_width_2 M2 > 0.88 <= 0.89 opposite region
+M2_w2s89_1 = M2_w2s89_0 outside M2
+M2_w2s89_2 = not touch edge M2_w2s89_2 M2
+M2_w2s89_2{flatten M2_w2s89_2}
+
+M2_w2s90_0 = External M2_width_2 M2 > 0.89 <= 0.9 opposite region
+M2_w2s90_1 = M2_w2s90_0 outside M2
+M2_w2s90_2 = not touch edge M2_w2s90_2 M2
+M2_w2s90_2{flatten M2_w2s90_2}
+
+M2_w2s91_0 = External M2_width_2 M2 > 0.9 <= 0.91 opposite region
+M2_w2s91_1 = M2_w2s91_0 outside M2
+M2_w2s91_2 = not touch edge M2_w2s91_2 M2
+M2_w2s91_2{flatten M2_w2s91_2}
+
+M2_w2s92_0 = External M2_width_2 M2 > 0.91 <= 0.92 opposite region
+M2_w2s92_1 = M2_w2s92_0 outside M2
+M2_w2s92_2 = not touch edge M2_w2s92_2 M2
+M2_w2s92_2{flatten M2_w2s92_2}
+
+M2_w2s93_0 = External M2_width_2 M2 > 0.92 <= 0.93 opposite region
+M2_w2s93_1 = M2_w2s93_0 outside M2
+M2_w2s93_2 = not touch edge M2_w2s93_2 M2
+M2_w2s93_2{flatten M2_w2s93_2}
+
+M2_w2s94_0 = External M2_width_2 M2 > 0.93 <= 0.94 opposite region
+M2_w2s94_1 = M2_w2s94_0 outside M2
+M2_w2s94_2 = not touch edge M2_w2s94_2 M2
+M2_w2s94_2{flatten M2_w2s94_2}
+
+M2_w2s95_0 = External M2_width_2 M2 > 0.94 <= 0.95 opposite region
+M2_w2s95_1 = M2_w2s95_0 outside M2
+M2_w2s95_2 = not touch edge M2_w2s95_2 M2
+M2_w2s95_2{flatten M2_w2s95_2}
+
+M2_w2s96_0 = External M2_width_2 M2 > 0.95 <= 0.96 opposite region
+M2_w2s96_1 = M2_w2s96_0 outside M2
+M2_w2s96_2 = not touch edge M2_w2s96_2 M2
+M2_w2s96_2{flatten M2_w2s96_2}
+
+M2_w2s97_0 = External M2_width_2 M2 > 0.96 <= 0.97 opposite region
+M2_w2s97_1 = M2_w2s97_0 outside M2
+M2_w2s97_2 = not touch edge M2_w2s97_2 M2
+M2_w2s97_2{flatten M2_w2s97_2}
+
+M2_w2s98_0 = External M2_width_2 M2 > 0.97 <= 0.98 opposite region
+M2_w2s98_1 = M2_w2s98_0 outside M2
+M2_w2s98_2 = not touch edge M2_w2s98_2 M2
+M2_w2s98_2{flatten M2_w2s98_2}
+
+M2_w2s99_0 = External M2_width_2 M2 > 0.98 <= 0.99 opposite region
+M2_w2s99_1 = M2_w2s99_0 outside M2
+M2_w2s99_2 = not touch edge M2_w2s99_2 M2
+M2_w2s99_2{flatten M2_w2s99_2}
+
+M2_w2s100_0 = External M2_width_2 M2 > 0.99 <= 1.0 opposite region
+M2_w2s100_1 = M2_w2s100_0 outside M2
+M2_w2s100_2 = not touch edge M2_w2s100_2 M2
+M2_w2s100_2{flatten M2_w2s100_2}
+
+M2_width_3 = M2 with width >= 0.39 <= 0.46
+M2_w3s1_0 = External M2_width_3 M2 > 0.0 <= 0.01 opposite region
+M2_w3s1_1 = M2_w3s1_0 outside M2
+M2_w3s1_2 = not touch edge M2_w3s1_3 M2
+M2_w3s1_2{flatten M2_w3s1_2}
+
+M2_w3s2_0 = External M2_width_3 M2 > 0.01 <= 0.02 opposite region
+M2_w3s2_1 = M2_w3s2_0 outside M2
+M2_w3s2_2 = not touch edge M2_w3s2_3 M2
+M2_w3s2_2{flatten M2_w3s2_2}
+
+M2_w3s3_0 = External M2_width_3 M2 > 0.02 <= 0.03 opposite region
+M2_w3s3_1 = M2_w3s3_0 outside M2
+M2_w3s3_2 = not touch edge M2_w3s3_3 M2
+M2_w3s3_2{flatten M2_w3s3_2}
+
+M2_w3s4_0 = External M2_width_3 M2 > 0.03 <= 0.04 opposite region
+M2_w3s4_1 = M2_w3s4_0 outside M2
+M2_w3s4_2 = not touch edge M2_w3s4_3 M2
+M2_w3s4_2{flatten M2_w3s4_2}
+
+M2_w3s5_0 = External M2_width_3 M2 > 0.04 <= 0.05 opposite region
+M2_w3s5_1 = M2_w3s5_0 outside M2
+M2_w3s5_2 = not touch edge M2_w3s5_3 M2
+M2_w3s5_2{flatten M2_w3s5_2}
+
+M2_w3s6_0 = External M2_width_3 M2 > 0.05 <= 0.06 opposite region
+M2_w3s6_1 = M2_w3s6_0 outside M2
+M2_w3s6_2 = not touch edge M2_w3s6_3 M2
+M2_w3s6_2{flatten M2_w3s6_2}
+
+M2_w3s7_0 = External M2_width_3 M2 > 0.06 <= 0.07 opposite region
+M2_w3s7_1 = M2_w3s7_0 outside M2
+M2_w3s7_2 = not touch edge M2_w3s7_3 M2
+M2_w3s7_2{flatten M2_w3s7_2}
+
+M2_w3s8_0 = External M2_width_3 M2 > 0.07 <= 0.08 opposite region
+M2_w3s8_1 = M2_w3s8_0 outside M2
+M2_w3s8_2 = not touch edge M2_w3s8_3 M2
+M2_w3s8_2{flatten M2_w3s8_2}
+
+M2_w3s9_0 = External M2_width_3 M2 > 0.08 <= 0.09 opposite region
+M2_w3s9_1 = M2_w3s9_0 outside M2
+M2_w3s9_2 = not touch edge M2_w3s9_3 M2
+M2_w3s9_2{flatten M2_w3s9_2}
+
+M2_w3s10_0 = External M2_width_3 M2 > 0.09 <= 0.1 opposite region
+M2_w3s10_1 = M2_w3s10_0 outside M2
+M2_w3s10_2 = not touch edge M2_w3s10_3 M2
+M2_w3s10_2{flatten M2_w3s10_2}
+
+M2_w3s11_0 = External M2_width_3 M2 > 0.1 <= 0.11 opposite region
+M2_w3s11_1 = M2_w3s11_0 outside M2
+M2_w3s11_2 = not touch edge M2_w3s11_3 M2
+M2_w3s11_2{flatten M2_w3s11_2}
+
+M2_w3s12_0 = External M2_width_3 M2 > 0.11 <= 0.12 opposite region
+M2_w3s12_1 = M2_w3s12_0 outside M2
+M2_w3s12_2 = not touch edge M2_w3s12_3 M2
+M2_w3s12_2{flatten M2_w3s12_2}
+
+M2_w3s13_0 = External M2_width_3 M2 > 0.12 <= 0.13 opposite region
+M2_w3s13_1 = M2_w3s13_0 outside M2
+M2_w3s13_2 = not touch edge M2_w3s13_3 M2
+M2_w3s13_2{flatten M2_w3s13_2}
+
+M2_w3s14_0 = External M2_width_3 M2 > 0.13 <= 0.14 opposite region
+M2_w3s14_1 = M2_w3s14_0 outside M2
+M2_w3s14_2 = not touch edge M2_w3s14_3 M2
+M2_w3s14_2{flatten M2_w3s14_2}
+
+M2_w3s15_0 = External M2_width_3 M2 > 0.14 <= 0.15 opposite region
+M2_w3s15_1 = M2_w3s15_0 outside M2
+M2_w3s15_2 = not touch edge M2_w3s15_3 M2
+M2_w3s15_2{flatten M2_w3s15_2}
+
+M2_w3s16_0 = External M2_width_3 M2 > 0.15 <= 0.16 opposite region
+M2_w3s16_1 = M2_w3s16_0 outside M2
+M2_w3s16_2 = not touch edge M2_w3s16_3 M2
+M2_w3s16_2{flatten M2_w3s16_2}
+
+M2_w3s17_0 = External M2_width_3 M2 > 0.16 <= 0.17 opposite region
+M2_w3s17_1 = M2_w3s17_0 outside M2
+M2_w3s17_2 = not touch edge M2_w3s17_3 M2
+M2_w3s17_2{flatten M2_w3s17_2}
+
+M2_w3s18_0 = External M2_width_3 M2 > 0.17 <= 0.18 opposite region
+M2_w3s18_1 = M2_w3s18_0 outside M2
+M2_w3s18_2 = not touch edge M2_w3s18_3 M2
+M2_w3s18_2{flatten M2_w3s18_2}
+
+M2_w3s19_0 = External M2_width_3 M2 > 0.18 <= 0.19 opposite region
+M2_w3s19_1 = M2_w3s19_0 outside M2
+M2_w3s19_2 = not touch edge M2_w3s19_3 M2
+M2_w3s19_2{flatten M2_w3s19_2}
+
+M2_w3s20_0 = External M2_width_3 M2 > 0.19 <= 0.2 opposite region
+M2_w3s20_1 = M2_w3s20_0 outside M2
+M2_w3s20_2 = not touch edge M2_w3s20_3 M2
+M2_w3s20_2{flatten M2_w3s20_2}
+
+M2_w3s21_0 = External M2_width_3 M2 > 0.2 <= 0.21 opposite region
+M2_w3s21_1 = M2_w3s21_0 outside M2
+M2_w3s21_2 = not touch edge M2_w3s21_3 M2
+M2_w3s21_2{flatten M2_w3s21_2}
+
+M2_w3s22_0 = External M2_width_3 M2 > 0.21 <= 0.22 opposite region
+M2_w3s22_1 = M2_w3s22_0 outside M2
+M2_w3s22_2 = not touch edge M2_w3s22_3 M2
+M2_w3s22_2{flatten M2_w3s22_2}
+
+M2_w3s23_0 = External M2_width_3 M2 > 0.22 <= 0.23 opposite region
+M2_w3s23_1 = M2_w3s23_0 outside M2
+M2_w3s23_2 = not touch edge M2_w3s23_3 M2
+M2_w3s23_2{flatten M2_w3s23_2}
+
+M2_w3s24_0 = External M2_width_3 M2 > 0.23 <= 0.24 opposite region
+M2_w3s24_1 = M2_w3s24_0 outside M2
+M2_w3s24_2 = not touch edge M2_w3s24_3 M2
+M2_w3s24_2{flatten M2_w3s24_2}
+
+M2_w3s25_0 = External M2_width_3 M2 > 0.24 <= 0.25 opposite region
+M2_w3s25_1 = M2_w3s25_0 outside M2
+M2_w3s25_2 = not touch edge M2_w3s25_3 M2
+M2_w3s25_2{flatten M2_w3s25_2}
+
+M2_w3s26_0 = External M2_width_3 M2 > 0.25 <= 0.26 opposite region
+M2_w3s26_1 = M2_w3s26_0 outside M2
+M2_w3s26_2 = not touch edge M2_w3s26_3 M2
+M2_w3s26_2{flatten M2_w3s26_2}
+
+M2_w3s27_0 = External M2_width_3 M2 > 0.26 <= 0.27 opposite region
+M2_w3s27_1 = M2_w3s27_0 outside M2
+M2_w3s27_2 = not touch edge M2_w3s27_3 M2
+M2_w3s27_2{flatten M2_w3s27_2}
+
+M2_w3s28_0 = External M2_width_3 M2 > 0.27 <= 0.28 opposite region
+M2_w3s28_1 = M2_w3s28_0 outside M2
+M2_w3s28_2 = not touch edge M2_w3s28_3 M2
+M2_w3s28_2{flatten M2_w3s28_2}
+
+M2_w3s29_0 = External M2_width_3 M2 > 0.28 <= 0.29 opposite region
+M2_w3s29_1 = M2_w3s29_0 outside M2
+M2_w3s29_2 = not touch edge M2_w3s29_3 M2
+M2_w3s29_2{flatten M2_w3s29_2}
+
+M2_w3s30_0 = External M2_width_3 M2 > 0.29 <= 0.3 opposite region
+M2_w3s30_1 = M2_w3s30_0 outside M2
+M2_w3s30_2 = not touch edge M2_w3s30_3 M2
+M2_w3s30_2{flatten M2_w3s30_2}
+
+M2_w3s31_0 = External M2_width_3 M2 > 0.3 <= 0.31 opposite region
+M2_w3s31_1 = M2_w3s31_0 outside M2
+M2_w3s31_2 = not touch edge M2_w3s31_3 M2
+M2_w3s31_2{flatten M2_w3s31_2}
+
+M2_w3s32_0 = External M2_width_3 M2 > 0.31 <= 0.32 opposite region
+M2_w3s32_1 = M2_w3s32_0 outside M2
+M2_w3s32_2 = not touch edge M2_w3s32_3 M2
+M2_w3s32_2{flatten M2_w3s32_2}
+
+M2_w3s33_0 = External M2_width_3 M2 > 0.32 <= 0.33 opposite region
+M2_w3s33_1 = M2_w3s33_0 outside M2
+M2_w3s33_2 = not touch edge M2_w3s33_3 M2
+M2_w3s33_2{flatten M2_w3s33_2}
+
+M2_w3s34_0 = External M2_width_3 M2 > 0.33 <= 0.34 opposite region
+M2_w3s34_1 = M2_w3s34_0 outside M2
+M2_w3s34_2 = not touch edge M2_w3s34_3 M2
+M2_w3s34_2{flatten M2_w3s34_2}
+
+M2_w3s35_0 = External M2_width_3 M2 > 0.34 <= 0.35 opposite region
+M2_w3s35_1 = M2_w3s35_0 outside M2
+M2_w3s35_2 = not touch edge M2_w3s35_3 M2
+M2_w3s35_2{flatten M2_w3s35_2}
+
+M2_w3s36_0 = External M2_width_3 M2 > 0.35 <= 0.36 opposite region
+M2_w3s36_1 = M2_w3s36_0 outside M2
+M2_w3s36_2 = not touch edge M2_w3s36_3 M2
+M2_w3s36_2{flatten M2_w3s36_2}
+
+M2_w3s37_0 = External M2_width_3 M2 > 0.36 <= 0.37 opposite region
+M2_w3s37_1 = M2_w3s37_0 outside M2
+M2_w3s37_2 = not touch edge M2_w3s37_3 M2
+M2_w3s37_2{flatten M2_w3s37_2}
+
+M2_w3s38_0 = External M2_width_3 M2 > 0.37 <= 0.38 opposite region
+M2_w3s38_1 = M2_w3s38_0 outside M2
+M2_w3s38_2 = not touch edge M2_w3s38_3 M2
+M2_w3s38_2{flatten M2_w3s38_2}
+
+M2_w3s39_0 = External M2_width_3 M2 > 0.38 <= 0.39 opposite region
+M2_w3s39_1 = M2_w3s39_0 outside M2
+M2_w3s39_2 = not touch edge M2_w3s39_3 M2
+M2_w3s39_2{flatten M2_w3s39_2}
+
+M2_w3s40_0 = External M2_width_3 M2 > 0.39 <= 0.4 opposite region
+M2_w3s40_1 = M2_w3s40_0 outside M2
+M2_w3s40_2 = not touch edge M2_w3s40_3 M2
+M2_w3s40_2{flatten M2_w3s40_2}
+
+M2_w3s41_0 = External M2_width_3 M2 > 0.4 <= 0.41 opposite region
+M2_w3s41_1 = M2_w3s41_0 outside M2
+M2_w3s41_2 = not touch edge M2_w3s41_3 M2
+M2_w3s41_2{flatten M2_w3s41_2}
+
+M2_w3s42_0 = External M2_width_3 M2 > 0.41 <= 0.42 opposite region
+M2_w3s42_1 = M2_w3s42_0 outside M2
+M2_w3s42_2 = not touch edge M2_w3s42_3 M2
+M2_w3s42_2{flatten M2_w3s42_2}
+
+M2_w3s43_0 = External M2_width_3 M2 > 0.42 <= 0.43 opposite region
+M2_w3s43_1 = M2_w3s43_0 outside M2
+M2_w3s43_2 = not touch edge M2_w3s43_3 M2
+M2_w3s43_2{flatten M2_w3s43_2}
+
+M2_w3s44_0 = External M2_width_3 M2 > 0.43 <= 0.44 opposite region
+M2_w3s44_1 = M2_w3s44_0 outside M2
+M2_w3s44_2 = not touch edge M2_w3s44_3 M2
+M2_w3s44_2{flatten M2_w3s44_2}
+
+M2_w3s45_0 = External M2_width_3 M2 > 0.44 <= 0.45 opposite region
+M2_w3s45_1 = M2_w3s45_0 outside M2
+M2_w3s45_2 = not touch edge M2_w3s45_3 M2
+M2_w3s45_2{flatten M2_w3s45_2}
+
+M2_w3s46_0 = External M2_width_3 M2 > 0.45 <= 0.46 opposite region
+M2_w3s46_1 = M2_w3s46_0 outside M2
+M2_w3s46_2 = not touch edge M2_w3s46_3 M2
+M2_w3s46_2{flatten M2_w3s46_2}
+
+M2_w3s47_0 = External M2_width_3 M2 > 0.46 <= 0.47 opposite region
+M2_w3s47_1 = M2_w3s47_0 outside M2
+M2_w3s47_2 = not touch edge M2_w3s47_3 M2
+M2_w3s47_2{flatten M2_w3s47_2}
+
+M2_w3s48_0 = External M2_width_3 M2 > 0.47 <= 0.48 opposite region
+M2_w3s48_1 = M2_w3s48_0 outside M2
+M2_w3s48_2 = not touch edge M2_w3s48_3 M2
+M2_w3s48_2{flatten M2_w3s48_2}
+
+M2_w3s49_0 = External M2_width_3 M2 > 0.48 <= 0.49 opposite region
+M2_w3s49_1 = M2_w3s49_0 outside M2
+M2_w3s49_2 = not touch edge M2_w3s49_3 M2
+M2_w3s49_2{flatten M2_w3s49_2}
+
+M2_w3s50_0 = External M2_width_3 M2 > 0.49 <= 0.5 opposite region
+M2_w3s50_1 = M2_w3s50_0 outside M2
+M2_w3s50_2 = not touch edge M2_w3s50_3 M2
+M2_w3s50_2{flatten M2_w3s50_2}
+
+M2_w3s51_0 = External M2_width_3 M2 > 0.5 <= 0.51 opposite region
+M2_w3s51_1 = M2_w3s51_0 outside M2
+M2_w3s51_2 = not touch edge M2_w3s51_3 M2
+M2_w3s51_2{flatten M2_w3s51_2}
+
+M2_w3s52_0 = External M2_width_3 M2 > 0.51 <= 0.52 opposite region
+M2_w3s52_1 = M2_w3s52_0 outside M2
+M2_w3s52_2 = not touch edge M2_w3s52_3 M2
+M2_w3s52_2{flatten M2_w3s52_2}
+
+M2_w3s53_0 = External M2_width_3 M2 > 0.52 <= 0.53 opposite region
+M2_w3s53_1 = M2_w3s53_0 outside M2
+M2_w3s53_2 = not touch edge M2_w3s53_3 M2
+M2_w3s53_2{flatten M2_w3s53_2}
+
+M2_w3s54_0 = External M2_width_3 M2 > 0.53 <= 0.54 opposite region
+M2_w3s54_1 = M2_w3s54_0 outside M2
+M2_w3s54_2 = not touch edge M2_w3s54_3 M2
+M2_w3s54_2{flatten M2_w3s54_2}
+
+M2_w3s55_0 = External M2_width_3 M2 > 0.54 <= 0.55 opposite region
+M2_w3s55_1 = M2_w3s55_0 outside M2
+M2_w3s55_2 = not touch edge M2_w3s55_3 M2
+M2_w3s55_2{flatten M2_w3s55_2}
+
+M2_w3s56_0 = External M2_width_3 M2 > 0.55 <= 0.56 opposite region
+M2_w3s56_1 = M2_w3s56_0 outside M2
+M2_w3s56_2 = not touch edge M2_w3s56_3 M2
+M2_w3s56_2{flatten M2_w3s56_2}
+
+M2_w3s57_0 = External M2_width_3 M2 > 0.56 <= 0.57 opposite region
+M2_w3s57_1 = M2_w3s57_0 outside M2
+M2_w3s57_2 = not touch edge M2_w3s57_3 M2
+M2_w3s57_2{flatten M2_w3s57_2}
+
+M2_w3s58_0 = External M2_width_3 M2 > 0.57 <= 0.58 opposite region
+M2_w3s58_1 = M2_w3s58_0 outside M2
+M2_w3s58_2 = not touch edge M2_w3s58_3 M2
+M2_w3s58_2{flatten M2_w3s58_2}
+
+M2_w3s59_0 = External M2_width_3 M2 > 0.58 <= 0.59 opposite region
+M2_w3s59_1 = M2_w3s59_0 outside M2
+M2_w3s59_2 = not touch edge M2_w3s59_3 M2
+M2_w3s59_2{flatten M2_w3s59_2}
+
+M2_w3s60_0 = External M2_width_3 M2 > 0.59 <= 0.6 opposite region
+M2_w3s60_1 = M2_w3s60_0 outside M2
+M2_w3s60_2 = not touch edge M2_w3s60_3 M2
+M2_w3s60_2{flatten M2_w3s60_2}
+
+M2_w3s61_0 = External M2_width_3 M2 > 0.6 <= 0.61 opposite region
+M2_w3s61_1 = M2_w3s61_0 outside M2
+M2_w3s61_2 = not touch edge M2_w3s61_3 M2
+M2_w3s61_2{flatten M2_w3s61_2}
+
+M2_w3s62_0 = External M2_width_3 M2 > 0.61 <= 0.62 opposite region
+M2_w3s62_1 = M2_w3s62_0 outside M2
+M2_w3s62_2 = not touch edge M2_w3s62_3 M2
+M2_w3s62_2{flatten M2_w3s62_2}
+
+M2_w3s63_0 = External M2_width_3 M2 > 0.62 <= 0.63 opposite region
+M2_w3s63_1 = M2_w3s63_0 outside M2
+M2_w3s63_2 = not touch edge M2_w3s63_3 M2
+M2_w3s63_2{flatten M2_w3s63_2}
+
+M2_w3s64_0 = External M2_width_3 M2 > 0.63 <= 0.64 opposite region
+M2_w3s64_1 = M2_w3s64_0 outside M2
+M2_w3s64_2 = not touch edge M2_w3s64_3 M2
+M2_w3s64_2{flatten M2_w3s64_2}
+
+M2_w3s65_0 = External M2_width_3 M2 > 0.64 <= 0.65 opposite region
+M2_w3s65_1 = M2_w3s65_0 outside M2
+M2_w3s65_2 = not touch edge M2_w3s65_3 M2
+M2_w3s65_2{flatten M2_w3s65_2}
+
+M2_w3s66_0 = External M2_width_3 M2 > 0.65 <= 0.66 opposite region
+M2_w3s66_1 = M2_w3s66_0 outside M2
+M2_w3s66_2 = not touch edge M2_w3s66_3 M2
+M2_w3s66_2{flatten M2_w3s66_2}
+
+M2_w3s67_0 = External M2_width_3 M2 > 0.66 <= 0.67 opposite region
+M2_w3s67_1 = M2_w3s67_0 outside M2
+M2_w3s67_2 = not touch edge M2_w3s67_3 M2
+M2_w3s67_2{flatten M2_w3s67_2}
+
+M2_w3s68_0 = External M2_width_3 M2 > 0.67 <= 0.68 opposite region
+M2_w3s68_1 = M2_w3s68_0 outside M2
+M2_w3s68_2 = not touch edge M2_w3s68_3 M2
+M2_w3s68_2{flatten M2_w3s68_2}
+
+M2_w3s69_0 = External M2_width_3 M2 > 0.68 <= 0.69 opposite region
+M2_w3s69_1 = M2_w3s69_0 outside M2
+M2_w3s69_2 = not touch edge M2_w3s69_3 M2
+M2_w3s69_2{flatten M2_w3s69_2}
+
+M2_w3s70_0 = External M2_width_3 M2 > 0.69 <= 0.7 opposite region
+M2_w3s70_1 = M2_w3s70_0 outside M2
+M2_w3s70_2 = not touch edge M2_w3s70_3 M2
+M2_w3s70_2{flatten M2_w3s70_2}
+
+M2_w3s71_0 = External M2_width_3 M2 > 0.7 <= 0.71 opposite region
+M2_w3s71_1 = M2_w3s71_0 outside M2
+M2_w3s71_2 = not touch edge M2_w3s71_3 M2
+M2_w3s71_2{flatten M2_w3s71_2}
+
+M2_w3s72_0 = External M2_width_3 M2 > 0.71 <= 0.72 opposite region
+M2_w3s72_1 = M2_w3s72_0 outside M2
+M2_w3s72_2 = not touch edge M2_w3s72_3 M2
+M2_w3s72_2{flatten M2_w3s72_2}
+
+M2_w3s73_0 = External M2_width_3 M2 > 0.72 <= 0.73 opposite region
+M2_w3s73_1 = M2_w3s73_0 outside M2
+M2_w3s73_2 = not touch edge M2_w3s73_3 M2
+M2_w3s73_2{flatten M2_w3s73_2}
+
+M2_w3s74_0 = External M2_width_3 M2 > 0.73 <= 0.74 opposite region
+M2_w3s74_1 = M2_w3s74_0 outside M2
+M2_w3s74_2 = not touch edge M2_w3s74_3 M2
+M2_w3s74_2{flatten M2_w3s74_2}
+
+M2_w3s75_0 = External M2_width_3 M2 > 0.74 <= 0.75 opposite region
+M2_w3s75_1 = M2_w3s75_0 outside M2
+M2_w3s75_2 = not touch edge M2_w3s75_3 M2
+M2_w3s75_2{flatten M2_w3s75_2}
+
+M2_w3s76_0 = External M2_width_3 M2 > 0.75 <= 0.76 opposite region
+M2_w3s76_1 = M2_w3s76_0 outside M2
+M2_w3s76_2 = not touch edge M2_w3s76_3 M2
+M2_w3s76_2{flatten M2_w3s76_2}
+
+M2_w3s77_0 = External M2_width_3 M2 > 0.76 <= 0.77 opposite region
+M2_w3s77_1 = M2_w3s77_0 outside M2
+M2_w3s77_2 = not touch edge M2_w3s77_3 M2
+M2_w3s77_2{flatten M2_w3s77_2}
+
+M2_w3s78_0 = External M2_width_3 M2 > 0.77 <= 0.78 opposite region
+M2_w3s78_1 = M2_w3s78_0 outside M2
+M2_w3s78_2 = not touch edge M2_w3s78_3 M2
+M2_w3s78_2{flatten M2_w3s78_2}
+
+M2_w3s79_0 = External M2_width_3 M2 > 0.78 <= 0.79 opposite region
+M2_w3s79_1 = M2_w3s79_0 outside M2
+M2_w3s79_2 = not touch edge M2_w3s79_3 M2
+M2_w3s79_2{flatten M2_w3s79_2}
+
+M2_w3s80_0 = External M2_width_3 M2 > 0.79 <= 0.8 opposite region
+M2_w3s80_1 = M2_w3s80_0 outside M2
+M2_w3s80_2 = not touch edge M2_w3s80_3 M2
+M2_w3s80_2{flatten M2_w3s80_2}
+
+M2_w3s81_0 = External M2_width_3 M2 > 0.8 <= 0.81 opposite region
+M2_w3s81_1 = M2_w3s81_0 outside M2
+M2_w3s81_2 = not touch edge M2_w3s81_3 M2
+M2_w3s81_2{flatten M2_w3s81_2}
+
+M2_w3s82_0 = External M2_width_3 M2 > 0.81 <= 0.82 opposite region
+M2_w3s82_1 = M2_w3s82_0 outside M2
+M2_w3s82_2 = not touch edge M2_w3s82_3 M2
+M2_w3s82_2{flatten M2_w3s82_2}
+
+M2_w3s83_0 = External M2_width_3 M2 > 0.82 <= 0.83 opposite region
+M2_w3s83_1 = M2_w3s83_0 outside M2
+M2_w3s83_2 = not touch edge M2_w3s83_3 M2
+M2_w3s83_2{flatten M2_w3s83_2}
+
+M2_w3s84_0 = External M2_width_3 M2 > 0.83 <= 0.84 opposite region
+M2_w3s84_1 = M2_w3s84_0 outside M2
+M2_w3s84_2 = not touch edge M2_w3s84_3 M2
+M2_w3s84_2{flatten M2_w3s84_2}
+
+M2_w3s85_0 = External M2_width_3 M2 > 0.84 <= 0.85 opposite region
+M2_w3s85_1 = M2_w3s85_0 outside M2
+M2_w3s85_2 = not touch edge M2_w3s85_3 M2
+M2_w3s85_2{flatten M2_w3s85_2}
+
+M2_w3s86_0 = External M2_width_3 M2 > 0.85 <= 0.86 opposite region
+M2_w3s86_1 = M2_w3s86_0 outside M2
+M2_w3s86_2 = not touch edge M2_w3s86_3 M2
+M2_w3s86_2{flatten M2_w3s86_2}
+
+M2_w3s87_0 = External M2_width_3 M2 > 0.86 <= 0.87 opposite region
+M2_w3s87_1 = M2_w3s87_0 outside M2
+M2_w3s87_2 = not touch edge M2_w3s87_3 M2
+M2_w3s87_2{flatten M2_w3s87_2}
+
+M2_w3s88_0 = External M2_width_3 M2 > 0.87 <= 0.88 opposite region
+M2_w3s88_1 = M2_w3s88_0 outside M2
+M2_w3s88_2 = not touch edge M2_w3s88_3 M2
+M2_w3s88_2{flatten M2_w3s88_2}
+
+M2_w3s89_0 = External M2_width_3 M2 > 0.88 <= 0.89 opposite region
+M2_w3s89_1 = M2_w3s89_0 outside M2
+M2_w3s89_2 = not touch edge M2_w3s89_3 M2
+M2_w3s89_2{flatten M2_w3s89_2}
+
+M2_w3s90_0 = External M2_width_3 M2 > 0.89 <= 0.9 opposite region
+M2_w3s90_1 = M2_w3s90_0 outside M2
+M2_w3s90_2 = not touch edge M2_w3s90_3 M2
+M2_w3s90_2{flatten M2_w3s90_2}
+
+M2_w3s91_0 = External M2_width_3 M2 > 0.9 <= 0.91 opposite region
+M2_w3s91_1 = M2_w3s91_0 outside M2
+M2_w3s91_2 = not touch edge M2_w3s91_3 M2
+M2_w3s91_2{flatten M2_w3s91_2}
+
+M2_w3s92_0 = External M2_width_3 M2 > 0.91 <= 0.92 opposite region
+M2_w3s92_1 = M2_w3s92_0 outside M2
+M2_w3s92_2 = not touch edge M2_w3s92_3 M2
+M2_w3s92_2{flatten M2_w3s92_2}
+
+M2_w3s93_0 = External M2_width_3 M2 > 0.92 <= 0.93 opposite region
+M2_w3s93_1 = M2_w3s93_0 outside M2
+M2_w3s93_2 = not touch edge M2_w3s93_3 M2
+M2_w3s93_2{flatten M2_w3s93_2}
+
+M2_w3s94_0 = External M2_width_3 M2 > 0.93 <= 0.94 opposite region
+M2_w3s94_1 = M2_w3s94_0 outside M2
+M2_w3s94_2 = not touch edge M2_w3s94_3 M2
+M2_w3s94_2{flatten M2_w3s94_2}
+
+M2_w3s95_0 = External M2_width_3 M2 > 0.94 <= 0.95 opposite region
+M2_w3s95_1 = M2_w3s95_0 outside M2
+M2_w3s95_2 = not touch edge M2_w3s95_3 M2
+M2_w3s95_2{flatten M2_w3s95_2}
+
+M2_w3s96_0 = External M2_width_3 M2 > 0.95 <= 0.96 opposite region
+M2_w3s96_1 = M2_w3s96_0 outside M2
+M2_w3s96_2 = not touch edge M2_w3s96_3 M2
+M2_w3s96_2{flatten M2_w3s96_2}
+
+M2_w3s97_0 = External M2_width_3 M2 > 0.96 <= 0.97 opposite region
+M2_w3s97_1 = M2_w3s97_0 outside M2
+M2_w3s97_2 = not touch edge M2_w3s97_3 M2
+M2_w3s97_2{flatten M2_w3s97_2}
+
+M2_w3s98_0 = External M2_width_3 M2 > 0.97 <= 0.98 opposite region
+M2_w3s98_1 = M2_w3s98_0 outside M2
+M2_w3s98_2 = not touch edge M2_w3s98_3 M2
+M2_w3s98_2{flatten M2_w3s98_2}
+
+M2_w3s99_0 = External M2_width_3 M2 > 0.98 <= 0.99 opposite region
+M2_w3s99_1 = M2_w3s99_0 outside M2
+M2_w3s99_2 = not touch edge M2_w3s99_3 M2
+M2_w3s99_2{flatten M2_w3s99_2}
+
+M2_w3s100_0 = External M2_width_3 M2 > 0.99 <= 1.0 opposite region
+M2_w3s100_1 = M2_w3s100_0 outside M2
+M2_w3s100_2 = not touch edge M2_w3s100_3 M2
+M2_w3s100_2{flatten M2_w3s100_2}
+
+M2_width_4 = M2 with width >= 0.67 <= 0.98
+M2_w4s1_0 = External M2_width_4 M2 > 0.0 <= 0.01 opposite region
+M2_w4s1_1 = M2_w4s1_0 outside M2
+M2_w4s1_2 = not touch edge M2_w4s1_4 M2
+M2_w4s1_2{flatten M2_w4s1_2}
+
+M2_w4s2_0 = External M2_width_4 M2 > 0.01 <= 0.02 opposite region
+M2_w4s2_1 = M2_w4s2_0 outside M2
+M2_w4s2_2 = not touch edge M2_w4s2_4 M2
+M2_w4s2_2{flatten M2_w4s2_2}
+
+M2_w4s3_0 = External M2_width_4 M2 > 0.02 <= 0.03 opposite region
+M2_w4s3_1 = M2_w4s3_0 outside M2
+M2_w4s3_2 = not touch edge M2_w4s3_4 M2
+M2_w4s3_2{flatten M2_w4s3_2}
+
+M2_w4s4_0 = External M2_width_4 M2 > 0.03 <= 0.04 opposite region
+M2_w4s4_1 = M2_w4s4_0 outside M2
+M2_w4s4_2 = not touch edge M2_w4s4_4 M2
+M2_w4s4_2{flatten M2_w4s4_2}
+
+M2_w4s5_0 = External M2_width_4 M2 > 0.04 <= 0.05 opposite region
+M2_w4s5_1 = M2_w4s5_0 outside M2
+M2_w4s5_2 = not touch edge M2_w4s5_4 M2
+M2_w4s5_2{flatten M2_w4s5_2}
+
+M2_w4s6_0 = External M2_width_4 M2 > 0.05 <= 0.06 opposite region
+M2_w4s6_1 = M2_w4s6_0 outside M2
+M2_w4s6_2 = not touch edge M2_w4s6_4 M2
+M2_w4s6_2{flatten M2_w4s6_2}
+
+M2_w4s7_0 = External M2_width_4 M2 > 0.06 <= 0.07 opposite region
+M2_w4s7_1 = M2_w4s7_0 outside M2
+M2_w4s7_2 = not touch edge M2_w4s7_4 M2
+M2_w4s7_2{flatten M2_w4s7_2}
+
+M2_w4s8_0 = External M2_width_4 M2 > 0.07 <= 0.08 opposite region
+M2_w4s8_1 = M2_w4s8_0 outside M2
+M2_w4s8_2 = not touch edge M2_w4s8_4 M2
+M2_w4s8_2{flatten M2_w4s8_2}
+
+M2_w4s9_0 = External M2_width_4 M2 > 0.08 <= 0.09 opposite region
+M2_w4s9_1 = M2_w4s9_0 outside M2
+M2_w4s9_2 = not touch edge M2_w4s9_4 M2
+M2_w4s9_2{flatten M2_w4s9_2}
+
+M2_w4s10_0 = External M2_width_4 M2 > 0.09 <= 0.1 opposite region
+M2_w4s10_1 = M2_w4s10_0 outside M2
+M2_w4s10_2 = not touch edge M2_w4s10_4 M2
+M2_w4s10_2{flatten M2_w4s10_2}
+
+M2_w4s11_0 = External M2_width_4 M2 > 0.1 <= 0.11 opposite region
+M2_w4s11_1 = M2_w4s11_0 outside M2
+M2_w4s11_2 = not touch edge M2_w4s11_4 M2
+M2_w4s11_2{flatten M2_w4s11_2}
+
+M2_w4s12_0 = External M2_width_4 M2 > 0.11 <= 0.12 opposite region
+M2_w4s12_1 = M2_w4s12_0 outside M2
+M2_w4s12_2 = not touch edge M2_w4s12_4 M2
+M2_w4s12_2{flatten M2_w4s12_2}
+
+M2_w4s13_0 = External M2_width_4 M2 > 0.12 <= 0.13 opposite region
+M2_w4s13_1 = M2_w4s13_0 outside M2
+M2_w4s13_2 = not touch edge M2_w4s13_4 M2
+M2_w4s13_2{flatten M2_w4s13_2}
+
+M2_w4s14_0 = External M2_width_4 M2 > 0.13 <= 0.14 opposite region
+M2_w4s14_1 = M2_w4s14_0 outside M2
+M2_w4s14_2 = not touch edge M2_w4s14_4 M2
+M2_w4s14_2{flatten M2_w4s14_2}
+
+M2_w4s15_0 = External M2_width_4 M2 > 0.14 <= 0.15 opposite region
+M2_w4s15_1 = M2_w4s15_0 outside M2
+M2_w4s15_2 = not touch edge M2_w4s15_4 M2
+M2_w4s15_2{flatten M2_w4s15_2}
+
+M2_w4s16_0 = External M2_width_4 M2 > 0.15 <= 0.16 opposite region
+M2_w4s16_1 = M2_w4s16_0 outside M2
+M2_w4s16_2 = not touch edge M2_w4s16_4 M2
+M2_w4s16_2{flatten M2_w4s16_2}
+
+M2_w4s17_0 = External M2_width_4 M2 > 0.16 <= 0.17 opposite region
+M2_w4s17_1 = M2_w4s17_0 outside M2
+M2_w4s17_2 = not touch edge M2_w4s17_4 M2
+M2_w4s17_2{flatten M2_w4s17_2}
+
+M2_w4s18_0 = External M2_width_4 M2 > 0.17 <= 0.18 opposite region
+M2_w4s18_1 = M2_w4s18_0 outside M2
+M2_w4s18_2 = not touch edge M2_w4s18_4 M2
+M2_w4s18_2{flatten M2_w4s18_2}
+
+M2_w4s19_0 = External M2_width_4 M2 > 0.18 <= 0.19 opposite region
+M2_w4s19_1 = M2_w4s19_0 outside M2
+M2_w4s19_2 = not touch edge M2_w4s19_4 M2
+M2_w4s19_2{flatten M2_w4s19_2}
+
+M2_w4s20_0 = External M2_width_4 M2 > 0.19 <= 0.2 opposite region
+M2_w4s20_1 = M2_w4s20_0 outside M2
+M2_w4s20_2 = not touch edge M2_w4s20_4 M2
+M2_w4s20_2{flatten M2_w4s20_2}
+
+M2_w4s21_0 = External M2_width_4 M2 > 0.2 <= 0.21 opposite region
+M2_w4s21_1 = M2_w4s21_0 outside M2
+M2_w4s21_2 = not touch edge M2_w4s21_4 M2
+M2_w4s21_2{flatten M2_w4s21_2}
+
+M2_w4s22_0 = External M2_width_4 M2 > 0.21 <= 0.22 opposite region
+M2_w4s22_1 = M2_w4s22_0 outside M2
+M2_w4s22_2 = not touch edge M2_w4s22_4 M2
+M2_w4s22_2{flatten M2_w4s22_2}
+
+M2_w4s23_0 = External M2_width_4 M2 > 0.22 <= 0.23 opposite region
+M2_w4s23_1 = M2_w4s23_0 outside M2
+M2_w4s23_2 = not touch edge M2_w4s23_4 M2
+M2_w4s23_2{flatten M2_w4s23_2}
+
+M2_w4s24_0 = External M2_width_4 M2 > 0.23 <= 0.24 opposite region
+M2_w4s24_1 = M2_w4s24_0 outside M2
+M2_w4s24_2 = not touch edge M2_w4s24_4 M2
+M2_w4s24_2{flatten M2_w4s24_2}
+
+M2_w4s25_0 = External M2_width_4 M2 > 0.24 <= 0.25 opposite region
+M2_w4s25_1 = M2_w4s25_0 outside M2
+M2_w4s25_2 = not touch edge M2_w4s25_4 M2
+M2_w4s25_2{flatten M2_w4s25_2}
+
+M2_w4s26_0 = External M2_width_4 M2 > 0.25 <= 0.26 opposite region
+M2_w4s26_1 = M2_w4s26_0 outside M2
+M2_w4s26_2 = not touch edge M2_w4s26_4 M2
+M2_w4s26_2{flatten M2_w4s26_2}
+
+M2_w4s27_0 = External M2_width_4 M2 > 0.26 <= 0.27 opposite region
+M2_w4s27_1 = M2_w4s27_0 outside M2
+M2_w4s27_2 = not touch edge M2_w4s27_4 M2
+M2_w4s27_2{flatten M2_w4s27_2}
+
+M2_w4s28_0 = External M2_width_4 M2 > 0.27 <= 0.28 opposite region
+M2_w4s28_1 = M2_w4s28_0 outside M2
+M2_w4s28_2 = not touch edge M2_w4s28_4 M2
+M2_w4s28_2{flatten M2_w4s28_2}
+
+M2_w4s29_0 = External M2_width_4 M2 > 0.28 <= 0.29 opposite region
+M2_w4s29_1 = M2_w4s29_0 outside M2
+M2_w4s29_2 = not touch edge M2_w4s29_4 M2
+M2_w4s29_2{flatten M2_w4s29_2}
+
+M2_w4s30_0 = External M2_width_4 M2 > 0.29 <= 0.3 opposite region
+M2_w4s30_1 = M2_w4s30_0 outside M2
+M2_w4s30_2 = not touch edge M2_w4s30_4 M2
+M2_w4s30_2{flatten M2_w4s30_2}
+
+M2_w4s31_0 = External M2_width_4 M2 > 0.3 <= 0.31 opposite region
+M2_w4s31_1 = M2_w4s31_0 outside M2
+M2_w4s31_2 = not touch edge M2_w4s31_4 M2
+M2_w4s31_2{flatten M2_w4s31_2}
+
+M2_w4s32_0 = External M2_width_4 M2 > 0.31 <= 0.32 opposite region
+M2_w4s32_1 = M2_w4s32_0 outside M2
+M2_w4s32_2 = not touch edge M2_w4s32_4 M2
+M2_w4s32_2{flatten M2_w4s32_2}
+
+M2_w4s33_0 = External M2_width_4 M2 > 0.32 <= 0.33 opposite region
+M2_w4s33_1 = M2_w4s33_0 outside M2
+M2_w4s33_2 = not touch edge M2_w4s33_4 M2
+M2_w4s33_2{flatten M2_w4s33_2}
+
+M2_w4s34_0 = External M2_width_4 M2 > 0.33 <= 0.34 opposite region
+M2_w4s34_1 = M2_w4s34_0 outside M2
+M2_w4s34_2 = not touch edge M2_w4s34_4 M2
+M2_w4s34_2{flatten M2_w4s34_2}
+
+M2_w4s35_0 = External M2_width_4 M2 > 0.34 <= 0.35 opposite region
+M2_w4s35_1 = M2_w4s35_0 outside M2
+M2_w4s35_2 = not touch edge M2_w4s35_4 M2
+M2_w4s35_2{flatten M2_w4s35_2}
+
+M2_w4s36_0 = External M2_width_4 M2 > 0.35 <= 0.36 opposite region
+M2_w4s36_1 = M2_w4s36_0 outside M2
+M2_w4s36_2 = not touch edge M2_w4s36_4 M2
+M2_w4s36_2{flatten M2_w4s36_2}
+
+M2_w4s37_0 = External M2_width_4 M2 > 0.36 <= 0.37 opposite region
+M2_w4s37_1 = M2_w4s37_0 outside M2
+M2_w4s37_2 = not touch edge M2_w4s37_4 M2
+M2_w4s37_2{flatten M2_w4s37_2}
+
+M2_w4s38_0 = External M2_width_4 M2 > 0.37 <= 0.38 opposite region
+M2_w4s38_1 = M2_w4s38_0 outside M2
+M2_w4s38_2 = not touch edge M2_w4s38_4 M2
+M2_w4s38_2{flatten M2_w4s38_2}
+
+M2_w4s39_0 = External M2_width_4 M2 > 0.38 <= 0.39 opposite region
+M2_w4s39_1 = M2_w4s39_0 outside M2
+M2_w4s39_2 = not touch edge M2_w4s39_4 M2
+M2_w4s39_2{flatten M2_w4s39_2}
+
+M2_w4s40_0 = External M2_width_4 M2 > 0.39 <= 0.4 opposite region
+M2_w4s40_1 = M2_w4s40_0 outside M2
+M2_w4s40_2 = not touch edge M2_w4s40_4 M2
+M2_w4s40_2{flatten M2_w4s40_2}
+
+M2_w4s41_0 = External M2_width_4 M2 > 0.4 <= 0.41 opposite region
+M2_w4s41_1 = M2_w4s41_0 outside M2
+M2_w4s41_2 = not touch edge M2_w4s41_4 M2
+M2_w4s41_2{flatten M2_w4s41_2}
+
+M2_w4s42_0 = External M2_width_4 M2 > 0.41 <= 0.42 opposite region
+M2_w4s42_1 = M2_w4s42_0 outside M2
+M2_w4s42_2 = not touch edge M2_w4s42_4 M2
+M2_w4s42_2{flatten M2_w4s42_2}
+
+M2_w4s43_0 = External M2_width_4 M2 > 0.42 <= 0.43 opposite region
+M2_w4s43_1 = M2_w4s43_0 outside M2
+M2_w4s43_2 = not touch edge M2_w4s43_4 M2
+M2_w4s43_2{flatten M2_w4s43_2}
+
+M2_w4s44_0 = External M2_width_4 M2 > 0.43 <= 0.44 opposite region
+M2_w4s44_1 = M2_w4s44_0 outside M2
+M2_w4s44_2 = not touch edge M2_w4s44_4 M2
+M2_w4s44_2{flatten M2_w4s44_2}
+
+M2_w4s45_0 = External M2_width_4 M2 > 0.44 <= 0.45 opposite region
+M2_w4s45_1 = M2_w4s45_0 outside M2
+M2_w4s45_2 = not touch edge M2_w4s45_4 M2
+M2_w4s45_2{flatten M2_w4s45_2}
+
+M2_w4s46_0 = External M2_width_4 M2 > 0.45 <= 0.46 opposite region
+M2_w4s46_1 = M2_w4s46_0 outside M2
+M2_w4s46_2 = not touch edge M2_w4s46_4 M2
+M2_w4s46_2{flatten M2_w4s46_2}
+
+M2_w4s47_0 = External M2_width_4 M2 > 0.46 <= 0.47 opposite region
+M2_w4s47_1 = M2_w4s47_0 outside M2
+M2_w4s47_2 = not touch edge M2_w4s47_4 M2
+M2_w4s47_2{flatten M2_w4s47_2}
+
+M2_w4s48_0 = External M2_width_4 M2 > 0.47 <= 0.48 opposite region
+M2_w4s48_1 = M2_w4s48_0 outside M2
+M2_w4s48_2 = not touch edge M2_w4s48_4 M2
+M2_w4s48_2{flatten M2_w4s48_2}
+
+M2_w4s49_0 = External M2_width_4 M2 > 0.48 <= 0.49 opposite region
+M2_w4s49_1 = M2_w4s49_0 outside M2
+M2_w4s49_2 = not touch edge M2_w4s49_4 M2
+M2_w4s49_2{flatten M2_w4s49_2}
+
+M2_w4s50_0 = External M2_width_4 M2 > 0.49 <= 0.5 opposite region
+M2_w4s50_1 = M2_w4s50_0 outside M2
+M2_w4s50_2 = not touch edge M2_w4s50_4 M2
+M2_w4s50_2{flatten M2_w4s50_2}
+
+M2_w4s51_0 = External M2_width_4 M2 > 0.5 <= 0.51 opposite region
+M2_w4s51_1 = M2_w4s51_0 outside M2
+M2_w4s51_2 = not touch edge M2_w4s51_4 M2
+M2_w4s51_2{flatten M2_w4s51_2}
+
+M2_w4s52_0 = External M2_width_4 M2 > 0.51 <= 0.52 opposite region
+M2_w4s52_1 = M2_w4s52_0 outside M2
+M2_w4s52_2 = not touch edge M2_w4s52_4 M2
+M2_w4s52_2{flatten M2_w4s52_2}
+
+M2_w4s53_0 = External M2_width_4 M2 > 0.52 <= 0.53 opposite region
+M2_w4s53_1 = M2_w4s53_0 outside M2
+M2_w4s53_2 = not touch edge M2_w4s53_4 M2
+M2_w4s53_2{flatten M2_w4s53_2}
+
+M2_w4s54_0 = External M2_width_4 M2 > 0.53 <= 0.54 opposite region
+M2_w4s54_1 = M2_w4s54_0 outside M2
+M2_w4s54_2 = not touch edge M2_w4s54_4 M2
+M2_w4s54_2{flatten M2_w4s54_2}
+
+M2_w4s55_0 = External M2_width_4 M2 > 0.54 <= 0.55 opposite region
+M2_w4s55_1 = M2_w4s55_0 outside M2
+M2_w4s55_2 = not touch edge M2_w4s55_4 M2
+M2_w4s55_2{flatten M2_w4s55_2}
+
+M2_w4s56_0 = External M2_width_4 M2 > 0.55 <= 0.56 opposite region
+M2_w4s56_1 = M2_w4s56_0 outside M2
+M2_w4s56_2 = not touch edge M2_w4s56_4 M2
+M2_w4s56_2{flatten M2_w4s56_2}
+
+M2_w4s57_0 = External M2_width_4 M2 > 0.56 <= 0.57 opposite region
+M2_w4s57_1 = M2_w4s57_0 outside M2
+M2_w4s57_2 = not touch edge M2_w4s57_4 M2
+M2_w4s57_2{flatten M2_w4s57_2}
+
+M2_w4s58_0 = External M2_width_4 M2 > 0.57 <= 0.58 opposite region
+M2_w4s58_1 = M2_w4s58_0 outside M2
+M2_w4s58_2 = not touch edge M2_w4s58_4 M2
+M2_w4s58_2{flatten M2_w4s58_2}
+
+M2_w4s59_0 = External M2_width_4 M2 > 0.58 <= 0.59 opposite region
+M2_w4s59_1 = M2_w4s59_0 outside M2
+M2_w4s59_2 = not touch edge M2_w4s59_4 M2
+M2_w4s59_2{flatten M2_w4s59_2}
+
+M2_w4s60_0 = External M2_width_4 M2 > 0.59 <= 0.6 opposite region
+M2_w4s60_1 = M2_w4s60_0 outside M2
+M2_w4s60_2 = not touch edge M2_w4s60_4 M2
+M2_w4s60_2{flatten M2_w4s60_2}
+
+M2_w4s61_0 = External M2_width_4 M2 > 0.6 <= 0.61 opposite region
+M2_w4s61_1 = M2_w4s61_0 outside M2
+M2_w4s61_2 = not touch edge M2_w4s61_4 M2
+M2_w4s61_2{flatten M2_w4s61_2}
+
+M2_w4s62_0 = External M2_width_4 M2 > 0.61 <= 0.62 opposite region
+M2_w4s62_1 = M2_w4s62_0 outside M2
+M2_w4s62_2 = not touch edge M2_w4s62_4 M2
+M2_w4s62_2{flatten M2_w4s62_2}
+
+M2_w4s63_0 = External M2_width_4 M2 > 0.62 <= 0.63 opposite region
+M2_w4s63_1 = M2_w4s63_0 outside M2
+M2_w4s63_2 = not touch edge M2_w4s63_4 M2
+M2_w4s63_2{flatten M2_w4s63_2}
+
+M2_w4s64_0 = External M2_width_4 M2 > 0.63 <= 0.64 opposite region
+M2_w4s64_1 = M2_w4s64_0 outside M2
+M2_w4s64_2 = not touch edge M2_w4s64_4 M2
+M2_w4s64_2{flatten M2_w4s64_2}
+
+M2_w4s65_0 = External M2_width_4 M2 > 0.64 <= 0.65 opposite region
+M2_w4s65_1 = M2_w4s65_0 outside M2
+M2_w4s65_2 = not touch edge M2_w4s65_4 M2
+M2_w4s65_2{flatten M2_w4s65_2}
+
+M2_w4s66_0 = External M2_width_4 M2 > 0.65 <= 0.66 opposite region
+M2_w4s66_1 = M2_w4s66_0 outside M2
+M2_w4s66_2 = not touch edge M2_w4s66_4 M2
+M2_w4s66_2{flatten M2_w4s66_2}
+
+M2_w4s67_0 = External M2_width_4 M2 > 0.66 <= 0.67 opposite region
+M2_w4s67_1 = M2_w4s67_0 outside M2
+M2_w4s67_2 = not touch edge M2_w4s67_4 M2
+M2_w4s67_2{flatten M2_w4s67_2}
+
+M2_w4s68_0 = External M2_width_4 M2 > 0.67 <= 0.68 opposite region
+M2_w4s68_1 = M2_w4s68_0 outside M2
+M2_w4s68_2 = not touch edge M2_w4s68_4 M2
+M2_w4s68_2{flatten M2_w4s68_2}
+
+M2_w4s69_0 = External M2_width_4 M2 > 0.68 <= 0.69 opposite region
+M2_w4s69_1 = M2_w4s69_0 outside M2
+M2_w4s69_2 = not touch edge M2_w4s69_4 M2
+M2_w4s69_2{flatten M2_w4s69_2}
+
+M2_w4s70_0 = External M2_width_4 M2 > 0.69 <= 0.7 opposite region
+M2_w4s70_1 = M2_w4s70_0 outside M2
+M2_w4s70_2 = not touch edge M2_w4s70_4 M2
+M2_w4s70_2{flatten M2_w4s70_2}
+
+M2_w4s71_0 = External M2_width_4 M2 > 0.7 <= 0.71 opposite region
+M2_w4s71_1 = M2_w4s71_0 outside M2
+M2_w4s71_2 = not touch edge M2_w4s71_4 M2
+M2_w4s71_2{flatten M2_w4s71_2}
+
+M2_w4s72_0 = External M2_width_4 M2 > 0.71 <= 0.72 opposite region
+M2_w4s72_1 = M2_w4s72_0 outside M2
+M2_w4s72_2 = not touch edge M2_w4s72_4 M2
+M2_w4s72_2{flatten M2_w4s72_2}
+
+M2_w4s73_0 = External M2_width_4 M2 > 0.72 <= 0.73 opposite region
+M2_w4s73_1 = M2_w4s73_0 outside M2
+M2_w4s73_2 = not touch edge M2_w4s73_4 M2
+M2_w4s73_2{flatten M2_w4s73_2}
+
+M2_w4s74_0 = External M2_width_4 M2 > 0.73 <= 0.74 opposite region
+M2_w4s74_1 = M2_w4s74_0 outside M2
+M2_w4s74_2 = not touch edge M2_w4s74_4 M2
+M2_w4s74_2{flatten M2_w4s74_2}
+
+M2_w4s75_0 = External M2_width_4 M2 > 0.74 <= 0.75 opposite region
+M2_w4s75_1 = M2_w4s75_0 outside M2
+M2_w4s75_2 = not touch edge M2_w4s75_4 M2
+M2_w4s75_2{flatten M2_w4s75_2}
+
+M2_w4s76_0 = External M2_width_4 M2 > 0.75 <= 0.76 opposite region
+M2_w4s76_1 = M2_w4s76_0 outside M2
+M2_w4s76_2 = not touch edge M2_w4s76_4 M2
+M2_w4s76_2{flatten M2_w4s76_2}
+
+M2_w4s77_0 = External M2_width_4 M2 > 0.76 <= 0.77 opposite region
+M2_w4s77_1 = M2_w4s77_0 outside M2
+M2_w4s77_2 = not touch edge M2_w4s77_4 M2
+M2_w4s77_2{flatten M2_w4s77_2}
+
+M2_w4s78_0 = External M2_width_4 M2 > 0.77 <= 0.78 opposite region
+M2_w4s78_1 = M2_w4s78_0 outside M2
+M2_w4s78_2 = not touch edge M2_w4s78_4 M2
+M2_w4s78_2{flatten M2_w4s78_2}
+
+M2_w4s79_0 = External M2_width_4 M2 > 0.78 <= 0.79 opposite region
+M2_w4s79_1 = M2_w4s79_0 outside M2
+M2_w4s79_2 = not touch edge M2_w4s79_4 M2
+M2_w4s79_2{flatten M2_w4s79_2}
+
+M2_w4s80_0 = External M2_width_4 M2 > 0.79 <= 0.8 opposite region
+M2_w4s80_1 = M2_w4s80_0 outside M2
+M2_w4s80_2 = not touch edge M2_w4s80_4 M2
+M2_w4s80_2{flatten M2_w4s80_2}
+
+M2_w4s81_0 = External M2_width_4 M2 > 0.8 <= 0.81 opposite region
+M2_w4s81_1 = M2_w4s81_0 outside M2
+M2_w4s81_2 = not touch edge M2_w4s81_4 M2
+M2_w4s81_2{flatten M2_w4s81_2}
+
+M2_w4s82_0 = External M2_width_4 M2 > 0.81 <= 0.82 opposite region
+M2_w4s82_1 = M2_w4s82_0 outside M2
+M2_w4s82_2 = not touch edge M2_w4s82_4 M2
+M2_w4s82_2{flatten M2_w4s82_2}
+
+M2_w4s83_0 = External M2_width_4 M2 > 0.82 <= 0.83 opposite region
+M2_w4s83_1 = M2_w4s83_0 outside M2
+M2_w4s83_2 = not touch edge M2_w4s83_4 M2
+M2_w4s83_2{flatten M2_w4s83_2}
+
+M2_w4s84_0 = External M2_width_4 M2 > 0.83 <= 0.84 opposite region
+M2_w4s84_1 = M2_w4s84_0 outside M2
+M2_w4s84_2 = not touch edge M2_w4s84_4 M2
+M2_w4s84_2{flatten M2_w4s84_2}
+
+M2_w4s85_0 = External M2_width_4 M2 > 0.84 <= 0.85 opposite region
+M2_w4s85_1 = M2_w4s85_0 outside M2
+M2_w4s85_2 = not touch edge M2_w4s85_4 M2
+M2_w4s85_2{flatten M2_w4s85_2}
+
+M2_w4s86_0 = External M2_width_4 M2 > 0.85 <= 0.86 opposite region
+M2_w4s86_1 = M2_w4s86_0 outside M2
+M2_w4s86_2 = not touch edge M2_w4s86_4 M2
+M2_w4s86_2{flatten M2_w4s86_2}
+
+M2_w4s87_0 = External M2_width_4 M2 > 0.86 <= 0.87 opposite region
+M2_w4s87_1 = M2_w4s87_0 outside M2
+M2_w4s87_2 = not touch edge M2_w4s87_4 M2
+M2_w4s87_2{flatten M2_w4s87_2}
+
+M2_w4s88_0 = External M2_width_4 M2 > 0.87 <= 0.88 opposite region
+M2_w4s88_1 = M2_w4s88_0 outside M2
+M2_w4s88_2 = not touch edge M2_w4s88_4 M2
+M2_w4s88_2{flatten M2_w4s88_2}
+
+M2_w4s89_0 = External M2_width_4 M2 > 0.88 <= 0.89 opposite region
+M2_w4s89_1 = M2_w4s89_0 outside M2
+M2_w4s89_2 = not touch edge M2_w4s89_4 M2
+M2_w4s89_2{flatten M2_w4s89_2}
+
+M2_w4s90_0 = External M2_width_4 M2 > 0.89 <= 0.9 opposite region
+M2_w4s90_1 = M2_w4s90_0 outside M2
+M2_w4s90_2 = not touch edge M2_w4s90_4 M2
+M2_w4s90_2{flatten M2_w4s90_2}
+
+M2_w4s91_0 = External M2_width_4 M2 > 0.9 <= 0.91 opposite region
+M2_w4s91_1 = M2_w4s91_0 outside M2
+M2_w4s91_2 = not touch edge M2_w4s91_4 M2
+M2_w4s91_2{flatten M2_w4s91_2}
+
+M2_w4s92_0 = External M2_width_4 M2 > 0.91 <= 0.92 opposite region
+M2_w4s92_1 = M2_w4s92_0 outside M2
+M2_w4s92_2 = not touch edge M2_w4s92_4 M2
+M2_w4s92_2{flatten M2_w4s92_2}
+
+M2_w4s93_0 = External M2_width_4 M2 > 0.92 <= 0.93 opposite region
+M2_w4s93_1 = M2_w4s93_0 outside M2
+M2_w4s93_2 = not touch edge M2_w4s93_4 M2
+M2_w4s93_2{flatten M2_w4s93_2}
+
+M2_w4s94_0 = External M2_width_4 M2 > 0.93 <= 0.94 opposite region
+M2_w4s94_1 = M2_w4s94_0 outside M2
+M2_w4s94_2 = not touch edge M2_w4s94_4 M2
+M2_w4s94_2{flatten M2_w4s94_2}
+
+M2_w4s95_0 = External M2_width_4 M2 > 0.94 <= 0.95 opposite region
+M2_w4s95_1 = M2_w4s95_0 outside M2
+M2_w4s95_2 = not touch edge M2_w4s95_4 M2
+M2_w4s95_2{flatten M2_w4s95_2}
+
+M2_w4s96_0 = External M2_width_4 M2 > 0.95 <= 0.96 opposite region
+M2_w4s96_1 = M2_w4s96_0 outside M2
+M2_w4s96_2 = not touch edge M2_w4s96_4 M2
+M2_w4s96_2{flatten M2_w4s96_2}
+
+M2_w4s97_0 = External M2_width_4 M2 > 0.96 <= 0.97 opposite region
+M2_w4s97_1 = M2_w4s97_0 outside M2
+M2_w4s97_2 = not touch edge M2_w4s97_4 M2
+M2_w4s97_2{flatten M2_w4s97_2}
+
+M2_w4s98_0 = External M2_width_4 M2 > 0.97 <= 0.98 opposite region
+M2_w4s98_1 = M2_w4s98_0 outside M2
+M2_w4s98_2 = not touch edge M2_w4s98_4 M2
+M2_w4s98_2{flatten M2_w4s98_2}
+
+M2_w4s99_0 = External M2_width_4 M2 > 0.98 <= 0.99 opposite region
+M2_w4s99_1 = M2_w4s99_0 outside M2
+M2_w4s99_2 = not touch edge M2_w4s99_4 M2
+M2_w4s99_2{flatten M2_w4s99_2}
+
+M2_w4s100_0 = External M2_width_4 M2 > 0.99 <= 1.0 opposite region
+M2_w4s100_1 = M2_w4s100_0 outside M2
+M2_w4s100_2 = not touch edge M2_w4s100_4 M2
+M2_w4s100_2{flatten M2_w4s100_2}
+
+// -----M2 end_cell_000----

@@ -1,0 +1,892 @@
+.lib tt
+.param
+* PERI THIN NORMAL VT NMOS
++dtoxe_n_nf = 0             dtoxp_n_nf = 0              dxl_n_nf = 0
++dxw_n_nf = 0               dlvth0_n_nf = 0             dlu0_n_nf = 0
++dvsat_n_nf = 0             djtsswgd_n_nf = 0           dcjs_n_nf = 1
++dcjd_n_nf = 1              dcjsws_n_nf = 1             dcjswd_n_nf = 1
++dcjswgs_n_nf = 1           dcjswgd_n_nf = 1            dcgsl_n_nf = 1
++dcgdl_n_nf = 1             dcgso_n_nf = 1              dcgdo_n_nf = 1
++dcf_n_nf = 1               dnfactor_n_nf = 0           dags_n_nf = 0
++dvth0_n_nf = 0             du0_n_nf = 0                dute_n_nf = 0
++dpu0_n_nf = 0
+* PERI LOW VT NMOS Tr.
++dtoxe_n_nfl = 0             dtoxp_n_nfl = 0              dxl_n_nfl = 0
++dxw_n_nfl = 0               dlvth0_n_nfl = 0             dlu0_n_nfl = 0
++dvsat_n_nfl = 0             djtsswgd_n_nfl = 0           dcjs_n_nfl = 1
++dcjd_n_nfl = 1              dcjsws_n_nfl = 1             dcjswd_n_nfl = 1
++dcjswgs_n_nfl = 1           dcjswgd_n_nfl = 1            dcgsl_n_nfl = 1
++dcgdl_n_nfl = 1             dcgso_n_nfl = 1              dcgdo_n_nfl = 1
++dcf_n_nfl = 1               dnfactor_n_nfl = 0           dags_n_nfl = 0
++dvth0_n_nfl = 0             du0_n_nfl = 0                dpu0_n_nfl = 0
+* PERI NORMAL VT PMOS TR.
++dtoxe_p_pf = 0             dtoxp_p_pf = 0              dxl_p_pf = 0
++dxw_p_pf = 0               dlvth0_p_pf = 0             dlu0_p_pf = 0
++dvsat_p_pf = 0             djtsswgd_p_pf = 0           dcjs_p_pf = 1
++dcjd_p_pf = 1              dcjsws_p_pf = 1             dcjswd_p_pf = 1
++dcjswgs_p_pf = 1           dcjswgd_p_pf = 1            dcgsl_p_pf = 1
++dcgdl_p_pf = 1             dcgso_p_pf = 1              dcgdo_p_pf = 1
++dcf_p_pf = 1               dnfactor_p_pf = 0           dags_p_pf = 0
++dvth0_p_pf = 0             du0_p_pf = 0                dpu0_p_pf = 0
+* PERI THIN LOW VT PMOS
++dtoxe_p_pfl = 0             dtoxp_p_pfl = 0              dxl_p_pfl = 0
++dxw_p_pfl = 0               dlvth0_p_pfl = 0             dlu0_p_pfl = 0
++dvsat_p_pfl = 0             djtsswgd_p_pfl = 0           dcjs_p_pfl = 1
++dcjd_p_pfl = 1              dcjsws_p_pfl = 1             dcjswd_p_pfl = 1
++dcjswgs_p_pfl = 1           dcjswgd_p_pfl = 1            dcgsl_p_pfl = 1
++dcgdl_p_pfl = 1             dcgso_p_pfl = 1              dcgdo_p_pfl = 1
++dcf_p_pfl = 1               dnfactor_p_pfl = 0           dags_p_pfl = 0
++dvth0_p_pfl = 0             du0_p_pfl = 0                dpu0_p_pfl = 0
+* CORE NMOS SA TR.
++dtoxe_nflsa = 0                           dtoxp_nflsa = 0                         dxl_nflsa = 0
++dxw_nflsa = 0                             dlvth0_nflsa = 0                         dlu0_nflsa = 0
++dvsat_nflsa = 0                           djtsswgd_nflsa = 0                     dcf_nflsa = 0
++dnfactor_nflsa = 0                      dags_nflsa = 0                           dvth0_nflsa = 0
++du0_nflsa = 0                             dcjs_nflsa = 0
++dcjd_nflsa = 0                            dcjsws_nflsa = 0                         dcjswd_nflsa = 0
++dcjswgs_nflsa = 0                       dcjswgd_nflsa = 0                      dcgsl_nflsa = 0
++dcgdl_nflsa = 0                          dcgso_nflsa = 0                          dcgdo_nflsa = 0
+* CORE PEQ BLPR
++dtoxe_nfpeq = 0                           dxl_nfpeq = 0                   dvth0_nfpeq = 0
++dtoxp_nfpeq = 0                          dxw_nfpeq = 0                  dlvth0_nfpeq = 0
++dlu0_nfpeq = 0                           dvsat_nfpeq = 0              djtsswgd_nfpeq = 0
++dcf_nfpeq = 0                        dnfactor_nfpeq = 0                    dags_nfpeq = 0
++du0_nfpeq = 0                              dcjs_nfpeq = 0
++dcjd_nfpeq = 0                          dcjsws_nfpeq = 0                  dcjswd_nfpeq = 0
++dcjswgs_nfpeq = 0                  dcjswgd_nfpeq = 0                    dcgsl_nfpeq = 0
++dcgdl_nfpeq = 0                        dcgso_nfpeq = 0                    dcgdo_nfpeq = 0
+* CORE PEQ, BLPR
++dtoxe_nfmeq = 0                           dxl_nfmeq = 0                             dvth0_nfmeq = 0
++dtoxp_nfmeq = 0                           dxw_nfmeq = 0                             dlvth0_nfmeq = 0
++dlu0_nfmeq = 0                            dvsat_nfmeq = 0                           djtsswgd_nfmeq = 0
++dcf_nfmeq = 0                             dnfactor_nfmeq = 0                        dags_nfmeq = 0
++du0_nfmeq = 0                              dcjs_nfmeq = 0
++dcjd_nfmeq = 0           dcjsws_nfmeq = 0          dcjswd_nfmeq = 0
++dcjswgs_nfmeq = 0        dcjswgd_nfmeq = 0         dcgsl_nfmeq = 0
++dcgdl_nfmeq = 0          dcgso_nfmeq = 0           dcgdo_nfmeq = 0
+* CORE PMOS SA TR.
++dtoxe_pflsa = 0                           dtoxp_pflsa = 0                         dxl_pflsa = 0
++dxw_pflsa = 0                             dlvth0_pflsa = 0                       dlu0_pflsa = 1E-5
++dvsat_pflsa = 0                        djtsswgd_pflsa = 0                        dcf_pflsa = 0
++dnfactor_pflsa = 0                         dags_pflsa = 0                     dvth0_pflsa = 0
++du0_pflsa = 0                                  dcjs_pflsa = 0                       dcjd_pflsa = 0
++dcjsws_pflsa = 0                          dcjswd_pflsa = 0                 dcjswgs_pflsa = 0
++dcjswgd_pflsa = 0                          dcgsl_pflsa = 0                     dcgdl_pflsa = 0
++dcgso_pflsa = 0                            dcgdo_pflsa = 0
+* PERI THICK NORMAL VT NMOS
++dtoxe_n_nft = 0             dtoxp_n_nft = 0              dxl_n_nft = 0
++dxw_n_nft = 0               dlvth0_n_nft = 0             dlu0_n_nft = 0
++dvsat_n_nft = 0             djtsswgd_n_nft = 0           dcjs_n_nft = 1
++dcjd_n_nft = 1              dcjsws_n_nft = 1             dcjswd_n_nft = 1
++dcjswgs_n_nft = 1           dcjswgd_n_nft = 1            dcgsl_n_nft = 1
++dcgdl_n_nft = 1             dcgso_n_nft = 1              dcgdo_n_nft = 1
++dcf_n_nft = 1               dnfactor_n_nft = 0           dags_n_nft = 0
++dvth0_n_nft = 0             du0_n_nft = 0                dpu0_n_nft = 0
+* PERI THICK NORMAL VT NMOS
++dtoxe_n_nflt = 0             dtoxp_n_nflt = 0              dxl_n_nflt = 0
++dxw_n_nflt = 0               dlvth0_n_nflt = 0             dlu0_n_nflt = 0
++dvsat_n_nflt = 0             djtsswgd_n_nflt = 0           dcjs_n_nflt = 1
++dcjd_n_nflt = 1              dcjsws_n_nflt = 1             dcjswd_n_nflt = 1
++dcjswgs_n_nflt = 1           dcjswgd_n_nflt = 1            dcgsl_n_nflt = 1
++dcgdl_n_nflt = 1             dcgso_n_nflt = 1              dcgdo_n_nflt = 1
++dcf_n_nflt = 1               dnfactor_n_nflt = 0           dags_n_nflt = 0
++dvth0_n_nflt = 0             du0_n_nflt = 0                dpu0_n_nflt = 0
+* PERI THICK NMOS ASYMMETRY TR.
++dtoxe_nft_hci = 0             dtoxp_nft_hci = 0              dxl_nft_hci = 0
++dxw_nft_hci = 0               dlvth0_nft_hci = 0             dlu0_nft_hci = 0
++dvsat_nft_hci = 0             djtsswgd_nft_hci = 0           dcjs_nft_hci = 1
++dcjd_nft_hci = 1              dcjsws_nft_hci = 1             dcjswd_nft_hci = 1
++dcjswgs_nft_hci = 1           dcjswgd_nft_hci = 1            dcgsl_nft_hci = 1
++dcgdl_nft_hci = 1             dcgso_nft_hci = 1              dcgdo_nft_hci = 1
++dcf_nft_hci = 1               dnfactor_nft_hci = 0           dags_nft_hci = 0
++dvth0_nft_hci = 0             du0_nft_hci = 0
+* PERI THICK NORMAL VT  PMOS
++dtoxe_p_pft = 0             dtoxp_p_pft = 0              dxl_p_pft = 0
++dxw_p_pft = 0               dlvth0_p_pft = 0             dlu0_p_pft = 0
++dvsat_p_pft = 0             djtsswgd_p_pft = 0           dcjs_p_pft = 1
++dcjd_p_pft = 1              dcjsws_p_pft = 1             dcjswd_p_pft = 1
++dcjswgs_p_pft = 1           dcjswgd_p_pft = 1            dcgsl_p_pft = 1
++dcgdl_p_pft = 1             dcgso_p_pft = 1              dcgdo_p_pft = 1
++dcf_p_pft = 1               dnfactor_p_pft = 0           dags_p_pft = 0
++dvth0_p_pft = 0             du0_p_pft = 0                dpu0_p_pft = 0
+* PERI THICK LOW VT PMOS
++dtoxe_p_pflt = 0             dtoxp_p_pflt = 0              dxl_p_pflt = 0
++dxw_p_pflt = 0               dlvth0_p_pflt = 0             dlu0_p_pflt = 0
++dvsat_p_pflt = 0             djtsswgd_p_pflt = 0           dcjs_p_pflt = 1
++dcjd_p_pflt = 1              dcjsws_p_pflt = 1             dcjswd_p_pflt = 1
++dcjswgs_p_pflt = 1           dcjswgd_p_pflt = 1            dcgsl_p_pflt = 1
++dcgdl_p_pflt = 1             dcgso_p_pflt = 1              dcgdo_p_pflt = 1
++dcf_p_pflt = 1               dnfactor_p_pflt = 0           dags_p_pflt = 0
++dvth0_p_pflt = 0             du0_p_pflt = 0                dpu0_p_pflt = 0
+* PERI THICK AYMMETRY PMOS TR.
++dtoxe_pft_heip = 0                           dtoxp_pft_heip = 0                           dxl_pft_heip = 0
++dxw_pft_heip = 0                             dlvth0_pft_heip = 0                          dlu0_pft_heip = 0
++dvsat_pft_heip = 0                           djtsswgd_pft_heip = 0                        dcf_pft_heip = 0
++dnfactor_pft_heip = 0                        dags_pft_heip = 0                            dvth0_pft_heip = 0
++du0_pft_heip = 0                             dcjs_pft_heip = 0                            dcjd_pft_heip = 0
++dcjsws_pft_heip = 0                          dcjswd_pft_heip = 0                          dcjswgs_pft_heip = 0
++dcjswgd_pft_heip = 0                         dcgsl_pft_heip = 0                           dcgdl_pft_heip = 0
++dcgso_pft_heip = 0                           dcgdo_pft_heip = 0
+* CORE THICK NWEIB
++dtoxe_nfth_hci = 0                           dxl_nfth_hci = 0                             dvth0_nfth_hci = 0
++dtoxp_nfth_hci = 0                           dxw_nfth_hci = 0                             dlvth0_nfth_hci = 0
++dlu0_nfth_hci = 0                            dvsat_nfth_hci = 0                           djtsswgd_nfth_hci = 0
++dcf_nfth_hci = 0                             dnfactor_nfth_hci = 0                        dags_nfth_hci = 0
++du0_nfth_hci = 0                              dcjs_nfth_hci = 0
++dcjd_nfth_hci = 0           dcjsws_nfth_hci = 0          dcjswd_nfth_hci = 0
++dcjswgs_nfth_hci = 0        dcjswgd_nfth_hci = 0         dcgsl_nfth_hci = 0
++dcgdl_nfth_hci = 0          dcgso_nfth_hci = 0           dcgdo_nfth_hci = 0
+* CORE THICK PXIB TR.
++dtoxe_nfthp_hci = 0                           dxl_nfthp_hci = 0                             dvth0_nfthp_hci = 0
++dtoxp_nfthp_hci = 0                           dxw_nfthp_hci = 0                             dlvth0_nfthp_hci = 0
++dlu0_nfthp_hci = 0                            dvsat_nfthp_hci = 0                           djtsswgd_nfthp_hci = 0
++dcf_nfthp_hci = 0                             dnfactor_nfthp_hci = 0                        dags_nfthp_hci = 0
++du0_nfthp_hci = 0                              dcjs_nfthp_hci = 0
++dcjd_nfthp_hci = 0           dcjsws_nfthp_hci = 0          dcjswd_nfthp_hci = 0
++dcjswgs_nfthp_hci = 0        dcjswgd_nfthp_hci = 0         dcgsl_nfthp_hci = 0
++dcgdl_nfthp_hci = 0          dcgso_nfthp_hci = 0           dcgdo_nfthp_hci = 0
+* CORE THICK PXID PMOS
++dtoxe_pft_heip2 = 0                           dtoxp_pft_heip2 = 0                           dxl_pft_heip2 = 0
++dxw_pft_heip2 = 0                             dlvth0_pft_heip2 = 0                          dlu0_pft_heip2 = 0
++dvsat_pft_heip2 = 0                           djtsswgd_pft_heip2 = 0                        dcf_pft_heip2 = 0
++dnfactor_pft_heip2 = 0                        dags_pft_heip2 = 0                            dvth0_pft_heip2 = 0
++du0_pft_heip2 = 0                             dcjs_pft_heip2 = 0                            dcjd_pft_heip2 = 0
++dcjsws_pft_heip2 = 0                          dcjswd_pft_heip2 = 0                          dcjswgs_pft_heip2 = 0
++dcjswgd_pft_heip2 = 0                         dcgsl_pft_heip2 = 0                           dcgdl_pft_heip2 = 0
++dcgso_pft_heip2 = 0                           dcgdo_pft_heip2 = 0
+* CELL Tr. MC
++dtoxe_mc = 0                           dxl_mc = 0                             dvth0_mc = 0
++dtoxp_mc = 0                           dxw_mc = 0                             dlvth0_mc = 0
++dlu0_mc = 0                            dvsat_mc = 0                           djtsswgd_mc = 0
++dcf_mc = 0                             dnfactor_mc = 0                        dags_mc = 0
++du0_mc = 0                              dcjs_mc = 1
++dcjd_mc = 1           dcjsws_mc = 1          dcjswd_mc = 1
++dcjswgs_mc = 1        dcjswgd_mc = 1         dcgsl_mc = 1
++dcgdl_mc = 1          dcgso_mc = 1           dcgdo_mc = 1
+* DIODE
++dis_ndio = 0
++djsw_ndio = 0
++dn_ndio = 0
++dcj_ndio = 0
++dcjsw_ndio = 0
+
++dis_pdio = 0
++djsw_pdio = 0
++dn_pdio = 0
++dcj_pdio = 0
++dcjsw_pdio = 0
+
++dcjsw_pnmpw = 0
++dis_pnmpw = 0
++djsw_pnmpw = 0
++dn_pnmpw = 0
++dcj_pnmpw = 0
++dcjsw_pnmpw = 0
+
++dcjsw_pnwps = 0
++dis_pnwps = 0
++djsw_pnwps = 0
++dn_pnwps = 0
++dcj_pnwps = 0
++dcjsw_pnwps = 0
+
++dcjsw_pdwps = 0
++dis_pdwps = 0
++djsw_pdwps = 0
++dn_pdwps = 0
++dcj_pdwps = 0
++dcjsw_pdwps = 0
+
++dcjsw_ppdw = 0
++dis_ppdw = 0
++djsw_ppdw = 0
++dn_ppdw = 0
++dcj_ppdw = 0
++dcjsw_ppdw = 0
+
+* RESISTOR
++drsh_rnp = 0
++drsh_rpp = 0
++drsh_rnm = 0
++drsh_rngate = 0
++drsh_rpgate = 0
++drsh_rspw = 0
++drsh_rnpwb = 0
++ddw_rnp = 0
++ddw_rpp = 0
++ddw_rnm = 0
++ddw_rngate = 0
++ddw_rpgate = 0
++ddw_rspw = 0
++ddw_rnpwb = 0
+
+.lib "./all_model.lib" core
+.endl tt
+
+.lib ff
+.param
+* PERI THIN NORMAL VT NMOS
++dtoxe_n_nf = -1E-10        dtoxp_n_nf = -1E-10         dxl_n_nf = -1E-9
++dxw_n_nf = 4E-9            dlvth0_n_nf = -1.1E-3             dlu0_n_nf = 3.8E-4
++dvsat_n_nf = 5.68E3         djtsswgd_n_nf = 0           dcjs_n_nf = 0.95
++dcjd_n_nf = 0.95           dcjsws_n_nf = 0.95          dcjswd_n_nf = 0.95
++dcjswgs_n_nf = 0.95        dcjswgd_n_nf = 0.95         dcgsl_n_nf = 1.05
++dcgdl_n_nf = 1.05          dcgso_n_nf = 1.05           dcgdo_n_nf = 1.05
++dcf_n_nf = 1.05            dnfactor_n_nf = 0.194       dags_n_nf = 0.04
++dvth0_n_nf = -0.011             du0_n_nf = 2E-3        dute_n_nf = 0
++dpu0_n_nf = 0
+* PERI LOW VT NMOS Tr.
++dtoxe_n_nfl = -1E-10        dtoxp_n_nfl = -1E-10         dxl_n_nfl = -1.6E-9
++dxw_n_nfl = 8E-9            dlvth0_n_nfl = -1.21E-3             dlu0_n_nfl = 5E-5
++dvsat_n_nfl = 1.008E4         djtsswgd_n_nfl = 0           dcjs_n_nfl = 0.95
++dcjd_n_nfl = 0.95           dcjsws_n_nfl = 0.95          dcjswd_n_nfl = 0.95
++dcjswgs_n_nfl = 0.95        dcjswgd_n_nfl = 0.95         dcgsl_n_nfl = 1.05
++dcgdl_n_nfl = 1.05          dcgso_n_nfl = 1.05           dcgdo_n_nfl = 1.05
++dcf_n_nfl = 1.05            dnfactor_n_nfl = -0.17       dags_n_nfl = 1E-2
++dvth0_n_nfl = -0.011             du0_n_nfl = 2E-4        dpu0_n_nfl = 0
+* PERI NORMAL VT PMOS TR.
++dtoxe_p_pf = -1E-10        dtoxp_p_pf = -1E-10         dxl_p_pf = -1E-9
++dxw_p_pf = 4E-9            dlvth0_p_pf = 1.51E-3             dlu0_p_pf = 1E-6
++dvsat_p_pf = 3.08E3         djtsswgd_p_pf = 1E-4           dcjs_p_pf = 0.95
++dcjd_p_pf = 0.95           dcjsws_p_pf = 0.95          dcjswd_p_pf = 0.95
++dcjswgs_p_pf = 0.95        dcjswgd_p_pf = 0.95         dcgsl_p_pf = 1.05
++dcgdl_p_pf = 1.05          dcgso_p_pf = 1.05           dcgdo_p_pf = 1.05
++dcf_p_pf = 1.05            dnfactor_p_pf = 0.324       dags_p_pf = 0.01
++dvth0_p_pf = 0.014             du0_p_pf = 1E-4         dpu0_p_pf = 0
+* PERI THIN LOW VT PMOS
++dtoxe_p_pfl = -1E-10        dtoxp_p_pfl = -1E-10         dxl_p_pfl = -1.6E-9
++dxw_p_pfl = 8E-9            dlvth0_p_pfl = 2.385E-3             dlu0_p_pfl = 7E-6
++dvsat_p_pfl = 5.38E3         djtsswgd_p_pfl = 0           dcjs_p_pfl = 0.95
++dcjd_p_pfl = 0.95           dcjsws_p_pfl = 0.95          dcjswd_p_pfl = 0.95
++dcjswgs_p_pfl = 0.95        dcjswgd_p_pfl = 0.95         dcgsl_p_pfl = 1.05
++dcgdl_p_pfl = 1.05          dcgso_p_pfl = 1.05           dcgdo_p_pfl = 1.05
++dcf_p_pfl = 1.05            dnfactor_p_pfl = 0.02       dags_p_pfl = 0.025
++dvth0_p_pfl = 0.011             du0_p_pfl = 2E-4        dpu0_p_pfl = 0
+* CORE NMOS SA TR.
++dtoxe_nflsa = -1E-10                   dtoxp_nflsa = -1E-10                 dxl_nflsa = -1E-9
++dxw_nflsa = 2E-9                        dlvth0_nflsa = -3.6E-4                dlu0_nflsa = 7.7964E-4
++dvsat_nflsa = 1.5704E4               djtsswgd_nflsa = 0                     dcf_nflsa = 0
++dnfactor_nflsa = 2.6E-2              dags_nflsa = 1.50316E-1             dvth0_nflsa = -5.2477E-3
++du0_nflsa = 0.01770744                dcjs_nflsa = 0.95
++dcjd_nflsa = 0.95                        dcjsws_nflsa = 0.95                     dcjswd_nflsa = 0.95
++dcjswgs_nflsa = 0.95                   dcjswgd_nflsa = 0.95                  dcgsl_nflsa = 1.05
++dcgdl_nflsa = 1.05                      dcgso_nflsa = 1.05                      dcgdo_nflsa = 1.05
+* CORE PEQ BLPR
++dtoxe_nfpeq = -1E-10                   dtoxp_nfpeq = -1E-10                  dxl_nfpeq = -1E-9
++dxw_nfpeq = 2E-9                        dlvth0_nfpeq = -9E-5                 dlu0_nfpeq = -7.3692E-4
++dvsat_nfpeq = 7.85128E3          djtsswgd_nfpeq = 0                         dcf_nfpeq = 0
++dnfactor_nfpeq = 0                        dags_nfpeq = 0.02482            dvth0_nfpeq = -0.014844
++du0_nfpeq = 0.031161                     dcjs_nfpeq = 0.95
++dcjd_nfpeq = 0.95                        dcjsws_nfpeq = 0.95               dcjswd_nfpeq = 0.95
++dcjswgs_nfpeq = 0.95                dcjswgd_nfpeq = 0.95                 dcgsl_nfpeq = 1.05
++dcgdl_nfpeq = 1.05                       dcgso_nfpeq = 1.05               dcgdo_nfpeq = 1.05
+* CORE PEQ, BLPR
++dtoxe_nfmeq = -1E-10                   dtoxp_nfmeq = -1E-10                  dxl_nfmeq = -1E-9
++dxw_nfmeq = 2E-9                        dlvth0_nfmeq = -1.86E-4       dlu0_nfmeq = 4.353E-4
++dvsat_nfmeq =3.4E2      djtsswgd_nfmeq = 0                     dcf_nfmeq = 0
++dnfactor_nfmeq = 1.01307E-1        dags_nfmeq = 2.49985E0      dvth0_nfmeq = -2.1863E-2
++du0_nfmeq = 6.5509E-4    dcjs_nfmeq = 0.95
++dcjd_nfmeq = 0.95               dcjsws_nfmeq = 0.95          dcjswd_nfmeq = 0.95
++dcjswgs_nfmeq  = 0.95         dcjswgd_nfmeq = 0.95         dcgsl_nfmeq = 1.05
++dcgdl_nfmeq = 1.05            dcgso_nfmeq = 1.05           dcgdo_nfmeq = 1.05
+* CORE PMOS SA TR.
++dtoxe_pflsa = -1E-10                   dtoxp_pflsa = -1E-10                dxl_pflsa = -1E-9
++dxw_pflsa = -2E-9                       dlvth0_pflsa = 0                      dlu0_pflsa = -9.535E-5
++dvsat_pflsa = 600                    djtsswgd_pflsa = 0                        dcf_pflsa = 0
++dnfactor_pflsa = 0                         dags_pflsa = 0.2                 dvth0_pflsa = 0.015
++du0_pflsa = 1.5E-3                          dcjs_pflsa = 0.95
++dcjd_pflsa = 0.95                         dcjsws_pflsa = 0.95              dcjswd_pflsa = 0.95
++dcjswgs_pflsa = 0.95                 dcjswgd_pflsa = 0.95                 dcgsl_pflsa = 1.05
++dcgdl_pflsa = 1.05                        dcgso_pflsa = 1.05               dcgdo_pflsa = 1.05
+* PERI THICK NORMAL VT NMOS
++dtoxe_n_nft = -2E-10        dtoxp_n_nft = -2E-10         dxl_n_nft = -1.6E-9
++dxw_n_nft = 8E-9            dlvth0_n_nft = -7.29E-3             dlu0_n_nft = 2.25E-4
++dvsat_n_nft = 2.66E3         djtsswgd_n_nft = -9E-5           dcjs_n_nft = 0.95
++dcjd_n_nft = 0.95           dcjsws_n_nft = 0.95          dcjswd_n_nft = 0.95
++dcjswgs_n_nft = 0.95        dcjswgd_n_nft = 0.95         dcgsl_n_nft = 1.05
++dcgdl_n_nft = 1.05          dcgso_n_nft = 1.05           dcgdo_n_nft = 1.05
++dcf_n_nft = 1.05            dnfactor_n_nft = 0       dags_n_nft = 0.02
++dvth0_n_nft = -0.02             du0_n_nft = 1E-3       dpu0_n_nft = 0
+* PERI THICK NORMAL VT NMOS
++dtoxe_n_nflt = -2E-10        dtoxp_n_nflt = -2E-10         dxl_n_nflt = -2E-9
++dxw_n_nflt = 8E-9            dlvth0_n_nflt = -8.05E-3             dlu0_n_nflt = 2.35E-4
++dvsat_n_nflt = 2.54E3         djtsswgd_n_nflt = 0           dcjs_n_nflt = 0.95
++dcjd_n_nflt = 0.95           dcjsws_n_nflt = 0.95          dcjswd_n_nflt = 0.95
++dcjswgs_n_nflt = 0.95        dcjswgd_n_nflt = 0.95         dcgsl_n_nflt = 1.05
++dcgdl_n_nflt = 1.05          dcgso_n_nflt = 1.05           dcgdo_n_nflt = 1.05
++dcf_n_nflt = 1.05            dnfactor_n_nflt = -0.214       dags_n_nflt = 0.02
++dvth0_n_nflt = -0.02             du0_n_nflt = 1E-3          dpu0_n_nflt = 0
+* PERI THICK NMOS ASYMMETRY TR.
++dtoxe_nft_hci = -2E-10        dtoxp_nft_hci = -2E-10         dxl_nft_hci = -2E-9
++dxw_nft_hci = 8E-9            dlvth0_nft_hci = -9.5795E-3             dlu0_nft_hci = 1.175E-4
++dvsat_nft_hci = 2.54E3         djtsswgd_nft_hci = 0           dcjs_nft_hci = 0.95
++dcjd_nft_hci = 0.95           dcjsws_nft_hci = 0.95          dcjswd_nft_hci = 0.95
++dcjswgs_nft_hci = 0.95        dcjswgd_nft_hci = 0.95         dcgsl_nft_hci = 1.05
++dcgdl_nft_hci = 1.05          dcgso_nft_hci = 1.05           dcgdo_nft_hci = 1.05
++dcf_nft_hci = 1.05            dnfactor_nft_hci = -0.214       dags_nft_hci = 0.02
++dvth0_nft_hci = -0.03             du0_nft_hci = 7.69E-4
+* PERI THICK NORMAL VT  PMOS
++dtoxe_p_pft = -2E-10        dtoxp_p_pft = -2E-10         dxl_p_pft = -1.6E-9
++dxw_p_pft = 8E-9            dlvth0_p_pft = 5.57E-3             dlu0_p_pft = 1.5E-5
++dvsat_p_pft = 2.66E3         djtsswgd_p_pft = 6E-6           dcjs_p_pft = 0.95
++dcjd_p_pft = 0.95           dcjsws_p_pft = 0.95          dcjswd_p_pft = 0.95
++dcjswgs_p_pft = 0.95        dcjswgd_p_pft = 0.95         dcgsl_p_pft = 1.05
++dcgdl_p_pft = 1.05          dcgso_p_pft = 1.05           dcgdo_p_pft = 1.05
++dcf_p_pft = 1.05            dnfactor_p_pft = 0       dags_p_pft = 0.017
++dvth0_p_pft = 0.02             du0_p_pft = 3E-4        dpu0_p_pft = 0
+* PERI THICK LOW VT PMOS
++dtoxe_p_pflt = -2E-10        dtoxp_p_pflt = -2E-10         dxl_p_pflt = -1.6E-9
++dxw_p_pflt = 8E-9            dlvth0_p_pflt = 0.01115             dlu0_p_pflt = 9E-6
++dvsat_p_pflt = 2.66E3         djtsswgd_p_pflt = 2.346E-3           dcjs_p_pflt = 0.95
++dcjd_p_pflt = 0.95           dcjsws_p_pflt = 0.95          dcjswd_p_pflt = 0.95
++dcjswgs_p_pflt = 0.95        dcjswgd_p_pflt = 0.95         dcgsl_p_pflt = 1.05
++dcgdl_p_pflt = 1.05          dcgso_p_pflt = 1.05           dcgdo_p_pflt = 1.05
++dcf_p_pflt = 1.05            dnfactor_p_pflt = 0       dags_p_pflt = 0.017
++dvth0_p_pflt = 0.02             du0_p_pflt = 2E-5       dpu0_p_pflt = 0
+* PERI THICK AYMMETRY PMOS TR.
++dtoxe_pft_heip = -1E-10                   dtoxp_pft_heip = -1E-10                  dxl_pft_heip = -1E-9
++dxw_pft_heip = -2E-9                      dlvth0_pft_heip = 2.65E-3                          dlu0_pft_heip = 3.693799999999998E-5
++dvsat_pft_heip = 0                           djtsswgd_pft_heip = 0                        dcf_pft_heip = 0
++dnfactor_pft_heip = 0                        dags_pft_heip = 0.1344                            dvth0_pft_heip = 0.1178
++du0_pft_heip = 8.415059999999999E-3                        dcjs_pft_heip = 0.95
++dcjd_pft_heip = 0.95               dcjsws_pft_heip = 0.95          dcjswd_pft_heip = 0.95
++dcjswgs_pft_heip = 0.95         dcjswgd_pft_heip = 0.95         dcgsl_pft_heip = 1.05
++dcgdl_pft_heip = 1.05            dcgso_pft_heip = 1.05           dcgdo_pft_heip = 1.05
+* CORE THICK NWEIB
++dtoxe_nfth_hci = -1E-10                   dtoxp_nfth_hci = -1E-10                  dxl_nfth_hci = -1E-9
++dxw_nfth_hci = 2E-9                        dlvth0_nfth_hci = -8.35E-4        dlu0_nfth_hci = 3.1E-6
++dvsat_nfth_hci = 3E2                       djtsswgd_nfth_hci = 0                     dcf_nfth_hci = 0
++dnfactor_nfth_hci = 1.10001E-2       dags_nfth_hci = 0               dvth0_nfth_hci = -1.74983E-1
++du0_nfth_hci = 2.3E-4                     dcjs_nfth_hci = 0.95
++dcjd_nfth_hci = 0.95                       dcjsws_nfth_hci = 0.95          dcjswd_nfth_hci = 0.95
++dcjswgs_nfth_hci = 0.95                  dcjswgd_nfth_hci = 0.95         dcgsl_nfth_hci = 1.05
++dcgdl_nfth_hci = 1.05                     dcgso_nfth_hci = 1.05           dcgdo_nfth_hci = 1.05
+* CORE THICK PXIB TR.
++dtoxe_nfthp_hci = -1E-10                   dtoxp_nfthp_hci = -1E-10                  dxl_nfthp_hci = -1E-9
++dxw_nfthp_hci = 2E-9                              dlvth0_nfthp_hci = -4.17E-3         dlu0_nfthp_hci = 9.35E-5
++dvsat_nfthp_hci = 2.14504E4                 djtsswgd_nfthp_hci = 0                        dcf_nfthp_hci = 0
++dnfactor_nfthp_hci = 2.5E-2               dags_nfthp_hci = 8.07416E-2        dvth0_nfthp_hci = -1.21582E-1
++du0_nfthp_hci = 4.29319E-3            dcjs_nfthp_hci = 0.95
++dcjd_nfthp_hci = 0.95               dcjsws_nfthp_hci = 0.95          dcjswd_nfthp_hci = 0.95
++dcjswgs_nfthp_hci = 0.95         dcjswgd_nfthp_hci = 0.95         dcgsl_nfthp_hci = 1.05
++dcgdl_nfthp_hci = 1.05            dcgso_nfthp_hci = 1.05           dcgdo_nfthp_hci = 1.05
+* CORE THICK PXID PMOS
++dtoxe_pft_heip2 = -1E-10                   dtoxp_pft_heip2 = -1E-10                  dxl_pft_heip2 = -1E-9
++dxw_pft_heip2 = -2E-9                      dlvth0_pft_heip2 = 0                          dlu0_pft_heip2 = 1.4E-5
++dvsat_pft_heip2 = 8.33E3                           djtsswgd_pft_heip2 = 0                        dcf_pft_heip2 = 0
++dnfactor_pft_heip2 = 0                        dags_pft_heip2 = 0.192                            dvth0_pft_heip2 = 0.1065
++du0_pft_heip2 = 2.3E-4                        dcjs_pft_heip2 = 0.95
++dcjd_pft_heip2 = 0.95               dcjsws_pft_heip2 = 0.95          dcjswd_pft_heip2 = 0.95
++dcjswgs_pft_heip2 = 0.95         dcjswgd_pft_heip2 = 0.95         dcgsl_pft_heip2 = 1.05
++dcgdl_pft_heip2 = 1.05            dcgso_pft_heip2 = 1.05           dcgdo_pft_heip2 = 1.05
+* CELL Tr. MC
++dtoxe_mc = -1.5E-10                   dtoxp_mc = -1.5E-10                  dxl_mc = -1E-9
++dxw_mc = 2E-9                        dlvth0_mc = -8.35E-4        dlu0_mc = 3.1E-6
++dvsat_mc = 3E2                       djtsswgd_mc = 0                     dcf_mc = 0
++dnfactor_mc = 1.10001E-2       dags_mc = 0               dvth0_mc = -1.74983E-1
++du0_mc = 2.3E-4                     dcjs_mc = 0.95
++dcjd_mc = 0.95                       dcjsws_mc = 0.95          dcjswd_mc = 0.95
++dcjswgs_mc = 0.95                  dcjswgd_mc = 0.95         dcgsl_mc = 1.05
++dcgdl_mc = 1.05                     dcgso_mc = 1.05           dcgdo_mc = 1.05
+* DIODE
++dis_ndio = 6E-5
++djsw_ndio = 2E-11
++dn_ndio = -0.012
++dcj_ndio = -2.17E-4
++dcjsw_ndio = -1.9E-11
+
++dis_pdio = 0.002
++djsw_pdio = 1E-10
++dn_pdio = -0.013
++dcj_pdio = -2.02E-4
++dcjsw_pdio = -2.2E-11
+
++dis_pnmpw = 6E-5
++djsw_pnmpw = 2E-11
++dn_pnmpw = -0.012
++dcj_pnmpw = -2.17E-4
++dcjsw_pnmpw = -1.9E-11
+
++dis_pnwps = 6E-5
++djsw_pnwps = 2E-11
++dn_pnwps = -0.012
++dcj_pnwps = -2.17E-4
++dcjsw_pnwps = -1.9E-11
+
++dis_pdwps = 6E-5
++djsw_pdwps = 2E-11
++dn_pdwps = -0.012
++dcj_pdwps = -2.17E-4
++dcjsw_pdwps = -1.9E-11
+
++dis_ppdw = 0.002
++djsw_ppdw = 1E-10
++dn_ppdw = -0.013
++dcj_ppdw = -2.02E-4
++dcjsw_ppdw = -2.2E-11
+
+* RESISTOR
++drsh_rnp = -24
++drsh_rpp = -120
++drsh_rnm = -1500
++drsh_rngate = -2
++drsh_rpgate = -2
++drsh_rspw = -1
++drsh_rnpwb = -24
++ddw_rnp = -3.46E-10
++ddw_rpp = -2.11E-10
++ddw_rnm = -1.58E-9
++ddw_rngate = -1.05E-9
++ddw_rpgate = -1.12E-9
++ddw_rspw = -1.01E-9
++ddw_rnpwb = -24
+
+.lib "./all_model.lib" core
+.endl ff
+
+.lib fs
+.param
+* PERI THIN NORMAL VT NMOS
++dtoxe_n_nf = 0             dtoxp_n_nf = 0              dxl_n_nf = 0
++dxw_n_nf = 0               dlvth0_n_nf = -6.46E-4       dlu0_n_nf = 2.58E-4
++dvsat_n_nf = 5.9488E3      djtsswgd_n_nf = 0           dcjs_n_nf = 0.98
++dcjd_n_nf = 0.98           dcjsws_n_nf = 0.98          dcjswd_n_nf = 0.98
++dcjswgs_n_nf = 0.98        dcjswgd_n_nf = 0.98         dcgsl_n_nf = 1.02
++dcgdl_n_nf = 1.02          dcgso_n_nf = 1.02           dcgdo_n_nf = 1.02
++dcf_n_nf = 1.02            dnfactor_n_nf = 0.128       dags_n_nf = 0.0264
++dvth0_n_nf = -0.00726      du0_n_nf = 1.32E-3          dute_n_nf = 0
++dpu0_n_nf = 2.1E-4
+* PERI LOW VT NMOS Tr.
++dtoxe_n_nfl = 0             dtoxp_n_nfl = 0               dxl_n_nfl = 0
++dxw_n_nfl = 0               dlvth0_n_nfl = -7.23E-4      dlu0_n_nfl = 2.05E-5
++dvsat_n_nfl = 9.5E3         djtsswgd_n_nfl = 0           dcjs_n_nfl = 0.98
++dcjd_n_nfl = 0.98           dcjsws_n_nfl = 0.98          dcjswd_n_nfl = 0.98
++dcjswgs_n_nfl = 0.98        dcjswgd_n_nfl = 0.98         dcgsl_n_nfl = 1.02
++dcgdl_n_nfl = 1.02          dcgso_n_nfl = 1.02           dcgdo_n_nfl = 1.02
++dcf_n_nfl = 1.02            dnfactor_n_nfl = -0.114      dags_n_nfl = 6.7E-3
++dvth0_n_nfl = -0.00737      du0_n_nfl = 1.34E-4          dpu0_n_nfl = 5.65E-5
+* PERI NORMAL VT PMOS TR.
++dtoxe_p_pf = 0             dtoxp_p_pf = 0             dxl_p_pf = 0
++dxw_p_pf = 0             dlvth0_p_pf = -8.437E-4             dlu0_p_pf = -0.8174E-5
++dvsat_p_pf = -2E3        djtsswgd_p_pf = 0           dcjs_p_pf = 1.02
++dcjd_p_pf = 1.02           dcjsws_p_pf = 1.02          dcjswd_p_pf = 1.02
++dcjswgs_p_pf = 1.02        dcjswgd_p_pf = 1.02         dcgsl_p_pf = 0.98
++dcgdl_p_pf = 0.98          dcgso_p_pf = 0.98           dcgdo_p_pf = 0.98
++dcf_p_pf = 0.98            dnfactor_p_pf = -0.106      dags_p_pf = -0.0067
++dvth0_p_pf = -0.00938       du0_p_pf = -0.67E-4        dpu0_p_pf = 0
+* PERI THIN LOW VT PMOS
++dtoxe_p_pfl = 0             dtoxp_p_pfl = 0             dxl_p_pfl = 0
++dxw_p_pfl = 0               dlvth0_p_pfl = -1.391E-3             dlu0_p_pfl = -1.81E-5
++dvsat_p_pfl = -4.32E3        djtsswgd_p_pfl = 0           dcjs_p_pfl = 1.02
++dcjd_p_pfl = 1.02           dcjsws_p_pfl = 1.02          dcjswd_p_pfl = 1.02
++dcjswgs_p_pfl = 1.02        dcjswgd_p_pfl = 1.02         dcgsl_p_pfl = 0.98
++dcgdl_p_pfl = 0.98          dcgso_p_pfl = 0.98           dcgdo_p_pfl = 0.98
++dcf_p_pfl = 0.98            dnfactor_p_pfl = 0.0744     dags_p_pfl = -0.0134
++dvth0_p_pfl = -0.0077             du0_p_pfl = -1.34E-4   dpu0_p_pfl = -1E-5
+* CORE NMOS SA TR.
++dtoxe_nflsa = -0.67E-10       dtoxp_nflsa = -0.67E-10        dxl_nflsa = -0.67E-9
++dxw_nflsa = 1.34E-9             dlvth0_nflsa = 4.78E-4            dlu0_nflsa = 2E-3
++dvsat_nflsa = 1.8E-1             djtsswgd_nflsa = 0                dcf_nflsa = 0
++dnfactor_nflsa = 0                dags_nflsa = -3.36E-1           dvth0_nflsa = -7.70E-3
++du0_nflsa = 0.026                dcjs_nflsa = 0.9665
++dcjd_nflsa = 0.9665               dcjsws_nflsa = 0.9665           dcjswd_nflsa = 0.9665
++dcjswgs_nflsa = 0.9665          dcjswgd_nflsa = 0.9665        dcgsl_nflsa = 1.0335
++dcgdl_nflsa = 1.0335             dcgso_nflsa = 1.0335            dcgdo_nflsa = 1.0335
+* CORE PEQ BLPR
++dtoxe_nfpeq = -0.67E-10                 dtoxp_nfpeq = -0.67E-10                  dxl_nfpeq = -0.67E-9
++dxw_nfpeq = 1.34E-9                      dlvth0_nfpeq = 0                            dlu0_nfpeq = 0
++dvsat_nfpeq = 0                          djtsswgd_nfpeq = 0                              dcf_nfpeq = 0
++dnfactor_nfpeq = 0                           dags_nfpeq = 0                           dvth0_nfpeq = 0
++du0_nfpeq = 0                                    dcjs_nfpeq = 0.9665
++dcjd_nfpeq = 0.9665                        dcjsws_nfpeq = 0.9665                dcjswd_nfpeq = 0.9665
++dcjswgs_nfpeq = 0.9665                 dcjswgd_nfpeq = 0.9665                  dcgsl_nfpeq = 1.0335
++dcgdl_nfpeq = 1.0335                        dcgso_nfpeq = 1.0335                dcgdo_nfpeq = 1.0335
+* CORE PEQ, BLPR
++dtoxe_nfmeq = -0.67E-10                   dtoxp_nfmeq = -0.67E-10                  dxl_nfmeq = -0.67E-9
++dxw_nfmeq = 1.34E-9                      dlvth0_nfmeq = 0                          dlu0_nfmeq = 0
++dvsat_nfmeq = 0                           djtsswgd_nfmeq = 0                        dcf_nfmeq = 0
++dnfactor_nfmeq = 0                        dags_nfmeq = 0                            dvth0_nfmeq = 0
++du0_nfmeq = 0                dcjs_nfmeq = 0.9665
++dcjd_nfmeq = 0.9665               dcjsws_nfmeq = 0.9665          dcjswd_nfmeq = 0.9665
++dcjswgs_nfmeq = 0.9665         dcjswgd_nfmeq = 0.9665         dcgsl_nfmeq = 1.0335
++dcgdl_nfmeq = 1.0335            dcgso_nfmeq = 1.0335           dcgdo_nfmeq = 1.0335
+* CORE PMOS SA TR.
++dtoxe_pflsa = 0.67E-10                   dtoxp_pflsa = 0.67E-10                  dxl_pflsa = 0.67E-9
++dxw_pflsa = -1.34E-9                     dlvth0_pflsa = 0                           dlu0_pflsa = 0
++dvsat_pflsa = 0                          djtsswgd_pflsa = 0                            dcf_pflsa = 0
++dnfactor_pflsa = 0                           dags_pflsa = 0                         dvth0_pflsa = -0.0105
++du0_pflsa = -8.2E-4                          dcjs_pflsa = 1.0335
++dcjd_pflsa = 1.0335                      dcjsws_pflsa = 1.0335                dcjswd_pflsa = 1.0335
++dcjswgs_pflsa = 1.0335              dcjswgd_pflsa = 1.0335                   dcgsl_pflsa = 0.9665
++dcgdl_pflsa = 0.9665                     dcgso_pflsa = 0.9665                 dcgdo_pflsa = 0.9665
+* PERI THICK NORMAL VT NMOS
++dtoxe_n_nft = 0             dtoxp_n_nft = 0               dxl_n_nft = 0
++dxw_n_nft = 0               dlvth0_n_nft = -4.38E-3             dlu0_n_nft = 1.51E-4
++dvsat_n_nft = 3.84E3        djtsswgd_n_nft = -6.03E-5           dcjs_n_nft = 0.98
++dcjd_n_nft = 0.98           dcjsws_n_nft = 0.98          dcjswd_n_nft = 0.98
++dcjswgs_n_nft = 0.98        dcjswgd_n_nft = 0.98         dcgsl_n_nft = 1.02
++dcgdl_n_nft = 1.02          dcgso_n_nft = 1.02           dcgdo_n_nft = 1.02
++dcf_n_nft = 1.02            dnfactor_n_nft = 0       dags_n_nft = 0.0134
++dvth0_n_nft = -0.0134             du0_n_nft = 6.7E-4     dpu0_n_nft = 2.2E-4
+* PERI THICK NORMAL VT NMOS
++dtoxe_n_nflt = 0             dtoxp_n_nflt = 0                dxl_n_nflt = 0
++dxw_n_nflt = 0               dlvth0_n_nflt = -4.89E-3             dlu0_n_nflt = 1.575E-4
++dvsat_n_nflt = 3.607E3         djtsswgd_n_nflt = 0           dcjs_n_nflt = 0.98
++dcjd_n_nflt = 0.98           dcjsws_n_nflt = 0.98          dcjswd_n_nflt = 0.98
++dcjswgs_n_nflt = 0.98        dcjswgd_n_nflt = 0.98         dcgsl_n_nflt = 1.02
++dcgdl_n_nflt = 1.02          dcgso_n_nflt = 1.02           dcgdo_n_nflt = 1.02
++dcf_n_nflt = 1.02            dnfactor_n_nflt = -0.143       dags_n_nflt = 0.0134
++dvth0_n_nflt = -0.0134          du0_n_nflt = 6.7E-4         dpu0_n_nflt = 3.4E-4
+* PERI THICK NMOS ASYMMETRY TR.
++dtoxe_nft_hci = -0.67E-10                   dtoxp_nft_hci = -0.67E-10                  dxl_nft_hci = -0.67E-9
++dxw_nft_hci = 1.34E-9                      dlvth0_nft_hci = -7.1E-3                          dlu0_nft_hci = -0.02
++dvsat_nft_hci = 190.008                           djtsswgd_nft_hci = 0                        dcf_nft_hci = 0
++dnfactor_nft_hci = 0                        dags_nft_hci = 0.227                            dvth0_nft_hci = 2.865E-3
++du0_nft_hci = 0.28                dcjs_nft_hci = 0.9665
++dcjd_nft_hci = 0.9665               dcjsws_nft_hci = 0.9665          dcjswd_nft_hci = 0.9665
++dcjswgs_nft_hci = 0.9665         dcjswgd_nft_hci = 0.9665         dcgsl_nft_hci = 1.0335
++dcgdl_nft_hci = 1.0335            dcgso_nft_hci = 1.0335           dcgdo_nft_hci = 1.0335
+* PERI THICK NORMAL VT  PMOS
++dtoxe_p_pft = 0               dtoxp_p_pft = 0          dxl_p_pft = 0
++dxw_p_pft = 0                dlvth0_p_pft = -4.535E-3             dlu0_p_pft = -0.871E-5
++dvsat_p_pft = -2.948E3        djtsswgd_p_pft = 0.67E-6           dcjs_p_pft = 1.02
++dcjd_p_pft = 1.02           dcjsws_p_pft = 1.02          dcjswd_p_pft = 1.02
++dcjswgs_p_pft = 1.02        dcjswgd_p_pft = 1.02         dcgsl_p_pft = 0.98
++dcgdl_p_pft = 0.98          dcgso_p_pft = 0.98           dcgdo_p_pft = 0.98
++dcf_p_pft = 0.98            dnfactor_p_pft = 0      dags_p_pft = -0.0134
++dvth0_p_pft = -0.00774      du0_p_pft = -2.68E-4       dpu0_p_pft = -5E-6
+* PERI THICK LOW VT PMOS
++dtoxe_p_pflt = 0             dtoxp_p_pflt = 0              dxl_p_pflt = 0
++dxw_p_pflt = 0               dlvth0_p_pflt = -8.29E-3             dlu0_p_pflt = -6.23E-6
++dvsat_p_pflt = -3.448E3      djtsswgd_p_pflt = -5.628E-5           dcjs_p_pflt = 1.02
++dcjd_p_pflt = 1.02           dcjsws_p_pflt = 1.02          dcjswd_p_pflt = 1.02
++dcjswgs_p_pflt = 1.02        dcjswgd_p_pflt = 1.02         dcgsl_p_pflt = 0.98
++dcgdl_p_pflt = 0.98          dcgso_p_pflt = 0.98           dcgdo_p_pflt = 0.98
++dcf_p_pflt = 0.98            dnfactor_p_pflt = 0      dags_p_pflt = -0.0134
++dvth0_p_pflt = -0.0077       du0_p_pflt = -0.67E-4      dpu0_p_pflt = -1E-5
+* PERI THICK AYMMETRY PMOS TR.
++dtoxe_pft_heip = 0.67E-10                   dtoxp_pft_heip = 0.67E-10                  dxl_pft_heip = 0.67E-9
++dxw_pft_heip = -1.34E-9                     dlvth0_pft_heip = 0.012                          dlu0_pft_heip = -1E-4
++dvsat_pft_heip = 0                     djtsswgd_pft_heip = 0                        dcf_pft_heip = 0
++dnfactor_pft_heip = 0                        dags_pft_heip = 0                            dvth0_pft_heip = -0.206
++du0_pft_heip = -3.3E-3                             dcjs_pft_heip = 1.0335
++dcjd_pft_heip = 1.0335           dcjsws_pft_heip = 1.0335          dcjswd_pft_heip = 1.0335
++dcjswgs_pft_heip = 1.0335        dcjswgd_pft_heip = 1.0335         dcgsl_pft_heip = 0.9665
++dcgdl_pft_heip = 0.9665          dcgso_pft_heip = 0.9665           dcgdo_pft_heip = 0.9665
+* CORE THICK NWEIB
++dtoxe_nfth_hci = -0.67E-10                   dtoxp_nfth_hci = -0.67E-10                  dxl_nfth_hci = -0.67E-9
++dxw_nfth_hci = 1.34E-9                      dlvth0_nfth_hci = 0                          dlu0_nfth_hci = 0
++dvsat_nfth_hci = 0                           djtsswgd_nfth_hci = 0                        dcf_nfth_hci = 0
++dnfactor_nfth_hci = 0                        dags_nfth_hci = 0                            dvth0_nfth_hci = 0
++du0_nfth_hci = 0                dcjs_nfth_hci = 0.9665
++dcjd_nfth_hci = 0.9665               dcjsws_nfth_hci = 0.9665          dcjswd_nfth_hci = 0.9665
++dcjswgs_nfth_hci = 0.9665         dcjswgd_nfth_hci = 0.9665         dcgsl_nfth_hci = 1.0335
++dcgdl_nfth_hci = 1.0335            dcgso_nfth_hci = 1.0335           dcgdo_nfth_hci = 1.0335
+* CORE THICK PXIB TR.
++dtoxe_nfthp_hci = -0.67E-10                   dtoxp_nfthp_hci = -0.67E-10                  dxl_nfthp_hci = -0.67E-9
++dxw_nfthp_hci = 1.34E-9                      dlvth0_nfthp_hci = 0                          dlu0_nfthp_hci = 0
++dvsat_nfthp_hci = 0                           djtsswgd_nfthp_hci = 0                        dcf_nfthp_hci = 0
++dnfactor_nfthp_hci = 0                        dags_nfthp_hci = 0                            dvth0_nfthp_hci = 0
++du0_nfthp_hci = 0                dcjs_nfthp_hci = 0.9665
++dcjd_nfthp_hci = 0.9665               dcjsws_nfthp_hci = 0.9665          dcjswd_nfthp_hci = 0.9665
++dcjswgs_nfthp_hci = 0.9665         dcjswgd_nfthp_hci = 0.9665         dcgsl_nfthp_hci = 1.0335
++dcgdl_nfthp_hci = 1.0335            dcgso_nfthp_hci = 1.0335           dcgdo_nfthp_hci = 1.0335
+* CORE THICK PXID PMOS
++dtoxe_pft_heip2 = 0.67E-10                   dtoxp_pft_heip2 = 0.67E-10                  dxl_pft_heip2 = 0.67E-9
++dxw_pft_heip2 = -1.34E-9                     dlvth0_pft_heip2 = 0                          dlu0_pft_heip2 = 0
++dvsat_pft_heip2 = 0                     djtsswgd_pft_heip2 = 0                        dcf_pft_heip2 = 0
++dnfactor_pft_heip2 = 0                        dags_pft_heip2 = 0                            dvth0_pft_heip2 = 0
++du0_pft_heip2 = 0                             dcjs_pft_heip2 = 1.0335
++dcjd_pft_heip2 = 1.0335           dcjsws_pft_heip2 = 1.0335          dcjswd_pft_heip2 = 1.0335
++dcjswgs_pft_heip2 = 1.0335        dcjswgd_pft_heip2 = 1.0335         dcgsl_pft_heip2 = 0.9665
++dcgdl_pft_heip2 = 0.9665          dcgso_pft_heip2 = 0.9665           dcgdo_pft_heip2 = 0.9665
+* CELL Tr. MC
++dtoxe_mc = -0.67E-10                   dtoxp_mc = -0.67E-10                  dxl_mc = -0.67E-9
++dxw_mc = 1.34E-9                      dlvth0_mc = 0                          dlu0_mc = 0
++dvsat_mc = 0                           djtsswgd_mc = 0                        dcf_mc = 0
++dnfactor_mc = 0                        dags_mc = 0                            dvth0_mc = 0
++du0_mc = 0                dcjs_mc = 0.9665
++dcjd_mc = 0.9665               dcjsws_mc = 0.9665          dcjswd_mc = 0.9665
++dcjswgs_mc = 0.9665         dcjswgd_mc = 0.9665         dcgsl_mc = 1.0335
++dcgdl_mc = 1.0335            dcgso_mc = 1.0335           dcgdo_mc = 1.0335
+* DIODE
+* FS definition: n-type (2/3)*fast, P-type (2/3)*slow
+dis_ndio	=	0.00004002
+djsw_ndio	=	1.334E-11
+dn_ndio	=	-0.008004
+dcj_ndio	=	-0.000144739
+dcjsw_ndio	=	-1.2673E-11
+
+dis_pdio	=	-0.001334
+djsw_pdio	=	-6.67E-11
+dn_pdio	=	0.008671
+dcj_pdio	=	0.000134734
+dcjsw_pdio	=	1.4674E-11
+
+dis_pnmpw	=	0.00004002
+djsw_pnmpw	=	1.334E-11
+dn_pnmpw	=	-0.008004
+dcj_pnmpw	=	-0.000144739
+dcjsw_pnmpw	=	-1.2673E-11
+
+dis_pnwps	=	0.00004002
+djsw_pnwps	=	1.334E-11
+dn_pnwps	=	-0.008004
+dcj_pnwps	=	-0.000144739
+dcjsw_pnwps	=	-1.2673E-11
+
+dis_pdwps	=	0.00004002
+djsw_pdwps	=	1.334E-11
+dn_pdwps	=	-0.008004
+dcj_pdwps	=	-0.000144739
+dcjsw_pdwps	=	-1.2673E-11
+
+dis_ppdw	=	-0.001334
+djsw_ppdw	=	-6.67E-11
+dn_ppdw	=	0.008671
+dcj_ppdw	=	0.000134734
+dcjsw_ppdw	=	1.4674E-11
+
+* RESISTOR
+* FS definition: n-type (2/3)*fast, P-type (2/3)*slow
++drsh_rnp = -16.008
++drsh_rpp = 73.37
++drsh_rnm = -1000.5
++drsh_rngate = -1.334
++drsh_rpgate = 1.334
++drsh_rspw = 0.667
++drsh_rnpwb = -16.008
++ddw_rnp = -2.3E-10
++ddw_rpp = 1.41E-10
++ddw_rnm = -1.1E09
++ddw_rngate = -7E-10
++ddw_rpgate = 7.47E-10
++ddw_rspw = 6.74E-10
++ddw_rnpwb = -16.008
+
+.lib "./all_model.lib" core
+.endl fs
+
+.lib sf
+.param
+* PERI THIN NORMAL VT NMOS
++dtoxe_n_nf = 0             dtoxp_n_nf = 0               dxl_n_nf = 0
++dxw_n_nf = 0               dlvth0_n_nf = 7.128E-4       dlu0_n_nf = 9E-5
++dvsat_n_nf = -8.462E3      djtsswgd_n_nf = 0           dcjs_n_nf = 1.02
++dcjd_n_nf = 1.02           dcjsws_n_nf = 1.02          dcjswd_n_nf = 1.02
++dcjswgs_n_nf = 1.02        dcjswgd_n_nf = 1.02         dcgsl_n_nf = 0.98
++dcgdl_n_nf = 0.98          dcgso_n_nf = 0.98           dcgdo_n_nf = 0.98
++dcf_n_nf = 0.98            dnfactor_n_nf = -0.10428    dags_n_nf = -0.0165
++dvth0_n_nf = 4.62E-3       du0_n_nf = -6.6E-4          dute_n_nf = 0.066
++dpu0_n_nf = -2.1E-4
+* PERI LOW VT NMOS Tr.
++dtoxe_n_nfl = 0             dtoxp_n_nfl = 0               dxl_n_nfl = 0
++dxw_n_nfl = 0               dlvth0_n_nfl = 1.575E-3       dlu0_n_nfl = -5.561E-5
++dvsat_n_nfl = -6.76E3        djtsswgd_n_nfl = 0           dcjs_n_nfl = 1.02
++dcjd_n_nfl = 1.02           dcjsws_n_nfl = 1.02          dcjswd_n_nfl = 1.02
++dcjswgs_n_nfl = 1.02        dcjswgd_n_nfl = 1.02         dcgsl_n_nfl = 0.98
++dcgdl_n_nfl = 0.98          dcgso_n_nfl = 0.98           dcgdo_n_nfl = 0.98
++dcf_n_nfl = 0.98            dnfactor_n_nfl = -0.1817     dags_n_nfl = -0.0067
++dvth0_n_nfl = 0.0077        du0_n_nfl = -6.7E-5          dpu0_n_nfl = -6E-5
+* PERI NORMAL VT PMOS TR.
++dtoxe_p_pf = 0             dtoxp_p_pf = 0               dxl_p_pf = 0
++dxw_p_pf = 0               dlvth0_p_pf = 1.0917E-3           dlu0_p_pf = 0.67E-6
++dvsat_p_pf = 2.06E3         djtsswgd_p_pf = 0.67E-4           dcjs_p_pf = 0.98
++dcjd_p_pf = 0.98           dcjsws_p_pf = 0.98          dcjswd_p_pf = 0.98
++dcjswgs_p_pf = 0.98        dcjswgd_p_pf = 0.98         dcgsl_p_pf = 1.02
++dcgdl_p_pf = 1.02          dcgso_p_pf = 1.02           dcgdo_p_pf = 1.02
++dcf_p_pf = 1.02            dnfactor_p_pf = 0.217       dags_p_pf = 0.0067
++dvth0_p_pf = 0.00938       du0_p_pf = 0.67E-4          dpu0_p_pf = 0
+* PERI THIN LOW VT PMOS
++dtoxe_p_pfl = 0             dtoxp_p_pfl = 0             dxl_p_pfl = 0
++dxw_p_pfl = 0               dlvth0_p_pfl = 1.6E-3             dlu0_p_pfl = 4.69E-6
++dvsat_p_pfl = 3.61E3         djtsswgd_p_pfl = 0           dcjs_p_pfl = 0.98
++dcjd_p_pfl = 0.98           dcjsws_p_pfl = 0.98         dcjswd_p_pfl = 0.98
++dcjswgs_p_pfl = 0.98        dcjswgd_p_pfl = 0.98         dcgsl_p_pfl = 1.02
++dcgdl_p_pfl = 1.02          dcgso_p_pfl = 1.02           dcgdo_p_pfl = 1.02
++dcf_p_pfl = 1.02            dnfactor_p_pfl = 0.0134      dags_p_pfl = 0.01675
++dvth0_p_pfl = 0.00737       du0_p_pfl = 1.34E-4           dpu0_p_pfl = 1E-5
+* CORE NMOS SA TR.
++dtoxe_nflsa = 0.67E-10           dtoxp_nflsa = 0.67E-10     dxl_nflsa = 0.67E-9
++dxw_nflsa = -1.34E-9              dlvth0_nflsa = -1.5E-3         dlu0_nflsa = 9.999999E-6
++dvsat_nflsa = 0.15                  djtsswgd_nflsa = 0            dcf_nflsa = 0
++dnfactor_nflsa = 0                  dags_nflsa = -4.4E-1         dvth0_nflsa = 0.030975
++du0_nflsa = -0.0269                  dcjs_nflsa = 1.0335
++dcjd_nflsa = 1.0335                 dcjsws_nflsa = 1.0335       dcjswd_nflsa = 1.0335
++dcjswgs_nflsa = 1.0335            dcjswgd_nflsa = 1.0335    dcgsl_nflsa = 0.9665
++dcgdl_nflsa = 0.9665               dcgso_nflsa = 0.9665        dcgdo_nflsa = 0.9665
+* CORE PEQ BLPR
++dtoxe_nfpeq = 0.67E-10                   dtoxp_nfpeq = 0.67E-10               dxl_nfpeq = 0.67E-9
++dxw_nfpeq = -1.34E-9                     dlvth0_nfpeq = 0                        dlu0_nfpeq = 0
++dvsat_nfpeq = 0                           djtsswgd_nfpeq = 0                        dcf_nfpeq = 0
++dnfactor_nfpeq = 0                            dags_nfpeq = 0                     dvth0_nfpeq = 0
++du0_nfpeq = 0                                    dcjs_nfpeq = 1.0335
++dcjd_nfpeq = 1.0335                       dcjsws_nfpeq = 1.0335            dcjswd_nfpeq = 1.0335
++dcjswgs_nfpeq = 1.0335                dcjswgd_nfpeq = 1.0335              dcgsl_nfpeq = 0.9665
++dcgdl_nfpeq = 0.9665                      dcgso_nfpeq = 0.9665             dcgdo_nfpeq = 0.9665
+* CORE PEQ, BLPR
++dtoxe_nfmeq = 0.67E-10                   dtoxp_nfmeq = 0.67E-10                  dxl_nfmeq = 0.67E-9
++dxw_nfmeq = -1.34E-9                      dlvth0_nfmeq = 0                          dlu0_nfmeq = 0
++dvsat_nfmeq = 0                           djtsswgd_nfmeq = 0                        dcf_nfmeq = 0
++dnfactor_nfmeq = 0                        dags_nfmeq = 0                            dvth0_nfmeq = 0
++du0_nfmeq = 0                             dcjs_nfmeq = 1.0335
++dcjd_nfmeq = 1.0335           dcjsws_nfmeq = 1.0335          dcjswd_nfmeq = 1.0335
++dcjswgs_nfmeq  = 1.0335        dcjswgd_nfmeq = 1.0335         dcgsl_nfmeq = 0.9665
++dcgdl_nfmeq = 0.9665          dcgso_nfmeq = 0.9665           dcgdo_nfmeq = 0.9665
+* CORE PMOS SA TR.
++dtoxe_pflsa = -0.67E-10                   dtoxp_pflsa = -0.67E-10               dxl_pflsa = -0.67E-9
++dxw_pflsa = 1.34E-9                        dlvth0_pflsa = 0                         dlu0_pflsa = 1.05E-4
++dvsat_pflsa = 190.008                 djtsswgd_pflsa = 0                            dcf_pflsa = 0
++dnfactor_pflsa = 0                            dags_pflsa = 0.257                  dvth0_pflsa = 9.55E-3
++du0_pflsa = 3.973E-4                         dcjs_pflsa = 0.9665
++dcjd_pflsa = 0.9665                        dcjsws_pflsa = 0.9665               dcjswd_pflsa = 0.9665
++dcjswgs_pflsa = 0.9665                dcjswgd_pflsa = 0.9665                 dcgsl_pflsa = 1.0335
++dcgdl_pflsa = 1.0335                      dcgso_pflsa = 1.0335                dcgdo_pflsa = 1.0335
+* PERI THICK NORMAL VT NMOS
++dtoxe_n_nft = 0             dtoxp_n_nft = 0               dxl_n_nft = 0
++dxw_n_nft = 0               dlvth0_n_nft = 4.96E-3             dlu0_n_nft = -0.871E-4
++dvsat_n_nft = -4.408E3        djtsswgd_n_nft = -1.742E-5           dcjs_n_nft = 1.02
++dcjd_n_nft = 1.02           dcjsws_n_nft = 1.02          dcjswd_n_nft = 1.02
++dcjswgs_n_nft = 1.02        dcjswgd_n_nft = 1.02         dcgsl_n_nft = 0.98
++dcgdl_n_nft = 0.98          dcgso_n_nft = 0.98           dcgdo_n_nft = 0.98
++dcf_n_nft = 0.98            dnfactor_n_nft = 0      dags_n_nft = -0.0134
++dvth0_n_nft = 0.0077        du0_n_nft = -4E-4        dpu0_n_nft = -2E-4
+* PERI THICK NORMAL VT NMOS
++dtoxe_n_nflt = 0           dtoxp_n_nflt = 0            dxl_n_nflt = 0
++dxw_n_nflt = 0              dlvth0_n_nflt = 5.34E-3             dlu0_n_nflt = -0.804E-4
++dvsat_n_nflt = -3.966E3      djtsswgd_n_nflt = 4.556E-5         dcjs_n_nflt = 1.02
++dcjd_n_nflt = 1.02           dcjsws_n_nflt = 1.02          dcjswd_n_nflt = 1.02
++dcjswgs_n_nflt = 1.02        dcjswgd_n_nflt = 1.02         dcgsl_n_nflt = 0.98
++dcgdl_n_nflt = 0.98          dcgso_n_nflt = 0.98           dcgdo_n_nflt = 0.98
++dcf_n_nflt = 0.98            dnfactor_n_nflt = 0.067      dags_n_nflt = -0.0134
++dvth0_n_nflt = 0.0077         du0_n_nflt = -4.02E-4     dpu0_n_nflt = -2.5E-4
+* PERI THICK NMOS ASYMMETRY TR.
++dtoxe_nft_hci = 0.67E-10                   dtoxp_nft_hci = 0.67E-10                  dxl_nft_hci = 0.67E-9
++dxw_nft_hci = -1.34E-9                      dlvth0_nft_hci = 9.0E-3                          dlu0_nft_hci = -1.44E-3
++dvsat_nft_hci = 0                           djtsswgd_nft_hci  = 0                        dcf_nft_hci = 0
++dnfactor_nft_hci = 0                        dags_nft_hci = 0                            dvth0_nft_hci = -0.01345
++du0_nft_hci = -9.84E-4                             dcjs_nft_hci = 1.0335
++dcjd_nft_hci = 1.0335           dcjsws_nft_hci = 1.0335          dcjswd_nft_hci = 1.0335
++dcjswgs_nft_hci = 1.0335        dcjswgd_nft_hci = 1.0335         dcgsl_nft_hci = 0.9665
++dcgdl_nft_hci = 0.9665          dcgso_nft_hci = 0.9665           dcgdo_nft_hci = 0.9665
+* PERI THICK NORMAL VT  PMOS
++dtoxe_p_pft = 0              dtoxp_p_pft = 0         dxl_p_pft = 0
++dxw_p_pft = 0               dlvth0_p_pft = 3.832E-3             dlu0_p_pft = 1.0E-5
++dvsat_p_pft = 1.7822E3      djtsswgd_p_pft = 4.02E-6         dcjs_p_pft = 0.98
++dcjd_p_pft = 0.98           dcjsws_p_pft = 0.98          dcjswd_p_pft = 0.98
++dcjswgs_p_pft = 0.98        dcjswgd_p_pft = 0.98         dcgsl_p_pft = 1.02
++dcgdl_p_pft = 1.02          dcgso_p_pft = 1.02           dcgdo_p_pft = 1.02
++dcf_p_pft = 1.02            dnfactor_p_pft = 0       dags_p_pft = 0.01139
++dvth0_p_pft = 0.0134        du0_p_pft = 2.01E-4       dpu0_p_pft = 1.8E-5
+* PERI THICK LOW VT PMOS
++dtoxe_p_pflt = 0             dtoxp_p_pflt = 0            dxl_p_pflt = 0
++dxw_p_pflt = 0                dlvth0_p_pflt = 7.65E-3           dlu0_p_pflt = 6.03E-6
++dvsat_p_pflt = 4.58E3         djtsswgd_p_pflt = 1.572E-3           dcjs_p_pflt = 0.98
++dcjd_p_pflt = 0.98           dcjsws_p_pflt = 0.98          dcjswd_p_pflt = 0.98
++dcjswgs_p_pflt = 0.98        dcjswgd_p_pflt = 0.98         dcgsl_p_pflt = 1.02
++dcgdl_p_pflt = 1.02          dcgso_p_pflt = 1.02           dcgdo_p_pflt = 1.02
++dcf_p_pflt = 1.02            dnfactor_p_pflt = 0       dags_p_pflt = 0.01139
++dvth0_p_pflt = 0.0134        du0_p_pflt = 1.34E-5         dpu0_p_pflt = 1.5E-5
+* PERI THICK AYMMETRY PMOS TR.
++dtoxe_pft_heip = -0.67E-10                   dtoxp_pft_heip = -0.67E-10                  dxl_pft_heip = -0.67E-9
++dxw_pft_heip = 0                   dlvth0_pft_heip = -1E-3                          dlu0_pft_heip = 3.661000000000002E-4
++dvsat_pft_heip = 0                     djtsswgd_pft_heip = 0                        dcf_pft_heip = 0
++dnfactor_pft_heip = 0                        dags_pft_heip = 0                            dvth0_pft_heip = 0.104
++du0_pft_heip = 5.03E-3               dcjs_pft_heip = 0.9665
++dcjd_pft_heip = 0.9665               dcjsws_pft_heip = 0.9665          dcjswd_pft_heip = 0.9665
++dcjswgs_pft_heip = 0.9665         dcjswgd_pft_heip = 0.9665         dcgsl_pft_heip = 1.0335
++dcgdl_pft_heip = 1.0335            dcgso_pft_heip = 1.0335           dcgdo_pft_heip = 1.0335
+* CORE THICK NWEIB
++dtoxe_nfth_hci = 0.67E-10           dtoxp_nfth_hci = 0.67E-10             dxl_nfth_hci = 0.67E-9
++dxw_nfth_hci = -1.34E-9              dlvth0_nfth_hci = 0                       dlu0_nfth_hci = 0
++dvsat_nfth_hci = 0                       djtsswgd_nfth_hci = 0                   dcf_nfth_hci = 0
++dnfactor_nfth_hci = 0                  dags_nfth_hci = 0                         dvth0_nfth_hci = 0
++du0_nfth_hci = 0                         dcjs_nfth_hci = 1.0335
++dcjd_nfth_hci = 1.0335                dcjsws_nfth_hci = 1.0335          dcjswd_nfth_hci = 1.0335
++dcjswgs_nfth_hci = 1.0335          dcjswgd_nfth_hci = 1.0335        dcgsl_nfth_hci = 0.9665
++dcgdl_nfth_hci = 0.9665             dcgso_nfth_hci = 0.9665            dcgdo_nfth_hci = 0.9665
+* CORE THICK PXIB TR.
++dtoxe_nfthp_hci = 0.67E-10           dtoxp_nfthp_hci = 0.67E-10             dxl_nfthp_hci = 0.67E-9
++dxw_nfthp_hci = -1.34E-9              dlvth0_nfthp_hci = 0                       dlu0_nfthp_hci = 0
++dvsat_nfthp_hci = 0                       djtsswgd_nfthp_hci = 0                   dcf_nfthp_hci = 0
++dnfactor_nfthp_hci = 0                  dags_nfthp_hci = 0                         dvth0_nfthp_hci = 0
++du0_nfthp_hci = 0                         dcjs_nfthp_hci = 1.0335
++dcjd_nfthp_hci = 1.0335                dcjsws_nfthp_hci = 1.0335          dcjswd_nfthp_hci = 1.0335
++dcjswgs_nfthp_hci = 1.0335          dcjswgd_nfthp_hci = 1.0335        dcgsl_nfthp_hci = 0.9665
++dcgdl_nfthp_hci = 0.9665             dcgso_nfthp_hci = 0.9665            dcgdo_nfthp_hci = 0.9665
+* CORE THICK PXID PMOS
++dtoxe_pft_heip2 = -0.67E-10                   dtoxp_pft_heip2 = -0.67E-10                  dxl_pft_heip2 = -0.67E-9
++dxw_pft_heip2 = 0                   dlvth0_pft_heip2 = 0                          dlu0_pft_heip2 = 0
++dvsat_pft_heip2 = 0                     djtsswgd_pft_heip2 = 0                        dcf_pft_heip2 = 0
++dnfactor_pft_heip2 = 0                        dags_pft_heip2 = 0                            dvth0_pft_heip2 = 0
++du0_pft_heip2 = 0               dcjs_pft_heip2 = 0.9665
++dcjd_pft_heip2 = 0.9665               dcjsws_pft_heip2 = 0.9665          dcjswd_pft_heip2 = 0.9665
++dcjswgs_pft_heip2 = 0.9665         dcjswgd_pft_heip2 = 0.9665         dcgsl_pft_heip2 = 1.0335
++dcgdl_pft_heip2 = 1.0335            dcgso_pft_heip2 = 1.0335           dcgdo_pft_heip2 = 1.0335
+* CELL Tr. MC
++dtoxe_mc = 0.67E-10           dtoxp_mc = 0.67E-10             dxl_mc = 0.67E-9
++dxw_mc = -1.34E-9              dlvth0_mc = 0                       dlu0_mc = 0
++dvsat_mc = 0                       djtsswgd_mc = 0                   dcf_mc = 0
++dnfactor_mc = 0                  dags_mc = 0                         dvth0_mc = 0
++du0_mc = 0                         dcjs_mc = 1.0335
++dcjd_mc = 1.0335                dcjsws_mc = 1.0335          dcjswd_mc = 1.0335
++dcjswgs_mc = 1.0335          dcjswgd_mc = 1.0335        dcgsl_mc = 0.9665
++dcgdl_mc = 0.9665             dcgso_mc = 0.9665            dcgdo_mc = 0.9665
+* DIODE
+* SF definition: n-type (2/3)*slow, P-type (2/3)*fast
+dis_ndio	=	-0.00004002
+djsw_ndio	=	-1.334E-11
+dn_ndio	=	0.008004
+dcj_ndio	=	0.000144739
+dcjsw_ndio	=	1.2673E-11
+
+dis_pdio	=	0.001334
+djsw_pdio	=	6.67E-11
+dn_pdio	=	-0.008671
+dcj_pdio	=	-0.000134734
+dcjsw_pdio	=	-1.4674E-11
+
+dis_pnmpw	=	-0.00004002
+djsw_pnmpw	=	-1.334E-11
+dn_pnmpw	=	0.008004
+dcj_pnmpw	=	0.000144739
+dcjsw_pnmpw	=	1.2673E-11
+
+dis_pnwps	=	-0.00004002
+djsw_pnwps	=	-1.334E-11
+dn_pnwps	=	0.008004
+dcj_pnwps	=	0.000144739
+dcjsw_pnwps	=	1.2673E-11
+
+dis_pdwps	=	-0.00004002
+djsw_pdwps	=	-1.334E-11
+dn_pdwps	=	0.008004
+dcj_pdwps	=	0.000144739
+dcjsw_pdwps	=	1.2673E-11
+
+dis_ppdw	=	0.001334
+djsw_ppdw	=	6.67E-11
+dn_ppdw	=	-0.008671
+dcj_ppdw	=	-0.000134734
+dcjsw_ppdw	=	-1.4674E-11
+
+* RESISTOR
+* SF definition: n-type (2/3)*slow, P-type (2/3)*fast
++drsh_rnp = 16.675
++drsh_rpp = -80.04
++drsh_rnm = 1667.5
++drsh_rngate = 1.334
++drsh_rpgate = -1.334
++drsh_rspw = -0.667
++drsh_rnpwb = 16.675
++ddw_rnp = 2.310
++ddw_rpp = -1.4E-10
++ddw_rnm = 1.05E-9
++ddw_rngate = 7E-10
++ddw_rpgate = -7.5E-10
++ddw_rspw = -6.7E-10
++ddw_rnpwb = 16.675
+
+.lib "./all_model.lib" core
+.endl sf
+

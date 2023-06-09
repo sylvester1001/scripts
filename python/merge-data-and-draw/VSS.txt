@@ -1,0 +1,22 @@
+1. VDD1-VSS: VDD1=Sweep (-2.0V~2.0V), VSS=0V, The other PADs= floating
+2. VDD2-VSS: VDD2=Sweep (-2.0V~2.0V), VSS=0V, The other PADs=floating
+3. VDDQ-VSS: VDDQ=Sweep (-2.0V~2.0V), VSS=0V, The other PADs=floating
+4. VREF-VSS: VREF=Sweep (-2.0V~2.0V), VSS=0V, The other PADs=floating
+5. VINTA-VSS: VINTA=Sweep (-2.0V~2.0V), VSS=0V, The other PADs=floating
+6. VBB-VSS: VBB=Sweep (-2.0V~2.0V), VSS=0V, The other PADs=floating
+7. VBBSA-VSS: VBBSA=Sweep (-2.0V~2.0V), VSS=0V, The other PADs=floating 
+8. VNN-VSS: VNN=Sweep (-2.0V~2.0V), VSS=0V, The other PADs=floating
+9. VEQ-VSS: VEQ=Sweep (-2.0V~2.0V), VSS=0V, The other PADs=floating
+10. VBL_E-VSS: VBL_E=Sweep (-2.0V~2.0V), VSS=0V, The other PADs=floating
+11. VBL_O-VSS: VBL_O=Sweep (-2.0V~2.0V), VSS=0V, The other PADs=floating
+12. VCP-VSS: VCP=Sweep (-2.0V~2.0V Step), VSS=0V, The other PADs=floating
+13. VDDQ-VSS: VDDQ=Sweep (-2.0V~2.0V), VSS=0V, VDD1=1.8V, VDD2=1.1V
+14. VREF-VSS: VREF=Sweep (-2.0V~2.0V), VSS=0V, VDD1=1.8V, VDD2=1.1V
+15. VINTA-VSS: VINTA=Sweep (-2.0V~2.0V), VSS=0V, VDD1=1.8V, VDD2=1.1V
+16. VBB-VSS: VBB=Sweep (-2.0V~2.0V), VSS=0V, VDD1=1.8V, VDD2=1.1V
+17. VBBSA-VSS: VBBSA=Sweep (-2.0V~2.0V), VSS=0V, VDD1=1.8V, VDD2=1.1V
+18. VNN-VSS: VNN=Sweep (-2.0V~2.0V), VSS=0V, VDD1=1.8V, VDD2=1.1V
+19. VEQ-VSS: VEQ=Sweep (-2.0V~2.0V), VSS=0V, VDD1=1.8V, VDD2=1.1V
+20. VBL_E-VSS: VBL_E=Sweep (-2.0V~2.0V), VSS=0V, VDD1=1.8V, VDD2=1.1V
+21. VBL_O-VSS: VBL_O=Sweep (-2.0V~2.0V), VSS=0V, VDD1=1.8V, VDD2=1.1V
+22. VCP-VSS: VCP=Sweep (-2.0V~2.0V Step), VSS=0V, VDD1=1.8V, VDD2=1.1V

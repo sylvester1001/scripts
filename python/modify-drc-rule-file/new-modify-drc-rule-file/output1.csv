@@ -1,0 +1,18 @@
+// -----M2 start_cell_000----
+M2_width_1 = M2 with width > 0.0 <=0.5
+M2_width_1 {flatten M2_width_1}
+M2_width_2 = M2 with width > 0.5 <=1.0
+M2_width_2 {flatten M2_width_2}
+M2_width_3 = M2 with width > 1.0 <=1.5
+M2_width_3 {flatten M2_width_3}
+M2_width_4 = M2 with width > 1.5 <=2.0
+M2_width_4 {flatten M2_width_4}
+M2_width_5 = M2 with width > 2.0 <=2.5
+M2_width_5 {flatten M2_width_5}
+M2_width_6 = M2 with width > 2.5 <=3.0
+M2_width_6 {flatten M2_width_6}
+M2_width_7 = M2 with width > 3.0 <=3.5
+M2_width_7 {flatten M2_width_7}
+M2_width_8 = M2 with width > 3.5 <=4.0
+M2_width_8 {flatten M2_width_8}
+// -----M2 end_cell_000----

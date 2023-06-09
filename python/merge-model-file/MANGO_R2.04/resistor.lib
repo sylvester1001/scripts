@@ -1,0 +1,184 @@
+.lib res_tt
+.param
+* RESISTOR 
++drsh_rnp = 0
++drsh_rpp = 0
++drsh_rnm = 0
++drsh_rngate = 0
++drsh_rpgate = 0
++drsh_rspw = 0
++drsh_rnpwb = 0
++ddw_rnp = 0
++ddw_rpp = 0
++ddw_rnm = 0
++ddw_rngate = 0
++ddw_rpgate = 0
++ddw_rspw = 0
++ddw_rnpwb = 0
+.lib 'resistor.lib' res_core
+.endl res_tt
+
+.lib res_ff
+.param
+* RESISTOR 
++drsh_rnp = -24
++drsh_rpp = -120
++drsh_rnm = -1500
++drsh_rngate = -2
++drsh_rpgate = -2
++drsh_rspw = -1
++drsh_rnpwb = -24
++ddw_rnp = -3.46E-10
++ddw_rpp = -2.11E-10
++ddw_rnm = -1.58E-9
++ddw_rngate = -1.05E-9
++ddw_rpgate = -1.12E-9
++ddw_rspw = -1.01E-9
++ddw_rnpwb = -24
+.lib 'resistor.lib' res_core
+.endl res_ff
+
+.lib res_ss
+.param
+* RESISTOR 
++drsh_rnp = 25
++drsh_rpp = 110
++drsh_rnm = 2500
++drsh_rngate = 2
++drsh_rpgate = 2
++drsh_rspw = 1
++drsh_rnpwb = 25
++ddw_rnp = 3.46E-10
++ddw_rpp = 2.11E-10
++ddw_rnm = 1.58E-9
++ddw_rngate = 1.05E-9
++ddw_rpgate = 1.12E-9
++ddw_rspw = 1.01E-9
++ddw_rnpwb = 25
+.lib 'resistor.lib' res_core
+.endl res_ss
+ 
+.lib res_fs
+.param
+* RESISTOR 
+* FS definition: n-type (2/3)*fast, P-type (2/3)*slow
++drsh_rnp = -16.008
++drsh_rpp = 73.37
++drsh_rnm = -1000.5
++drsh_rngate = -1.334
++drsh_rpgate = 1.334
++drsh_rspw = 0.667
++drsh_rnpwb = -16.008
++ddw_rnp = -2.3E-10
++ddw_rpp = 1.41E-10
++ddw_rnm = -1.1E09
++ddw_rngate = -7E-10
++ddw_rpgate = 7.47E-10
++ddw_rspw = 6.74E-10
++ddw_rnpwb = -16.008
+.lib 'resistor.lib' res_core
+.endl res_fs
+
+.lib res_sf
+.param
+* RESISTOR 
+* SF definition: n-type (2/3)*slow, P-type (2/3)*fast
++drsh_rnp = 16.675
++drsh_rpp = -80.04
++drsh_rnm = 1667.5
++drsh_rngate = 1.334
++drsh_rpgate = -1.334
++drsh_rspw = -0.667
++drsh_rnpwb = 16.675
++ddw_rnp = 2.310
++ddw_rpp = -1.4E-10
++ddw_rnm = 1.05E-9
++ddw_rngate = 7E-10
++ddw_rpgate = -7.5E-10
++ddw_rspw = -6.7E-10
++ddw_rnpwb = 16.675
+.lib 'resistor.lib' res_core
+.endl res_sf
+
+***********************Resistance SPICE Model Sub-Circuit********************************
+.lib res_core  
+.subckt rnp n1 n2 psub l=length w=width mf=1 
+.PARAM
++r       = '200+drsh_rnp'  ptc1    = 0.001404        ptc2    = 1.63354E-7      
++pvc1    = 0.00398168      pvc2    = -5.02868E-4     dw      = '6.92113E-9+ddw_rnp'      
++pt      = 'temper'       
+.PARAM
++tfac    = '1.0+ptc1*(pt-85.0)+ptc2*(pt-85.0)*(pt-85.0)'
+r1 n1 n2 '1/mf*l/(w-dw)*(r*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1)))*tfac' 
+dxd0 psub n1 pnpw area='w*l/2' pj='w+l'
+dxd1 psub n2 pnpw area='w*l/2' pj='w+l'
+.ends rnp
+  
+.subckt rpp n1 n2 nwell l=length w=width mf=1 
+.PARAM
++r       = '1100+drsh_rpp'     ptc1    = 0.00125488      ptc2    = 6.884E-7       
++pvc1    = 9.145E-4        pvc2    = 1.0073E-5       dw      = '-4.22E-9+ddw_rpp'      
++pt      = 'temper'       
+.PARAM
++tfac    = '1.0+ptc1*(pt-85.0)+ptc2*(pt-85.0)*(pt-85.0)'
+r1 n1 n2 '1/mf*l/(w-dw)*(r*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1)))*tfac' 
+dxd0 nwell n1 ppnw area='w*l/2' pj='w+l'
+dxd1 nwell n2 ppnw area='w*l/2' pj='w+l'
+.ends rpp
+
+.subckt rnm n1 n2 psub l=length w=width mf=1 
+.PARAM
++r       = '6000.0+drsh_rnm'     ptc1    = 6.893E-4        ptc2    = -1.3039E-6       
++pvc1    = 0.0666          pvc2    = 0.00423138      dw      = '-3.1546E-8+ddw_rnm'    
++pt      = 'temper'       
+.PARAM
++tfac    = '1.0+ptc1*(pt-85.0)+ptc2*(pt-85.0)*(pt-85.0)'
+r1 n1 n2 '1/mf*l/(w-dw)*(r*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1)))*tfac' 
+dxd0 psub n1 pnpw area='w*l/2' pj='w+l'
+dxd1 psub n2 pnpw area='w*l/2' pj='w+l'
+.ends rnm
+
+.subckt rngate n1 n2 l=length w=width mf=1 
+.PARAM
++r       = '11.9+drsh_rngate'         ptc1    = 0.001299        ptc2    = -2.717E-7      
++pvc1    = 0.0019862       pvc2    = -2.6225E-4      dw      = '2.09681E-8+ddw_rngate'     
++pt      = 'temper'       
+.PARAM
++tfac    = '1.0+ptc1*(pt-85.0)+ptc2*(pt-85.0)*(pt-85.0)'
+r1 n1 n2 '1/mf*l/(w-dw)*(r*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1)))*tfac' 
+.ends rngate
+
+.subckt rpgate n1 n2 l=length w=width mf=1 
+.PARAM
++r       = '12.2+drsh_rpgate'     ptc1    = 0.001339        ptc2    = -3.071E-7       
++pvc1    = 0.0023248       pvc2    = -3.6268E-4      dw      = '2.23809E-8+ddw_rpgate'       
++pt      = 'temper'       
+.PARAM
++tfac    = '1.0+ptc1*(pt-85.0)+ptc2*(pt-85.0)*(pt-85.0)'
+r1 n1 n2 '1/mf*l/(w-dw)*(r*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1)))*tfac' 
+.ends rpgate
+
+.subckt rspw n1 n2 l=length w=width mf=1 
+.PARAM
++r       = '11+drsh_rspw'  ptc1    = 0.00135277      ptc2    = 2.8777E-7       
++pvc1    = 7.516E-4        pvc2    = -1.263E-4       dw      = '2.022E-8+ddw_rspw'          
++pt      = 'temper'       
+.PARAM
++tfac    = '1.0+ptc1*(pt-85.0)+ptc2*(pt-85.0)*(pt-85.0)'
+r1 n1 n2 '1/mf*l/(w-dw)*(r*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1)))*tfac' 
+.ends rspw
+
+.subckt rnpwb  n1 n2 pw dnw psub l=length w=width mf=1 
+.PARAM
++r       = '200+drsh_rnpwb'  ptc1    = 0.001404        ptc2    = 1.63354E-7      
++pvc1    = 0.00398168      pvc2    = -5.02868E-4     dw      = '6.92113E-9+ddw_rnpwb'      
++pt      = 'temper'       
+.PARAM
++tfac    = '1.0+ptc1*(pt-85.0)+ptc2*(pt-85.0)*(pt-85.0)'
+r1 n1 n2 '1/mf*l/(w-dw)*(r*(1+pvc1*abs(v(n2,n1))+pvc2*v(n2,n1)*v(n2,n1)))*tfac' 
+dxd0 pw n1 pnpw area='w*l/2' pj='w+l'
+dxd1 pw n2 pnpw area='w*l/2' pj='w+l'
+dxd2 psub dnw pdwps area='w*l/2' pj='w+l'
+.ends rnpwb
+
+.endl res_core 

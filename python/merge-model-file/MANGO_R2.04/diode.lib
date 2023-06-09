@@ -1,0 +1,377 @@
+** '23.01.12 update, diode temperature change to 25C--> 85C 
+** '23.01.26 Diode Model Added from modifying taaffeite1.0
+*     PNMPW           N-_PW                 DIODE        
+*     PNWPS             NW_PSUB            DIODE      
+*     PDWPS             DNW_PSUB          DIODE     
+*     PPDW               PW_DNW             DIODE      
+
+.lib dio_tt
+.param
+* DIODE 
++dis_ndio = 0
++djsw_ndio = 0
++dn_ndio = 0
++dcj_ndio = 0
++dcjsw_ndio = 0 
+
++dis_pdio = 0
++djsw_pdio = 0
++dn_pdio = 0
++dcj_pdio = 0
++dcjsw_pdio = 0 
+
++dcjsw_pnmpw = 0 
++dis_pnmpw = 0
++djsw_pnmpw = 0
++dn_pnmpw = 0
++dcj_pnmpw = 0
++dcjsw_pnmpw = 0 
+
++dcjsw_pnwps = 0 
++dis_pnwps = 0
++djsw_pnwps = 0
++dn_pnwps = 0
++dcj_pnwps = 0
++dcjsw_pnwps = 0 
+
++dcjsw_pdwps = 0 
++dis_pdwps = 0
++djsw_pdwps = 0
++dn_pdwps = 0
++dcj_pdwps = 0
++dcjsw_pdwps = 0 
+
++dcjsw_ppdw = 0 
++dis_ppdw = 0
++djsw_ppdw = 0
++dn_ppdw = 0
++dcj_ppdw = 0
++dcjsw_ppdw = 0 
+
+.lib 'diode.lib' dio_core
+.endl dio_tt
+
+.lib dio_ff
+.param
+* DIODE 
++dis_ndio = 6E-5
++djsw_ndio = 2E-11
++dn_ndio = -0.012
++dcj_ndio = -2.17E-4
++dcjsw_ndio = -1.9E-11 
+
++dis_pdio = 0.002
++djsw_pdio = 1E-10
++dn_pdio = -0.013
++dcj_pdio = -2.02E-4
++dcjsw_pdio = -2.2E-11 
+
++dis_pnmpw = 6E-5
++djsw_pnmpw = 2E-11
++dn_pnmpw = -0.012
++dcj_pnmpw = -2.17E-4
++dcjsw_pnmpw = -1.9E-11 
+
++dis_pnwps = 6E-5
++djsw_pnwps = 2E-11
++dn_pnwps = -0.012
++dcj_pnwps = -2.17E-4
++dcjsw_pnwps = -1.9E-11 
+
++dis_pdwps = 6E-5
++djsw_pdwps = 2E-11
++dn_pdwps = -0.012
++dcj_pdwps = -2.17E-4
++dcjsw_pdwps = -1.9E-11 
+
++dis_ppdw = 0.002
++djsw_ppdw = 1E-10
++dn_ppdw = -0.013
++dcj_ppdw = -2.02E-4
++dcjsw_ppdw = -2.2E-11 
+
+.lib 'diode.lib' dio_core
+.endl dio_ff
+
+.lib dio_ss
+.param
+* DIODE 
++dis_ndio = -6E-5
++djsw_ndio = -2E-11
++dn_ndio = 0.012
++dcj_ndio = 2.17E-4
++dcjsw_ndio = 1.9E-11 
+
++dis_pdio = -0.002
++djsw_pdio = -1E-10
++dn_pdio = 0.013
++dcj_pdio = 2.02E-4
++dcjsw_pdio = 2.2E-11 
+
++dis_pnmpw = -6E-5
++djsw_pnmpw = -2E-11
++dn_pnmpw = 0.012
++dcj_pnmpw = 2.17E-4
++dcjsw_pnmpw = 1.9E-11 
+
++dis_pnwps = -6E-5
++djsw_pnwps = -2E-11
++dn_pnwps = 0.012
++dcj_pnwps = 2.17E-4
++dcjsw_pnwps = 1.9E-11
+
++dis_pdwps = -6E-5
++djsw_pdwps = -2E-11
++dn_pdwps = 0.012
++dcj_pdwps = 2.17E-4
++dcjsw_pdwps = 1.9E-11
+
++dis_ppdw = -0.002
++djsw_ppdw = -1E-10
++dn_ppdw = 0.013
++dcj_ppdw = 2.02E-4
++dcjsw_ppdw = 2.2E-11
+
+.lib 'diode.lib' dio_core
+.endl dio_ss
+
+.lib	dio_fs	
+.param		
+* DIODE 
+* FS definition: n-type (2/3)*fast, P-type (2/3)*slow
+dis_ndio	=	0.00004002
+djsw_ndio	=	1.334E-11
+dn_ndio	=	-0.008004
+dcj_ndio	=	-0.000144739
+dcjsw_ndio	=	-1.2673E-11
+		
+dis_pdio	=	-0.001334
+djsw_pdio	=	-6.67E-11
+dn_pdio	=	0.008671
+dcj_pdio	=	0.000134734
+dcjsw_pdio	=	1.4674E-11
+		
+dis_pnmpw	=	0.00004002
+djsw_pnmpw	=	1.334E-11
+dn_pnmpw	=	-0.008004
+dcj_pnmpw	=	-0.000144739
+dcjsw_pnmpw	=	-1.2673E-11
+		
+dis_pnwps	=	0.00004002
+djsw_pnwps	=	1.334E-11
+dn_pnwps	=	-0.008004
+dcj_pnwps	=	-0.000144739
+dcjsw_pnwps	=	-1.2673E-11
+		
+dis_pdwps	=	0.00004002
+djsw_pdwps	=	1.334E-11
+dn_pdwps	=	-0.008004
+dcj_pdwps	=	-0.000144739
+dcjsw_pdwps	=	-1.2673E-11
+		
+dis_ppdw	=	-0.001334
+djsw_ppdw	=	-6.67E-11
+dn_ppdw	=	0.008671
+dcj_ppdw	=	0.000134734
+dcjsw_ppdw	=	1.4674E-11
+		
+.lib	'diode.lib'	
+.endl	dio_fs
+
+.lib	dio_sf
+.param		
+* DIODE 
+* SF definition: n-type (2/3)*slow, P-type (2/3)*fast
+dis_ndio	=	-0.00004002
+djsw_ndio	=	-1.334E-11
+dn_ndio	=	0.008004
+dcj_ndio	=	0.000144739
+dcjsw_ndio	=	1.2673E-11
+		
+dis_pdio	=	0.001334
+djsw_pdio	=	6.67E-11
+dn_pdio	=	-0.008671
+dcj_pdio	=	-0.000134734
+dcjsw_pdio	=	-1.4674E-11
+		
+dis_pnmpw	=	-0.00004002
+djsw_pnmpw	=	-1.334E-11
+dn_pnmpw	=	0.008004
+dcj_pnmpw	=	0.000144739
+dcjsw_pnmpw	=	1.2673E-11
+		
+dis_pnwps	=	-0.00004002
+djsw_pnwps	=	-1.334E-11
+dn_pnwps	=	0.008004
+dcj_pnwps	=	0.000144739
+dcjsw_pnwps	=	1.2673E-11
+		
+dis_pdwps	=	-0.00004002
+djsw_pdwps	=	-1.334E-11
+dn_pdwps	=	0.008004
+dcj_pdwps	=	0.000144739
+dcjsw_pdwps	=	1.2673E-11
+		
+dis_ppdw	=	0.001334
+djsw_ppdw	=	6.67E-11
+dn_ppdw	=	-0.008671
+dcj_ppdw	=	-0.000134734
+dcjsw_ppdw	=	-1.4674E-11
+		
+.lib	'diode.lib'	
+.endl	dio_sf	
+		
+.lib dio_core
+.model pnpw d
+***** Flag Parameter ***
++level = 1                     
+***** DC Model Parameter ***
++ibv = 1E-3                    ik = 0                        ikr = 0                       
++is = '3E-4+dis_ndio'          jsw = '1E-10+djsw_ndio'       n = '1.02+dn_ndio'                       
++rs = 1E-8                     bv = 0                        nbv = 1                       
++jtun = 2E-3                   jtunsw = 3.9E-10              ntun = 45                     
+***** Geometric Junction Parameter ***
++area = 1                      pj = 0                        
+***** Capacitance Parameter ***
++tt = 0                        cj = '2.17E-3+dcj_ndio'       pb = 0.45                     
++mj = 0.23                     fc = 0.5                      cjsw = '1.9E-10+dcjsw_ndio'                
++fcs = 0.5                     mjsw = 0.12                   php = 0.38                    
+***** Temperature coefficient ***
++tlev = 0                      tlevc = 0                     tref = 85                     
++eg = 1.11                     keg = 1                       gap1 = 7.02E-4                
++gap2 = 1.108E3                xti = 3                       cta = 0                       
++ctp = 0                       tcv = 0                       tm1 = 0                       
++tm2 = 0                       tpb = 0                       tphp = 0                      
++trs = 0                       ttt1 = 0                      ttt2 = 0                      
++xtitun = 3                    
+***** Noise Parameter ***
++kf = 0                        af = 1                        
+
+.model ppnw d
+***** Flag Parameter ***
++level = 1                     
+***** DC Model Parameter ***
++ibv = 1E-3                    ik = 0                        ikr = 0                       
++is = '0.01+dis_pdio'          jsw = '5E-10+djsw_pdio'       n = '1.1+dn_pdio'                       
++rs = 1E-8                     bv = 0                        nbv = 1                       
++jtun = 0.01                   jtunsw = 2E-9                 ntun = 45                     
+***** Geometric Junction Parameter ***
++area = 1                      pj = 0                        
+***** Capacitance Parameter ***
++tt = 0                        cj = '2.02E-3+dcj_pdio'       pb = 0.67                     
++mj = 0.19                     fc = 0.5                      cjsw = '2.2E-10+dcjsw_pdio'                
++fcs = 0.5                     mjsw = 0.09                   php = 0.29                    
+***** Temperature coefficient ***
++tlev = 0                      tlevc = 0                     tref = 85                     
++eg = 1.11                     keg = 1                       gap1 = 7.02E-4                
++gap2 = 1.108E3                xti = 3                       cta = 0                       
++ctp = 0                       tcv = 0                       tm1 = 0                       
++tm2 = 0                       tpb = 0                       tphp = 0                      
++trs = 0                       ttt1 = 0                      ttt2 = 0                      
++xtitun = 3                    
+***** Noise Parameter ***
++kf = 0                        af = 1    
+
+.model pnmpw d
+***** Flag Parameter ***
++level = 1                     
+***** DC Model Parameter ***
++ibv = 1E-3                    ik = 0                        ikr = 0                       
++is = '3.6E-5+dis_pnmpw'          jsw = '1E-10+djsw_pnmpw'       n = '1.03+dn_pnmpw'                       
++rs = 0                     bv = 0                 nbv = 1                       
++jtun = 2E-3                   jtunsw = 3.9E-10              ntun = 45                     
+***** Geometric Junction Parameter ***
++area = 1                      pj = 0                        
+***** Capacitance Parameter ***
++tt = 0                        cj = '3.187E-3+dcj_pnmpw'       pb = 0.7068
++mj = 0.3541                     fc = 0.5                      cjsw = '1.109E-10+dcjsw_pnmpw'                
++fcs = 0.5                     mjsw = 0.1998                   php = 0.5359
+***** Temperature coefficient ***
++tlev = 0                      tlevc = 0                     tref = 85                     
++eg = 1.11                     keg = 1                       gap1 = 7.02E-4                
++gap2 = 1.108E3                xti = 5.5                       cta = 0                       
++ctp = 0                       tcv = 0                       tm1 = 0                       
++tm2 = 0                       tpb = 0                       tphp = 0                      
++trs = 0                       ttt1 = 0                      ttt2 = 0                      
++xtitun = 3                    
+***** Noise Parameter ***
++kf = 0                        af = 1  
+
+.model pnwps d
+***** Flag Parameter ***
++level = 1                     
+***** DC Model Parameter ***
++ibv = 1E-3                    ik = 7.55E+5                        ikr = 0   
++is = '1.4352E-4+dis_pnwps'          jsw = '1E-10+djsw_pnwps'       n = '1.06+dn_pnwps'  
++rs = 0                     bv = 0                        nbv = 1   
++jtun = 2E-3                   jtunsw = 3.9E-10              ntun = 45   
+***** Geometric Junction Parameter ***
++area = 1                      pj = 0             
+***** Capacitance Parameter ***
++tt = 0                        cj = '1.196E-4+dcj_pnwps'       pb = 0.3794
++mj = 0.4324                fc = 0.5                      cjsw = '7.55E-10+dcjsw_pnwps'                
++fcs = 0.5                     mjsw = 0.2184                   php = 0.3817                    
+***** Temperature coefficient ***
++tlev = 2                      tlevc = 0                     tref = 85                     
++eg = 1.16                     keg = 1                       gap1 = 7.02E-4                
++gap2 = 1.108E3                xti = 3                       cta = 0                       
++ctp = 0                       tcv = 0                       tm1 = 0                       
++tm2 = 0                       tpb = 0                       tphp = 0                      
++trs = 0                       ttt1 = 0                      ttt2 = 0                      
++xtitun = 3                    
+***** Noise Parameter ***
++kf = 0                        af = 1  
+
+
+.model pdwps d
+***** Flag Parameter ***
++level = 1                     
+***** DC Model Parameter ***
++ibv = 1E-3                    ik = 7.55E+5                        ikr = 0                       
++is = '1.332E-3+dis_pdwps'          jsw = '1E-10+djsw_pdwps'       n = '1.06+dn_pdwps'                       
++rs = 0                     bv = 0                        nbv = 1                       
++jtun = 2E-3                   jtunsw = 3.9E-10              ntun = 45                     
+***** Geometric Junction Parameter ***
++area = 1                      pj = 0                        
+***** Capacitance Parameter ***
++tt = 0                        cj = '1.121E-4+dcj_pdwps'       pb = 0.3667
++mj = 0.433                     fc = 0.5                      cjsw = '2.646E-10+dcjsw_pdwps'                
++fcs = 0.5                     mjsw = 0.5853                   php = 0.3956                   
+***** Temperature coefficient ***
++tlev = 0                      tlevc = 0                     tref = 85                     
++eg = 1.16                     keg = 1                       gap1 = 7.02E-4                
++gap2 = 1.108E3                xti = 3                       cta = 0                       
++ctp = 0                       tcv = 0                       tm1 = 0                       
++tm2 = 0                       tpb = 0                       tphp = 0                      
++trs = 0                       ttt1 = 0                      ttt2 = 0                      
++xtitun = 3                    
+***** Noise Parameter ***
++kf = 0                        af = 1 
+
+
+.model ppdw d
+***** Flag Parameter ***
++level = 1                     
+***** DC Model Parameter ***
++ibv = 1E-3                    ik = 2E+8                        ikr = 0                       
++is = '3.216E-4+dis_ppdw'          jsw = '1E-10+djsw_ppdw'       n = '1.002+dn_ppdw'                       
++rs = 0                     bv = 0                        nbv = 1                       
++jtun = 2E-3                   jtunsw = 3.9E-10              ntun = 45                     
+***** Geometric Junction Parameter ***
++area = 1                      pj = 0                        
+***** Capacitance Parameter ***
++tt = 0                        cj = '9.302E-4+dcj_ppdw'       pb = 0.6283 
++mj = 0.3513                fc = 0.5                      cjsw = '4.422E-10+dcjsw_ppdw'                
++fcs = 0.5                     mjsw = 0.2476                   php = 0.4554                    
+***** Temperature coefficient ***
++tlev = 0                      tlevc = 0                     tref = 85                     
++eg = 1.16                     keg = 1                       gap1 = 7.02E-4                
++gap2 = 1.108E3                xti = 1.5                       cta = 0                       
++ctp = 0                       tcv = 0                       tm1 = 0                       
++tm2 = 0                       tpb = 0                       tphp = 0                      
++trs = 0                       ttt1 = 0                      ttt2 = 0                      
++xtitun = 3                    
+***** Noise Parameter ***
++kf = 0                        af = 1 
+
+.endl dio_core  
